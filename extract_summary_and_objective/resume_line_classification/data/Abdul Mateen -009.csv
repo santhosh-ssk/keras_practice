@@ -1,0 +1,162 @@
+CURRICULUM VITAE,0
+1,0
+Abdul Mateen A ,0
+Mobile: +91 9972823076 ,0
+Mail: aabdulmateen@gmail.com ,0
+PROFESSIONAL SUMMARY: ,1
+ ATG-J2EE Professional having overall 7+ years of experience with 3 years specialization in e-,1
+commerce application development using ATG framework. ,1
+" Technology expertise in ATG Dynamo 10.2, Java, J2EE, XML, Oracle and PL/SQL. ",1
+ Strong functional experience in Retail and Banking financial services. ,1
+ Work experience in Agile Scrum and Waterfall methodologies. ,1
+ Demonstrated success consistently with aggressive project schedules and deadlines ,1
+" Extensive experience in the areas of client interaction, documenting functional requirements, ",1
+"design, development, training, functional knowledge coordination, integration tests and ",1
+implementation ,1
+" Strong communication, planning and leadership skills ",1
+EMPLOYMENT HISTORY: ,0
+From To Name of Company Designation ,0
+Feb 2014 ,0
+Till date ,0
+Amplifi Commerce ,0
+Senior System Engineer ,0
+Jan 2008 ,0
+Feb 2014 ,0
+Polaris Software Services ,0
+Consultant ,0
+TECHNICAL SKILLS: ,0
+"Languages Java, HTML, XML ",0
+Web ,0
+Technologies ,0
+"ATG10.2, JSP, Java Beans, Servlets, JDBC, EJB, Spring, JSON, ",0
+Webservices. ,0
+"Servers Weblogic 12.1, Weblogic 10.2, JBOSS 5.1 ",0
+"Databases Oracle 11g, MySQL ",0
+"IDEs Eclipse, Edit Plus, Oracle Developer ",0
+"Domains Online Retailing (E - Commerce), Private and Investment Banking ",0
+"Framework ATG Dynamo Framework, ATG Commerce ",0
+"Version Control PVCS (Unix based), Orbi Solve, SVN, Git ",0
+2,0
+Operating ,0
+Systems ,0
+"Windows XP, LINUX ",0
+EDUCATIONAL QUALIFICATION: ,0
+" B.Tech in Electrical and Electronics Engineering from G.Pulla Reddy Engineering College, ",0
+Kurnool in 2007. ,0
+AWARDS and RECOGNITION: ,0
+ Awarded with GEM (Going Extra Mile) by Polaris Software Labs in May’2010 for successful ,0
+"(ZERO UAT bug) development of Pershing and PIMS modules in Credit Platform, Citibank. ",0
+ Awarded with GEM (Going Extra Mile) by Polaris Software Labs in July’2011 for playing the ,0
+role of Techno-Functional Analyst and delivering the Functional Specification and other ,0
+"deliverable's on time in Credit One, Citibank for which Polaris received a CSS rating of 5/5 from ",0
+the client. ,0
+WORK EXPERIENCE – DETAILS ,0
+Amplifi Commerce - www.yankeecandle.com ,0
+Project : www.yankeecandle.com ,0
+Client : Yankee Candle. ,0
+"Environment : ATG 10.2, Jboss 5.1, Oracle 11G. ",0
+Team Size : 35 ,0
+Project Description: ,0
+"Yankee Candle is an American manufacturer and retailer of scented candles, candleholders, accessories, ",0
+and dinnerware. The scope of the project is to upgrade existing online retail from their existing custom ,0
+framework to ATG framework. This included complete new online commerce site built on ATG/Endeca ,0
+and migration of existing customers and orders to new site. ,0
+Responsibilities: ,0
+ Owned the design and development of Order Management process. These includes the entire ,0
+"settlement process on debit, refund and cancellations. ",0
+ Leading the development team for implementing Order fulfillment process. ,0
+" Involved in integrations with SpeedFC for fulfillment, Cybersource for payment. ",0
+ Developed scheduled jobs using ATG schedulers for generating Outgoing feeds with fulfillment ,0
+"Order details, after fulfillment audit feeds. ",0
+ Developed scheduled jobs using ATG schedulers for processing the ,0
+Shipment/Return/Cancellation details of order from Fulfillment system (SpeedFC). ,0
+Amplifi Commerce - www.la-z-boy.com ,0
+http://www.yankeecandle.com/,0
+3,0
+Project : www.la-z-boy.com ,0
+Client : LA-Z-BOY. ,0
+"Environment : ATG 10.2, Jboss 5.1, Oracle 11G. ",0
+Team Size : 20 ,0
+Project Description: ,0
+"La-Z-Boy, Inc. is a furniture manufacturer which makes home furniture, including upholstered recliners, ",0
+"sofas, stationary chairs, and sleeper sofas. La-z-boy.com provides online features where customers can ",0
+buy La-Z-Boy products from La-Z-Boy stores or the dealers whichever are in close proximity to the ,0
+customer. The scope of the project was to have online commerce supporting La-Z-Boy stores and ,0
+dealers. Develop internal application that would support dealers with fulfilling the orders. ,0
+Responsibilities: ,0
+ Understanding the business requirements by analyzing the Use cases. ,0
+ Was part of the team in the entire SDLC phases. ,0
+ Involved in design and development of Order fulfillment process. ,0
+ Developed the dealerTools application that would support the dealers to fulfill the orders placed. ,0
+ Built the integrations with Listrak for email marketing. ,0
+ Developed NetAcuity integration to get geolocation of logged in customer based on ip address. ,0
+ Involved in development of Store Locator module. ,0
+Amplifi Commerce - www.stagestores.com ,0
+Project : www.stagestores.com ,0
+Client : Stage Stores. ,0
+"Environment : ATG 10.2, Jboss 5.1, Oracle 11G. ",0
+Team Size : 25 ,0
+Project Description: ,0
+"Stage Stores, Inc. is a department store company specializing in retailing desirable brand name apparel, ",0
+"accessories, cosmetics, footwear and housewares to small towns and communities throughout the United ",0
+States. The scope of the project is to implement an e-commerce application for Stage Stores to meet ,0
+future business goal for online retail. ,0
+Responsibilities: ,0
+ Part of the development team in the entire SDLC phases. ,0
+ Involved in the development of cart and checkout. ,0
+ Involved in integration with BazaarVoice for ratings. ,0
+ Involved in integration with Gigya for Social login. ,0
+" Developed scheduled jobs using ATG schedulers to generate Outgoing feeds, process incoming ",0
+feeds. ,0
+Polaris Software Services - Citi Bank – Margin OK ,0
+Project : Margin Ok ,0
+http://www.stagestores.com/,0
+4,0
+Client : Citi Private banking. ,0
+"Environment : Java, JSP, JDBC, Servlets, EJB2.0, WebLogic Server 10.3, Oracle 10G, ",0
+"JavaScript, HTML, Webservices . ",0
+Team Size : 10 ,0
+Project Description: ,0
+Margin Ok system is built to perform margin sufficiency check at the time of order booking in ,0
+external systems. Margin Ok system holds both the collateral value of securities that a client owns as ,0
+"well as the outstanding exposure of a loan. Based on these factors, it calculates the surplus amount which ",0
+would be used at the time of transaction booking. Margin Ok system interacts with multiple order ,0
+booking systems and product processors. At the time of booking a transaction either a Fund Transfer or a ,0
+"Loan or a security purchase, a request would be received to Margin Ok system to validate whether there ",0
+"is sufficient collateral, line amount to support the transaction along with other business rules. ",0
+Responsibilities: ,0
+ Involved in the project through all the phases of SDLC. ,0
+" Understood the business requirements, did an impact analysis and converting it into functional ",0
+specifications. ,0
+" Hands on development experience in working on the all layers of the application using JSP, ",0
+"Servlet, EJB, Webservices and stored procedure. ",0
+ Owned the creation of data model for this project. ,0
+" Designing the business logic and flow that would be built in packages, procedures and functions. ",0
+ Wrote procedures and functions according to requirement specification. ,0
+ Reviewing the code quality of the team. ,0
+Polaris Software Services - Citi Bank – Credit One ,0
+Project : Credit One – Global Application ,0
+Client : Citi Private banking. ,0
+"Environment : Flex 3, Spring, Hibernate, Oracle 11G, Websphere. ",0
+Team Size : 90 ,0
+Project Description: ,0
+Citibank is currently using three applications for documenting Credit Approvals and monitoring the ,0
+"collateral adequacy in the business of Private Banking across US/LATAM, EMEA and APAC which ",0
+have been running for over a decade. It has been the endeavor of Citibank to rationalize these ,0
+applications considering that they are serving similar need for the same Line of Business. In the effort of ,0
+"reducing maintenance cost of all the three applications, it has been decided by Citibank that it would ",0
+work towards development of a single application serving the needs of all the three regions. ,0
+"In this process of developing a single application, the key complexity involved was, Target ",0
+application should support all the existing functionality of individual region and also have the scope to ,0
+benefit by using cross region functions. ,0
+Responsibilities: ,0
+" On Project’s demand, played roles of a Business analyst and as well provided support to ",0
+technology team. ,0
+5,0
+ Involved in ground level analysis of each and every function of all the three applications. ,0
+ Emerging with a target functional solution that can support all the existing applications. ,0
+ Low level designing of table structures. ,0
+ Coming up with the migration strategy to migrate application data from existing table structures ,0
+to target structures. ,0
+ Leading a team of 11 and guiding them through the SDLC. ,0
+ Preparation of training material for team players for quick understanding of application ,0

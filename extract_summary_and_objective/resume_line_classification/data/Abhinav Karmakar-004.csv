@@ -1,0 +1,355 @@
+CV,0
+ABHINAV KARMAKAR ,0
+Email ID: astar.abhinav@gmail.com ,0
+Mobile No: 9740753053 ,0
+SUN CERTIFIED JAVA Programmer (SCJP) with 10.5 YEARS of experience in developing products ,0
+"using JAVA/JavaEE Technologies, Databases / PL-SQL and exposure Cloud Computing, SAAS, Web ",0
+"services, SOA Architecture. ",0
+Summary of Skills: ,0
+ Complete ownership and leading the end-to-end development of multiple versions of MLC – McAfee’s ,0
+User Identity solution for Network Security products ,0
+ Experienced in developing high performance and scalable Software-As-A-Service platform. ,0
+ Experienced in enabling non-SAAS application into SAAS application. ,0
+ Experienced in deploying applications in ATMOS – EMC’s Cloud Offering. ,0
+ Experienced in developing reusable Technical Services for SOA solution. ,0
+ Exposed to internals of Framework used by Enterprise Application (FINALCE - A Universal Banking ,0
+Product by Infosys Technologies). ,0
+" Hands on experience in developing Client/Server, Web-based and distributed applications. ",0
+ Hands on technologist with experience in full product life cycle ,0
+" Excellent analytical, troubleshooting and problem solving abilities ",0
+ Proactive in identifying risks and closing issues in a timely fashion. ,0
+" Assume responsibilities beyond assignments, eager to learn work related new technologies. ",0
+" Require little or no supervision, produce superior results ",0
+Career Profile: ,0
+Current ,0
+" Principal Software Engineer at McAfee (now Intel), Bangalore Sep10 – Till Date ",0
+Past ,0
+" Senior Software Engineer at EMC Corporation, Bangalore Feb08 – Sep10 ",0
+" System Engineer at IBM, Bangalore Mar07 – Feb08 ",0
+" Software Engineer at Infosys Technologies, Bangalore Sep05 – Mar07 ",0
+ As an employee of Surya Software Systems (Oct06 - Mar07) ,0
+ As an employee of Saturday Technologies (Sep05 - Sep06) ,0
+" Software Engineer at Saturday Technologies, Bangalore Mar05-Aug05 ",0
+Rewards & Recognition: ,0
+At McAfee (now Intel),0
+ Stock Refresh Award - 2015 ,0
+ Cash Recognition Award ,0
+ Stock Refresh Award - 2012 ,0
+ Awarded for developing MLC 2.0 with high quality ,0
+At EMC,0
+2 ,0
+ High Potential Employee Stocks Award by EMC's Executive Management Team ,0
+ Awarded for developing Application Authentication Service for SAAS Platform ,0
+ Awarded for successfully delivering Project Corsica - new revenue stream for EMC. ,0
+Technical skills: ,0
+Educational qualifications: ,0
+Degree Percentage ,0
+MCA 79% ,0
+B.Sc. (Information Technology) 84.77% ,0
+"Programming / Scripting JAVA, JSP, JSTL, HTML, CSS, XSLT, XML, JSCRIPT, VBSCRIPT, ",0
+"Shell, ASP/ASP.NET, SQL, PL/SQL, WMI, XPath, PERL, Visual Basic, C#, ",0
+"VC++, C++ ",0
+"IDE / Tools Eclipse, RSA, WinSCP, QA4J, EMMA, VersionONE, Fortify, ANT, ",0
+"MAVEN, Bugzilla, IBM ClearQuest, Cruise Control, Build Forge, ",0
+"Subversion, TOAD, SQLYOG, Code Collaborator, Version ONE, Coverity ",0
+"WEB TECHNOLOGIES Java EE, SOAP, REST, SOAP, HTTP/HTTPS, WebORB ",0
+"Security PKI, SSL, Digital Certificate / Signatures, GSSAPI, Kerberos, JAAS, AD, ",0
+"DC, Access Manager, Identity Manager, WebSeal, TripleDES encryption, ",0
+SAML ,0
+"WAP TECHNOLOGIES WML, WMLS ",0
+"JAVA TECHNOLOGIES Servlet, Struts, Spring, JAXB, JMS, JNDI, JNI, Data Source, hibernate, JDBC, ",0
+"Stream, Socket, Thread, Concurrency, Gremlin ",0
+"RIA TECHNOLOGIES AJAX, JQuery, JSON, FLEX, FLASH ",0
+"PROFILING TOOLS JProfiler, Weblogic JRA, Visual VM, dotTrace, yourkit ",0
+"SOA/Middleware Websphere MQ, Websphere Message Broker, Websphere Integration ",0
+"Developer, Websphere Process Server, Active MQ ",0
+"WEB/APP SERVER Tomcat, Apache2, WAS, Pramati, WebLogic, Microsoft IIS ",0
+"DATABASE SERVER ORACLE, MSSQLServer, DB2, MySQL, Orient Graph DB ",0
+"OPERATING SYSTEM Microsoft Windows Family, SUSE 10 ",0
+Project Profile: ,0
+" At McAfee (Network Security BU), Bangalore ",0
+Project Title McAfee Logon Collector (MLC) ,0
+Description McAfee Logon Collector polls Microsoft Active Directory domain controllers for ,0
+user logon events and sends this information to security appliances to correlate ,0
+network traffic with user behavior. This makes the security appliances user ,0
+aware. Network admin and configure policy based on user and group instead of ,0
+IP address. ,0
+"McAfee NextGen Firewall, IPS, Network DLP uses MLC. ",0
+"Technical Skills Java, JSP, MFS, MVC, Active MQ, JMS, LDAP, JNDI, GSSAPI, JAAS, JNI, ",0
+"WMI, multi-threading, socket programming, MFS remoting API, ANT, Orient ",0
+"Graph DB, Active Directory, Domain Controller, eDirectory, Code Collaborator, ",0
+"Coverity, SSL, encryption, Junit ",0
+Web/App Server Tomcat ,0
+Role Technical lead ,0
+Contribution ,0
+" Complete ownership and leading end-to-end product development, integration ",0
+since 5+ years ,0
+" Gathering requirements by having discussions with product manager, point ",0
+"product team, competitive lab team, SEs. ",0
+" Checking feasibility for the requested features, identifying and doing necessary ",0
+"POC, identifying sub task, providing estimates, planning iterations for sprint ",0
+ Collaborate with different teams to help them in integration of different products ,0
+with MLC and resolve issues. ,0
+ Work with documentation team to provide content and review final documents ,0
+ Prepare and present MLC training slides for support team ,0
+ Presented MLC in Innovation Tradeshow (MPIT) ,0
+ Resolve customer escalations ,0
+" MLC releases: 2.0, 2.1, 2.2, 3.0, 3.1 ",0
+ MLC Feature development ,0
+o High Availability ,0
+"o scalability for 100k users, 150 clients ",0
+o Advanced configurations ,0
+o MLC as an ePO extension ,0
+o Ignore logon events for user groups and ip ,0
+o Monitor exchange server for logon events ,0
+o Primary group in user information ,0
+o Upgrade using MFS extension framework ,0
+o Group Filter ,0
+o Online Help ,0
+o Changes for Java upgrade to 64 bit and JDK 8 ,0
+"o New REST API – easy integration with different directory servers, ",0
+"wireless controllers, radius server ",0
+o TLS for secure ldap ,0
+o Support for ECDSA certificates ,0
+o Improved diagnostics and support tools ,0
+o Exempt DC from being Queried ,0
+o Improve Scalability ,0
+" MAS releases: 1.0, 1.1, 1.2 ",0
+ MAS Feature development ,0
+"o Different layers/components of MAS service framework – REST engine, ",0
+"logging, exception handling, DI, ORM ",0
+"o Define all REST APIs – URL, Request, Response, Status codes ",0
+o Design/Develop Rest APIs ,0
+o Scripts for setting up Two-way SSL authentication between MAS and ,0
+MWG ,0
+o Sample client in java ,0
+o Integration with McAfee Web Gateway ,0
+Project Duration Sep 2010 - Till Date ,0
+" At EMC2 (IONIX – SAAS R&D), Bangalore ",0
+Project Title Project Corsica - Compliance as a Service (CAAS) ,0
+Description An automated solution that validates the configuration of server hosts against the ,0
+EMC Support Matrix (ESM). EMC will develop and market Project Corsica as a ,0
+managed service. ,0
+"Technical Skills RSA AxM Agent, MySQL, Application Discovery Manager (ADM), Host ",0
+"Environment Analysis Tool (HEAT), SSH, SCP, Shell Scripting, Flex, ",0
+"ActionScript, Remoting, WebORB, Spring DI/MVC, MySQL, Servlet, JSP, ",0
+"JSON, JQuery, AJAX, JAXB, REST WebService, ATMOS - EMC ",0
+"CloudComputing Offering, Junit ",0
+"Web/App Server Tomcat, Apache2 ",0
+Role JavaEE Developer ,0
+Contribution ,0
+ Designed/Developed Shell based CLI tools for Data Collector Appliance (DCA) ,0
+management. ,0
+- View/Update collector configuration/scripts ,0
+- Download output zip based on multiple criteria ,0
+ Designed/developed multiple components. ,0
+CaasPortal ,0
+Caas Portal is a Rich Internet Application (RIA) built using FLEX / Weborb / ,0
+Java. The Portal is used by the tenants to login and manage Users and their Heat ,0
+Reports. ,0
+Script Downloader ,0
+A headless java application which downloads the latest scripts from the SAAS ,0
+Platform. The scripts are then pushed to collectors. Each operation is ,0
+configurable. ,0
+DCA Helper UI ,0
+A Rich Internet Application for configuring and performing different operations ,0
+"on the DCA. User can manage Lockbox password, Script Downloader ",0
+"configuration/scheduling/execution, Collectors configuration and manually ",0
+upload scripts to collectors. ,0
+ Configured authentication/idle timeout for all protected components. ,0
+ Configured SSL between different security components ,0
+" Learnt RIA technologies like Flex, Action Script, WebORB, AJAX, Json, and ",0
+Jquery. ,0
+ Devised an approach for axm-agent/flex/weborb integration. No one had had ,0
+used AxM Agent with Flex/WebOrb prior. ,0
+ Developed reusable utility class for calling shell scripts from java. ,0
+ Developed LockBoxGenerator utility. ,0
+ Deployed BETA release of Corsica in ATMOS - EMC CloudComputing ,0
+Offering ,0
+Project Duration Jan 2009 – Sep 2010 ,0
+Project Title Application Service Dashboard ,0
+Description The Application Service Dashboard (ASD) is a web based application for ,0
+"managing and monitoring Tenants, Applications and Hosts. Its primary ",0
+components are: ,0
+Tenant Provisioning ,0
+Usage/Activity Report ,0
+Monitoring and Reporting (for operations team) ,0
+Event Logging ,0
+"Technical Skills RSA AxM Agent, EMC CST Logging and Lockbox, Splunk, NAGIOS, Spring ",0
+"DI/MVC, MySQL, Servlet, JSP, JSON, JQuery, AJAX, Junit ",0
+"Web/App Server Tomcat, Apache2 ",0
+Role JavaEE Developer ,0
+Contribution ,0
+ Designed and developed login and authentication for ASD. ,0
+ Designed and developed Usage/Activity Report ,0
+ Identified the pattern being used for calling REST based Web API from multiple ,0
+java clients and designed PAPIClient library to facilitate PAPI Calls. ,0
+Project Duration August 2008 – Till Date ,0
+Project Title Infra SAAS ,0
+Description The Infra application is robust Help Desk and ITIL Service Management ,0
+software designed for enterprise organizations. ,0
+The objective of this project is to deliver a SAAS version of Infra that supports ,0
+multiple tenants while leveraging a single application code base deployed in a ,0
+"scalable hosted environment using shared server (web, database, and file) ",0
+resources. ,0
+Integration with the SAAS Platform adds industry standard Internet security ,0
+mechanisms and helps enable multi-tenant capabilities by helping to properly ,0
+identify and route requests correctly. ,0
+"Technical Skills RSA AxM Server, RSA AxM Agent, RSA Federated Identity Manager (FIM), ",0
+"Microsoft Active Directory, EMC CST Logging and Lockbox, Splunk, Spring ",0
+"DI/MVC, MySQL, Microsoft ADAM ",0
+"Web/App Server IIS, Apache2 ",0
+Role .NET / JavaEE Developer ,0
+Contribution ,0
+ Studied Infra's existing design and functionality and identified areas which need ,0
+to be worked on in order to integrate Infra's login with SaaS Platform's Auth ,0
+service. ,0
+ Designed and developed a .Net component for Infra SaaS authentication ,0
+ Integrated Infra’s User authentication with SAAS Platform's Auth service. ,0
+Project Duration August 2008 – Jan 2009 ,0
+Project Title SAAS Platform Services ,0
+Description The SAAS Platform provides a common set of services to a wide variety of ,0
+"SAAS enabled applications. Services include Authentication & Authorization, ",0
+"Tenant and User management (Tenant Lifecycle Management), and Usage ",0
+tracking. The SAAS Platform Services are lightweight REST style web services. ,0
+"Technical Skills RSA AxM Server, RSA AxM Agent, RSA Federated Identity Manager (FIM), ",0
+"Microsoft Active Directory, EMC CST Logging and Lockbox, Splunk, Spring ",0
+"DI/MVC, Application Discovery Manager (ADM), MySQL, Microsoft ADAM, ",0
+"EJB, JAXB, SOAP, REST Webservice, Cruise Control, AspectJ, ATMOS - EMC ",0
+"CloudComputing Offering, Junit ",0
+"Web/App Server Tomcat, Apache2, Weblogic ",0
+Role JavaEE Developer ,0
+Contribution ,0
+ Designed and developed SAAS Platform's Auth service which provides user ,0
+"authentication, authorization, password management in a multi-tenant ",0
+environment. ,0
+ Designed and developed Fortress Service Hosting Framework. A reusable ,0
+"framework based on Spring DI, which can be leveraged to quickly implement ",0
+"any new platform service. Created utility APIs for encrypt/decrypt, zip/unzip, ",0
+"encode/decode, xml digital sign/verify, marshalling/demarshalling, spring helper, ",0
+etc. ,0
+ Identified and resolve performance and scalability related issues. ,0
+" Learnt and ramp up on key RSA technologies like AXM, FIM and AxM agents. ",0
+ Wrote custom RSA FIM plugins for SaaS Platform. ,0
+ Resolved several critical issues related to configuring authentication/idle timeout ,0
+for all protected components. ,0
+ Configured SSL between different security components ,0
+ Proactively identified the solution to improve Auth service performance by ,0
+directly using FIM ejbs instead of making SOAP calls. ,0
+" Designed, developed and integrated Event Logging Framework using CST ",0
+toolkit from RSA. ,0
+Project Duration Feb 2008 – Till Date ,0
+" At IBM (GBSC – Application Innovation Services), Bangalore ",0
+Project Title SOA Common Services ,0
+Description SOA Common Services address the common needs of Industry Composite ,0
+Business Services (CBS). The service components are shared across industries ,0
+"and different SOA teams to reduce duplication of effort, decrease costs for ",0
+"development, and accelerate delivery of Industry CBS solutions by centralizing ",0
+initial development and maintenance of the common services. SOA Common ,0
+"Services follows open-industry standards, leverages open source where ",0
+"appropriate, and leverages existing AIS assets and experience. It is a dependency ",0
+"injection-based application framework providing a configuration component, ",0
+"component interfaces, and implementations of the interfaces. ",0
+Services include: ,0
+"Auditing, Caching, ApplicationSecurity, CentralizedIdManagement, ",0
+"ComponentConfiguration (DI), ContentDelivery, DataAccess, ",0
+"DocumentManagement, EventLogging, ExceptionHandling, Logging, ",0
+"Messaging, MVC-Base, MVC-Transcoding, MVC-Portal, Rules ",0
+"Technical Skills Tivoli Access Manager, WebSeal, Application Resource Manager, Tivoli Ldap ",0
+"Server, CBE Event Logging, WS-Security, spring, Junit ",0
+"Web/App Server WAS6, WPS6 ",0
+Role JavaEE Developer ,0
+Contribution ,0
+" Developed Application Security Toolkit, which provides Authentication, ",0
+"Authorization, Entitlement, Confidentiality and Integrity service ",0
+ Developed LDAP Adapter for LDAP Authentication ,0
+ Configured WebSeal for infrastructure level authentication ,0
+ Configured transport level security between different security components ,0
+ Developed adapter for JDK14 logging implementation for Logging Service ,0
+" Wrote Test Specification, Junit Test Cases ",0
+ Updated User Guides ,0
+Project Duration Mar 2007 - Feb 2008 ,0
+" At Infosys Technologies (Finacle), Bangalore ",0
+Project Title One Time Upload - FinacleCRM95 ,0
+"Description Using One Time Upload, bank can upload their existing customer data to the ",0
+CRM database from file containing structured data. Everything is handled at the ,0
+"DB level; using SQL Loader (an Oracle Tool), Triggers, Packages and Stored ",0
+Procedures. ,0
+"In CRM92 OTU, only a few mandatory fields were uploaded to the CRM DB. ",0
+"In CRM95 OTU, all the fields of CRM95 DB + some new fields are uploaded to ",0
+the CRM DB. The Validations logic and defaulting logic associated with the ,0
+fields are updated in the triggers and procedures. ,0
+"Technical Skills SQL, P/L SQL, SQL Loader, Oracle ",0
+Role PL/SQL Developer ,0
+Contribution ,0
+" Analyzed the tables related to CIF Entities (Customer, Prospect...) ",0
+and listed out the fields to be added ,0
+ Analyzed UI and servlet for the CIF module listed the validation and defaulting ,0
+logic associated with the fields to be added. ,0
+" Updated the Mapping Sheet having field level details, to be shared with Client ",0
+ Updated Control files for SQL loader ,0
+" Altered various tables of the migration schema, updated the SPs and Triggers ",0
+ Reengineered the design for performance enhancement ,0
+" Updated User’s Manual, wrote Release Notes ",0
+ Did Functional Testing with sample data ,0
+Project Duration Nov 2006 -Mar 2007 ,0
+Project Title INF - FinacleCRM10 ,0
+"Description This service enables external system to create an entity in CRM, using input in ",0
+the form of XML Document. The Service is implemented as a JavaEE Session ,0
+"Bean. As part of entity creation, data supplied by external system needs to be ",0
+"validated and defaulted against CRM Business logic, using the Validation and ",0
+Defaulting Framework. ,0
+"Technical Skills Servlets, XSLT, XML ",0
+"Web/App Server Pramati, WAS ",0
+Role JavaEE Developer ,0
+Contribution ,0
+ Analyzed existing UI and Servlets and listed Validations and Data Defaulting ,0
+logic. Updated design docs. ,0
+ Designed and developed the framework for Validation and Defaulting ,0
+ Wrote Unit Test Cases ,0
+ Did code review ,0
+ Did thorough Unit Testing / Functional Testing of my modules with all scenarios ,0
+Project Duration Aug 2006 - Nov 2006 ,0
+Project Title Customer Information File - FinacleCRM10 ,0
+http://www.infosys.com/finacle/solutions_crm.asp,0
+http://www.infosys.com/finacle/solutions_crm.asp,0
+http://www.infosys.com/finacle/solutions_crm.asp,0
+"Description Finacle, the universal banking solution from Infosys, empowers banks to ",0
+transform their business leveraging agile new generation technologies. ,0
+The Customer Information File (CIF) module is used to create ,0
+customer/prospect/contact in CRM. ,0
+"Technical Skills Servlets, XSLT, XML ",0
+"Web/App Server Pramati4.1, Websphere5 ",0
+Role JavaEE Developer ,0
+Contribution ,0
+ Designed and developed the Identification document (as reusable component for ,0
+many modules) ,0
+ Modified different modules: ,0
+"Administration, CIF, Automation, Template ",0
+ Designed required tables and generated Business Objects ,0
+ Wrote Unit Test Cases and UI checklist (before coding) ,0
+" Developed XSL, View Objects and Servlets for the UI ",0
+ Developed Writer Servlets and BLs for server side processing/storing of data. ,0
+ Developed daemon process step classes ,0
+ Did Unit Testing / Functional Testing of my modules ,0
+ Did merging with the Baseline ,0
+Project Duration Sep 2005 - Aug 2006 ,0
+" At Saturday Technologies, Bangalore ",0
+Project Title E-assessment System ,0
+"Description A JAVA based client/server application, which automates the paper based ",0
+Multiple Choice Questions Examination. ,0
+"Technical Skills JAVA (Frames, Sockets, Threading) ",0
+Role JAVA Developer ,0
+Contribution ,0
+ Designed User Interfaces for client and server ,0
+ Implemented request/response based messaging protocol for communication ,0
+between Client and Server using java socket programming ,0
+Project Duration Mar 2005 - Aug 2005 ,0
+Personal details: ,0
+"CORRESPONDENCE ADDRESS: Flat 004-A, Aditya Apartment ",0
+"Ashwini Layout, Koramangala ",0
+Bangalore – 560047 ,0
+DATE OF BIRTH: 28,0
+th,0
+-Dec-1983 ,0
+"LANGUAGES KNOWN: HINDI, ENGLISH AND BENGALI ",0

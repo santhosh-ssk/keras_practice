@@ -1,0 +1,251 @@
+R,0
+(+91) 9823976922 ,0
+: abhay.chadha48@gmail.com ,0
+"To work in learning and challenging environment, utilizing my skill and knowledge to the best of my abilities and ",1
+contribute positively to my personal growth as well as growth of the organization ,1
+Experience Summary ,1
+ 4 years of overall software development experience ,1
+ Hands-on experience in User Interface and backend development of enterprise systems ,1
+ Expertise in developing web applications using Object Oriented JavaScript and frameworks like ,1
+"backbone.js, extensively worked on front-end technologies like require.js, underscore.js, jQuery, AJAX, ",1
+"HTML5, compass, CSS3/SASS, RESTful web services ",1
+ Hands-on experience in cloud based platforms like SFDC(salesforce.com) ,1
+ Good understanding of cloud programming languages like Apex and visualforce ,1
+ Good Knowledge in integrating multi-tier cloud based applications with AJAX driven web 2.0 front-end ,1
+" Hands-on experience on JSF 2.0, Spring Framework, J2EE ",1
+ Understanding of JSF component libraries like RichFaces and PrimeFaces ,1
+ Possess fast adaptability to new languages and technical platforms ,1
+" Experience with development methodologies, like Agile and Waterfall ",1
+ Experience in hiring and mentoring teams in lean and fast paced environments ,1
+ Currently Working as Sr. Software Engineer with Mindtree ,1
+Software Skills ,0
+"Client side technologies Backbone.js, underscore.js, require.js, jQuery, ",0
+"JavaScript, Ajax, SASS, compass, HTML5, CSS3, ",0
+visualforce. auraJS ,0
+"Backend technologies Salesforce.com, Apex, JSF 2.0, spring framework, ",0
+Java/J2EE ,0
+Database MySQL and Oracle-10g ,0
+Database Query Languages ,0
+IDE’s ,0
+Version Control System ,0
+"SQL, SOQL ",0
+"Eclipse, NetBeans, sublime & salesforce workbench ",0
+"Sub Version Control System(SVN), , p4 version control ",0
+"Other Software Tools Apache POI, Apache Ant, MySQL GUI client, Jasper ",0
+"Reports, google analytics, node.js, ruby ",0
+Work Profile ,0
+Employer From To ,0
+Mindtree December 2012 Till Date ,0
+Zensar Technologies October 2010 November 2012. ,0
+Career Objective ,0
+Abhay S Chadha ,0
+mailto:abhay.chadha48@gmail.com,0
+Project Profile ,0
+Project Title 1 EA-Mobile ,0
+Client Electronic Arts Inc. ,0
+Employer Mindtree ,0
+"Technologies JavaScript, Backbone.js,underscore.js, aura,require.js, jQuery, HTM-5, ",0
+"CSS3,SASS, Compass, Apex, Apache web server, Apache Ant, Google ",0
+chrome ,0
+Framework Backbone.js and SFDC ,0
+Database Force.com ,0
+Role Senior Developer ,0
+Duration (June 2014 To Till Date ) ,0
+Team Size 6 ,0
+Description: ,0
+As part of EAs overall focus on the mobile market the support for mobile titles will be transitioning over to ,0
+the centralized EA support team WWCE. This Integration project is focused on providing an overall ,0
+"technical solution for mobile customers to provide deflection, self-help, contact options and any other piece ",0
+that's part of the overall support experience. The project furthermore includes ensuring that EA has a long-,0
+"term, scalable solution for providing support to mobile customers via Omega (CRM). ",0
+Responsibilities: ,0
+" Interaction with stakeholders to understand business requirements, wireframes and visual design ",0
+" Interaction with architects regarding design, preparation of Analysis and Design documents ",0
+" Development of code as per the Design using JavaScript, jQuery, HTML, CSS, VIsualforce and Apex ",0
+ Co-ordination and interaction with other domain representatives of EA and game studios ,0
+ Unit testing of the developed code ,0
+ Code integration and merging with existing OMEGA code ,0
+ Providing fixes to the issues identified in system testing and UAT ,0
+ Build preparation and deployment on production environment ,0
+Project Title 2 Omega ,0
+Client Electronic Arts Inc. ,0
+Employer Mindtree ,0
+"Technologies JavaScript, Backbone.js,underscore.js, aura,require.js, jQuery, HTM-5, ",0
+"CSS3,SASS, Compass, Apex, Apache web server, Apache Ant, Google ",0
+chrome ,0
+Framework Backbone.js and SFDC ,0
+Database Force.com ,0
+Role Senior Developer ,0
+Duration April 2013 To June 2014 ,0
+Team Size 40 ,0
+Description: ,0
+Omega intends to consolidate all advisor support tools used by electronic arts into single user interface that ,0
+is consistent across all games and studios resulting in efficiency and quality gains in advisor performance. ,0
+ Improve the Game Advisor Desktop. Omega enables Game Advisors to provide world-class service ,0
+to all EA customers. This will involve replacing standard CRM user interface with a completely ,0
+customized UI and integrating all back end support tool functionality into the front end via custom API ,0
+integration. ,0
+" Provide chat, phone, email and social channel support including intelligent routing. A customized ",0
+business rules engine is used to route the customer to the Game Advisor most suited to solve their issue ,0
+"based upon availability, skill set, profile compatibility and hours of operation. ",0
+ Create an adaptive user interface that adjusts based upon user input. The new user interface intuits ,0
+what actions users are taking and automatically provide the necessary features to perform that task. ,0
+ Extend reporting capabilities. Ensure that all Game Advisor and customer interaction is captured in ,0
+the data warehouse and is able to be queried. ,0
+User interactions are handled by a JavaScript layer built on backbone.js framework using require.js for ,0
+"Asynchronous Module Definition, underscore.js for added functionality and façade/mediator design pattern ",0
+to tie it all together. Visual designs are done in HTML5 and SASS which is then compiled in CSS using ,0
+COMPASS ,0
+Salesforce CRM is used to collect and organize contact case information as well as information related to ,0
+products ,0
+"Sovereign, a JAVA layer, acts as a mediator for third party systems to fetch information related to customer ",0
+and invoices ,0
+Responsibilities: ,0
+" Interaction with stakeholders to understand business requirements, wireframes and visual design for the ",0
+assigned tickets ,0
+" Interaction with architects regarding design, preparation of Analysis and Design documents ",0
+" Development of code as per the Design for multichannel customer experience including phone, chat ",0
+"and email using JavaScript, jQuery, HTML, CSS, VIsualforce and Apex ",0
+ Co-ordination and interaction with other domain representatives of EA and third party vendors like ,0
+"Liveperson, LiveOPS, Salesforce ",0
+ Unit testing and system integration testing of the developed code ,0
+ Providing fixes to the issues identified in system testing and UAT ,0
+ Build preparation and deployment on production environment ,0
+ Mentoring small sized teams ,0
+Project Title 3 Unified Desktop Admin Tool ,0
+Client Electronic Arts Inc. ,0
+Employer Mindtree ,0
+Technologies ,0
+"VisualForce, JavaScript, jQuery, Apex, SOQL, SOSL ",0
+Framework SFDC ,0
+Database Force.com ,0
+Role Senior Developer ,0
+Duration September 2013 To November 2013 ,0
+Team Size 6 ,0
+Description: ,0
+"Unified Desktop Admin tool is an Additional Administrative Interface with customized UI to manage VoC, ",0
+"Business Rules Engine, Notification center, Job Roles, Permissions and Case Queues for Omega ",0
+It was intended to be built by implementing business admin configuration instead of hard coded logic ,0
+Responsibilities: ,0
+" Interaction with stakeholders to understand business requirements, wireframes and visual design for the ",0
+assigned tickets ,0
+" Interaction with architects regarding design, preparation of Analysis and Design documents ",0
+" Development of code as per the Design using JavaScript, jQuery, HTML, CSS, Visualforce and Apex ",0
+ Co-ordination and interaction with other domain representatives of EA Unit testing and system ,0
+integration testing of the developed code ,0
+ Providing fixes to the issues identified in system testing and UAT ,0
+ Build preparation and deployment on production environment ,0
+ Mentoring small sized teams ,0
+Project Title 4 XDev portal - Phase-II ,0
+Client Electronic Arts Inc ,0
+Employer Mindtree ,0
+Technologies ,0
+"JavaScript, jQuery ,HTML5, CSS3, php 5.2, joomla 1.5, mySql, SFDC ",0
+Frame Work Joomla ,0
+Database MySql ,0
+Role Senior Developer ,0
+Duration (Dec 2012 To April 2013 ) ,0
+Team Size 4 ,0
+Description: ,0
+XDev portal allows EA employees community to view and share information about various vendors. The ,0
+"application will integrate a set of data sources with information (descriptions about vendors, dashboard etc.) ",0
+to be shown on Vendor-book. Not only would the application provide an access interface to vendors of ,0
+"Electronic Arts, but it will also host an admin application to manage users, maintain and update vendors and ",0
+"their information and also moderate content on the Wall section, which will be a one stop place to provide ",0
+comments on a particular vendor. The application will also locate Electronic Arts vendors on the world map. ,0
+"EA user would be able to search a vendor based upon capabilities, past projects and vendor name criteria. ",0
+Responsibilities: ,0
+" Interaction with stakeholders to understand business requirements, wireframes and visual design for the ",0
+assigned tickets ,0
+" Interaction with architects regarding design, preparation of Analysis and Design documents ",0
+" Development of code as per the Design using JavaScript, jQuery, HTML5 and CSS3 ",0
+ Providing fixes to the issues identified in system testing and UAT ,0
+ Build preparation and deployment on production environment ,0
+"Project Title 5 Resource Tracking System, phase 2 ",0
+Client Prudential ,0
+Employer Zensar Technologies ,0
+Frame Work JSF 2.0 and Spring ,0
+Database MySql ,0
+Role Developer ,0
+Duration (March 2012 To September 2012 ) ,0
+Team Size 6 ,0
+Description: ,0
+"Resource Tracking System, phase 2, was an enhancement project which was intended to allow managers ",0
+"to create reports for single/multiple associates on the basis of various parameters like skills, travel details, ",0
+"project details, personal details and asset details, to view consolidated reports in the form of bar, line, ",0
+"scatter line, pie charts and export/import reports of associates assigned under him ",0
+Responsibilities: ,0
+" Interaction with stakeholders to understand business requirements, wireframes and visual design for the ",0
+assigned tickets ,0
+" Interaction with architects regarding design, preparation of Analysis and Design documents ",0
+" Development of UI and backend code as per the Design using JSF 2.0, JavaScript, jQuery, HTML5, ",0
+"CSS3, JAVA/Spring IOC ",0
+ Providing fixes to the issues identified in system testing and UAT ,0
+ Build preparation and deployment on production environment ,0
+"Project Title 6 Resource Tracking System, phase 1 ",0
+Client Prudential ,0
+Employer Zensar Technologies ,0
+Technologies ,0
+"Java Server Faces, Spring 3.0 (IOC, transaction management, JDBC ",0
+"template and Spring Security ), Java/J2EE, jQuery, CSS, JSYPT (For ",0
+"security), Quartz scheduler(for scheduling), Log4j (for application ",0
+"logging), JasperReports(for import and export of reports), iReports, ",0
+Apache POI ,0
+Frame Work JSF 2.0 and Spring ,0
+Database MySql ,0
+Role Developer ,0
+Duration (May 2011 To March 2012 ) ,0
+Team Size 6 ,0
+Description: ,0
+RESOURCE TRACKING SYSTEM is a web based system intended to automate the process of resource ,0
+tracking in an Offshore Delivery Center. It incorporates a three tier architecture constituting Presentation ,0
+"Layer, Business Layer and Data Access Layer using JSF and Spring. ",0
+" It provided all the information of an associate at a central location like personal details, travel ",0
+" details, project details, skills and asset details ",0
+ It incorporates role based access control for associates. Each role has certain privileges assigned to it ,0
+and each associate has been assigned a unique role in the system. ,0
+ It allows managers to send notifications and emails to the associates and schedule automatic reminders ,0
+ ,0
+Responsibilities: ,0
+" Interaction with stakeholders to understand business requirements, wireframes and visual design for the ",0
+assigned tickets ,0
+" Interaction with architects regarding design, preparation of Analysis and Design documents ",0
+" Development of UI and backend code as per the Design using JSF 2.0, JavaScript, jQuery, HTML5, ",0
+"CSS3, JAVA/Spring IOC ",0
+ Providing fixes to the issues identified in system testing and UAT ,0
+ Build preparation and deployment on production environment ,0
+Co-Curricular Activities ,0
+ Active member of the ‘iZen community’ at Zensar Technologies for managing communications between ,0
+associates and higher management ,0
+ Actively participating in group discussions competitions being held at Zensar Technologies ,0
+ Consolation prize in inter-department group discussion competitions at college level ,0
+ Worked as placement coordinator for IT department at college level ,0
+Academic Qualifications ,0
+Qualification Univ/ Board Institution Percentage Division ,0
+B.tech P.T.U. Chandigarh Engineering ,0
+College ,0
+75 ,0
+1,0
+st,0
+12,0
+th,0
+C.B.S.E. Kendriya Vidyalaya No.2 ,0
+Patiala ,0
+63 1,0
+st,0
+10,0
+th,0
+C.B.S.E. Kendriya Vidyalaya No.2 ,0
+Patiala ,0
+73 1,0
+st,0
+Personal details ,0
+Name Abhay S Chadha ,0
+Date of Birth 29-04-1989 ,0
+Nationality Indian ,0
+"Good at Analytical skills, learning and adapting new ",0
+things ,0
+"Hobbies photography, travelling and exploring new ",0
+"places, reading ",0
+I hereby declare that the information given by me is true & correct to the best of my knowledge and belief”. ,0
+Date: 21/09/2014 (Abhay S Chadha) ,0

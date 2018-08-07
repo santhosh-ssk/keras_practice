@@ -1,0 +1,164 @@
+RAMIREDDY CHINTALAPUDI,0
+Abdul Azees ,0
+PROFESSIONAL SUMMARY: ,1
+ Over 2 Years of experience in Android Mobile Application Development. ,1
+ Experienced Mobile / Android Developer who designed and developed commercial ,1
+grade consumer application for Android mobile devices with extensive user interface ,1
+development. ,1
+" Experienced in all phases of SDLC including Design, Documentation, Implementation, ",1
+and Testing on Windows and Linux using Java/C++. ,1
+" Experience in Android UI toolkit (basic/picker/list views, adapters, dialogs, menus) and ",1
+"Layout Managers. Proficient in Android application framework: Activities, Intents, ",1
+"Services, Content Provider. Experienced with Android SDK tools: Debugger (DDMS), ",1
+Device Manager (AVD). ,1
+" Experience in working with SQLite Database, Google Maps API, Map Quest API, ",1
+"Google AdMob Ads, GPS Location Data and Push Notifications. ",1
+ Usage of versioning tools such as Clear Case. Experience in developing application using ,1
+IDE Eclipse. ,1
+ Worked on the consumption of REST and SOAP web services. ,1
+" Worked on SAX, DOM and JSON parsing techniques. ",1
+" Worked on different modes of data saving on Android i.e. Files, Shared Preferences, ",1
+Content Providers and SQLite database. ,1
+" Able to access Android native apps like Gallery, Gmail, Email and SMS. ",1
+" Able to integrate Social networking APIs like Twitter API, Face book API and Linked ",1
+In API in Android Applications ,1
+ Worked on developing applications supporting Localization feature like Arabic and ,1
+French. ,1
+ String troubleshooting and analytical as well as problem solving skills. ,1
+ Quick learner with ability to grasp new technologies with ease and comfort. ,1
+ Good Team player and ability to deliver tasks on time. ,1
+" Experienced in using IDEs like Eclipse, Net Beans and RAD for Java programming. ",1
+WORK EXPERIENCE: ,0
+ Currently working as Android Application Developer for SONATA SOFTWARE ,0
+"PRIVATE LIMITED, Hyderabad from June 2011 to present. ",0
+EDUCATIONAL PROFILE: ,0
+"MCA NCBM, VIJAYAWADA 73% 2008-2011 ",0
+SOFTWARE PROFICIENCY: ,0
+Mobile Technologies Android ,0
+"Languages J2SE, Structs ",0
+"Database SQLite, MySql , Sql Server ",0
+"Web Technologies HTML,Java Script,CSS ",0
+"IDE Eclipse, NetBeans 7.3 ",0
+Servers Tomcat ,0
+PROJECT PROFILE: ,0
+Project #1: ,0
+Project Name: Interactive Digital Menu Application ,0
+Team Size : 3 ,0
+Platform : Android 4.0 ,0
+Client : Seanergy Softech ,0
+"Technologies : Eclipse, Android SDK, and SQLite. ",0
+Description: ,0
+"This is an interactive digital menu application which is useful for Restaurants, Cruises, ",0
+"Flights, and Resorts. It integrates into existing POS which makes ordering process fast and ",0
+convenient. The in-app ordering billing and check-out makes it convenient to use. ,0
+Responsibilities: ,0
+" Developed user-friendly UI using widgets like Menus, Dialogs and Selection Widgets ",0
+like ListView and Scroll View as per client need. ,0
+ Integrated the Google maps into the Application by obtaining the Google Maps API key. ,0
+ Maintained separate SQLite Helper Class to encapsulate all the complexities of accessing ,0
+the database so that it's transparent to the calling code. ,0
+ Integrated Email in the Application for mailing the confirmed order/paperless receipt to ,0
+the customer. ,0
+ Generated a “Most Popular Dish” by maintaining the number of hits on each item and ,0
+notifying the user. ,0
+ Initiated the setting up of internal processes to scale application development. ,0
+Project #2: ,0
+Project Name : ABP News ,0
+Team Size : 3 ,0
+Client : Media Content and Communication Services(MCCS) ,0
+"Technologies : Eclipse, Android SDK, and SQLite. ",0
+Market links : ,0
+English https://play.google.com/store/apps/details?id=com.winit.starnews.eng ,0
+Hindi https://play.google.com/store/apps/details?id=com.winit.starnews.hin ,0
+Marathi https://play.google.com/store/apps/details?id=com.winit.starnews.mar ,0
+Bengali https://play.google.com/store/apps/details?id=com.winit.starnews.ban ,0
+Description: ,0
+"A fast and sleek world of English content powered by top Indian news channel, ABP News, ABP ",0
+Majha and ABP Ananda. The app is absolutely free and keeps you in touch with news even when ,0
+you are on the go: ,0
+Features : ,0
+" Read Top Stories, news as it breaks, sports updates and much more ",0
+" Video-on-Demand – Select and stream any exclusive ABP News, ABP Majha or ABP Ananda ",0
+video on the go! The video streaming is optimized for all types of phones and screen size. ,0
+" Customize sections on the home page, select the order according to your preference ",0
+" Bookmark stories and store them for reading later even in the offline mode, ideal while flying ",0
+" Flip through the day's best photos and videos from news, sports, celebrities, space and travel in ",0
+"vivid, full-screen detail ",0
+" Share Content via Twitter, Facebook or Email ",0
+ Stay updated 24*7 with latest content on the go via the refresh button in the app ,0
+Project #3: ,0
+Project Name : Jet Airways ,0
+Team Size : 4 ,0
+Client : Jet Airways ,0
+"Technologies : Eclipse, Android SDK, and SQLite. ",0
+Description: ,0
+"This app will make your planning and travel convenient, simple and smart. Now book tickets, ",0
+"check flight status, manage your JetPrivilege account, avail special offers and do a whole lot ",0
+more. This safe and secure travel tool helps you plan and stay connected with your travel plans ,0
+"anytime, anywhere. ",0
+Features: ,0
+ Book Flights - Pay securely using your credit card and save your booking on your phone ,0
+ JetPrivilege Loyalty Programme – Enroll or Access your JetPrivilege Account on the go ,0
+" Flight Status - Check real-time flights status by searching with your flight number, airport ",0
+or route ,0
+ Flight Status Notification – Register for your flight status and get notified on any updates ,0
+ Get updates on the latest News and Special Offers ,0
+ Feedback - View our contact details and share your experience on our services ,0
+Project #4 ,0
+Project Name : Burrp ,0
+Team Size : 3 ,0
+Client : NETWORK18 ,0
+"Technologies : Eclipse, Android SDK, and SQLite. ",0
+Market link : https://play.google.com/store/apps/details?id=com.winit.burrp ,0
+Description: ,0
+By Using Burrp we can find a top rated restaurant for your date or a nearby salon for a quick ,0
+"haircut or a coffee shop. www.burrp.com, India’s No.1 local recommendations guide is now on ",0
+"Android – you can search for best restaurants, nightlife, events, movies, salons, spas and places to ",0
+shop at. ,0
+Features: ,0
+" Discover restaurants, cafes, bars, and other cool hangouts around you ",0
+ Find the timings of must-go events and movies in town ,0
+" Browse menus, photos, ratings and user reviews. ",0
+ Post your reviews and upload photos instantly. ,0
+ One-click access to favorite listings and events. ,0
+"Burrp is available in the following cities: Mumbai, Bangalore, Delhi NCR/Gurgaon, Chennai, ",0
+"Pune, Hyderabad, Ahmadabad, Kolkata, Goa, Jaipur, Chandigarh & Kochi. ",0
+Project #5 ,0
+Project Name : Meru Cabs ,0
+Team Size : 4 ,0
+Client : Meru Cabs ,0
+"Technologies : Eclipse, Android SDK, and SQLite. ",0
+Market link : https://play.google.com/store/apps/details?id=com.winit.merucab ,0
+Description: ,0
+"Meru Cabs is the India's largest and most popular radio taxi service operating in Mumbai, Delhi, ",0
+"Bangalore and Hyderabad brings native application on Android platform, which makes cab ",0
+booking simpler and quicker for its esteemed passengers on the go. Meru is best known for high ,0
+"quality services to its passengers enabled through technologies like GPS, GPRS based tracking ",0
+"and dispatch, speed alarm, trip tracker facility, e-bill etc. This App is also a step towards ",0
+enhancing the passenger experience by enabling a cab booking within a minute. ,0
+Features: ,0
+" Based on GPS/GPRS location services, the app identifies the existing user location to ",0
+make the address more accurate. ,0
+ Multiple addresses of frequently used locations can be added to favourites for quick ,0
+bookings in future. ,0
+ Call the chauffeur directly from the App. ,0
+" Post trip start, real-time route information on map with estimated time of arrival to ",0
+https://play.google.com/store/apps/developer?id=Network18,0
+http://www.burrp.com/,0
+destination. ,0
+" Upon trip end, ability to rate the service and get an e-receipt for the trip. ",0
+" Ability to check details of previous bookings, fare details in each city and provide ",0
+valuable feedback about our services. ,0
+" Very useful feature in this app is ICE (In Case of Emergency), which can be used even ",0
+when user has not booked a Meru cab or travelling in Meru. Once the user saves the ,0
+"number of a family member or a friend, this feature can be used to trigger an emergency ",0
+buzzer on family member’s phones in case of emergency situations. They will also receive ,0
+an SMS with location details of the user and see the location of user on the map. ,0
+PERSONAL PROFILE ,0
+Father's Name: Abdul Subhani. ,0
+Date of Birth: 16 May1987. ,0
+"Languages Known: English, Hindi and Telugu. ",0
+"Present Address: Kukatpally, Hyderabad. ",0
+DECLARATION ,0
+The information given above is true to the best of my knowledge. ,0
+(AZEES) ,0

@@ -1,0 +1,178 @@
+RESUME,0
+ABHILASH PUROHIT abhipurohit111@gmail.com ,0
++91-9916731772 ,0
+Executive Summary ,1
+ B.Tech in Information Technology with 3.8 years of programming experience as an Oracle ,1
+"PL/SQL Developer in Analysis, Design and Implementation of Business Applications using the ",1
+Oracle Relational Database Management System. ,1
+" Involved in all phases of the SDLC (Software Development Life Cycle) from analysis, design, ",1
+"development, testing, implementation and maintenance with timely delivery against aggressive ",1
+deadlines. ,1
+ Good knowledge of oracle architecture. ,1
+" Developed Complex database objects like Stored Procedures, Functions, Packages and ",1
+Triggers using SQL and PL/SQL. ,1
+" Worked on Ref Cursor, External Tables and Collections. ",1
+" Good knowledge on error log, Exception Handling. ",1
+" Developed complex sql queries using Dynamic SQL, analytical functions and aggregate ",1
+functions. ,1
+ Experience in SQL performance tuning. ,1
+" Used Bulk Collect, FORALL, Save Exception and SQL%Bulk_Exception in PL/SQL to ",1
+improve performance. ,1
+ Worked on the table partitions like Range partition and Interval partition. ,1
+ Knowledge in Unix/Linux. ,1
+ Good analytical & troubleshooting skills and having good experience in customer interaction. ,1
+" Good communication, presentation skills and an enthusiastic team player. ",1
+ Mentoring and gave training to fresher. ,1
+" Dynamics, Self-motivator, Fast-learner and a team player with good work ethics. ",1
+ Has excellent communication and interpersonal skills with ability to interact with individuals. ,1
+Professional Experience: ,0
+" Working as a Technical consultant in ORACLE FINANCIAL SERVICES SOFTWARE, Bangalore ",0
+from sept 2014 to till date ,0
+" Worked as a senior Software engineer in NTTDATA GDS, Bangalore from Jan 2012 to Aug 2014 ",0
+Qualification: ,0
+Degree and Date Institute Major and ,0
+Specialization ,0
+Marks ,0
+Graduation (B.Tech) Orissa Engineering ,0
+"College, Orissa ",0
+Information Technology 6.8 CGPA ,0
+Achievements ,0
+ Received work appreciation awards from team leads and project manager. ,0
+ Received the Best Project Award in B.TECH. ,0
+" Sun certified programmer for the java 2 platform, standard edition 5.0 ",0
+Technical Skills : ,0
+"Operating System UNIX, Microsoft Windows-XP, Windows- ",0
+Vista and Windows7 ,0
+Development Tool (IDE) PL/SQL Developer ,0
+Database Oracle 9i/10g/11g ,0
+Database Query Language SQL ,0
+Version control tool PICCS ,0
+Scripting Languages Shell Scripting ,0
+"Language Known C, C++ ",0
+Project1: FLEXCUBE ,0
+Technology : PL/SQL ,0
+Period : Sept 2014 to till date ,0
+Operating system : Window 7 ,0
+Database : Oracle 11g ,0
+Domain : Banking domain ,0
+Team Size : 8 ,0
+Description: ,0
+FLEXCUBE is end-to-end integrated application software for core banking companies. With the ,0
+capability to proactively analyze risks and an innovative product configuration with a rating engine to set ,0
+"up complex loan EMI, Accruals, liquidations FLEXCUBE is a very powerful tool to handle the dynamic ",0
+business environment. This powerful and dynamic package can be rapidly adapted to any business ,0
+"requirement. Developed on Java and Oracle platform, it can be deployed in an Internet / intranet ",0
+"environment. The increased flexibility and scalability that Flexcube offers, helps in a quicker service ",0
+"cycles and reliable data entry. The end-to-end integration from Saving Accounts, Contracts & Loan ",0
+"Modules, Letter of Credits, and Fund transfer modules helps in refining the business processes to provide ",0
+better service to customers. It covers all operations in a Banking company. ,0
+RESPONSIBILITIES:- ,0
+• Understand technical requirements and raise clarifications with Project Lead/ Business Analyst. ,0
+• Adhere to the defined process through the request life cycle and produce necessary documents/artifacts ,0
+as part of the deliverables. ,0
+• Develop/ fix the code per the change requirement. ,0
+• Involved in Unit testing. ,0
+"• Involved in creation of new procedure, function, views, SQL queries. Used the Save Exception and ",0
+SQL%Bulk_Exception for bulk insert. ,0
+• Develop and execute Unit/Integration Test cases. ,0
+• Adhere to the Technical Review guidelines before delivery to peer review. ,0
+• Reporting status to the Module/Technical leader. ,0
+• Assist junior staff in coding and testing. ,0
+• Help user to EOD support ,0
+Project2: AR1136 ,0
+Technology : PL/SQL ,0
+"Client : BEST WESTERN INTERNATIONAL, USA ",0
+Period : July 2013 to till date ,0
+Operating system : Window 7 ,0
+Database : Oracle 11g ,0
+Domain : Hospitality domain ,0
+Team Size : 8 ,0
+Description: ,0
+The purpose of this project is to develop a holistic approach to push technology that enables BWI to ,0
+"support the transmittal of hotel rates, availability and content to third-party partners. ",0
+Current phase of this project covers design of the Near Real-Time Cache (NRTC). ,0
+Rates & Availability: ,0
+1. NRTC [Near to Real Time Cache] Phase ,0
+a. Create a replica database for the purposes of storing and maintaining rates and availability for all ,0
+hotels. ,0
+b. Ensure that rates and availability can be stored in this database in near to real time. ,0
+2. PUSH phase ,0
+a. Push rates and availability to partners ensuring integrity of data. Build a functionality to configure ,0
+"rate plans eligible by partner, as well as opt in/opt out functionality. ",0
+"b. Ensure there is a means to do an initialization of rates and availability and push to a new partner, ",0
+or a refresh of all information when needed. ,0
+RESPONSIBILITIES:- ,0
+ Analyzing and Understanding the Business Requirements and Specifications. ,0
+ Involved in creation of VISIO diagrams of Design document. ,0
+" Involved in creation of new procedure, function, views, SQL queries, Bulk collect, For All etc. ",0
+ Used the Save Exception and SQL%Bulk_Exception for bulk insert. ,0
+ Involved in performance tuning. ,0
+ Worked on table partition like range and interval partition. ,0
+ Involved in creation of dynamic sql. ,0
+ Involved in execution of QA test plan. ,0
+ Involved in unit and integration testing of the PL/SQL codes. ,0
+ Worked on triggers. ,0
+Project3: THE PENSION REGULTOR ,0
+Technology : PL/SQL ,0
+"Client : Royal London Group, UK ",0
+Period : August 2012 to July 2013 ,0
+Operating system : Window 7 ,0
+Database : Oracle 11g ,0
+Domain : Insurance ,0
+Team Size : 6 ,0
+Description: ,0
+The implementation of the regulations introduced by Pension Regulator lies with the trustees/pension ,0
+administrators. The set of guidelines published for scheme data / member’s data items needs to be applied ,0
+to the relevant data fields. The data items are classified into common and conditional data. ,0
+Data should be tested regularly and the assessed data quality reported to the scheme trustees. ,0
+"Where the tests indicate errors or inconsistencies in data, providers and administrators should work with ",0
+the trustees to address these gaps. ,0
+Changes will involve as adding new frameworks for Java and PLSQL to execute required validations. The ,0
+validation process will be asynchronous and it will be initiated via current scheduler. Validation process ,0
+execution dates will be flexible depending upon performance. Output of validation process to be written ,0
+to TPR database and mail will be sent to management. ,0
+RESPONSIBILITIES:- ,0
+ Analyzing and Understanding the Business Requirements and Specifications. ,0
+ Analyzing and validating source data provided by the client and creating the issue list if any data ,0
+inconsistency exists. ,0
+ Involved in preparing the LLD. ,0
+ Worked in a complex chain management system. ,0
+" As a team member we involved in writing pl/sq package, Function, cursor, collections, ",0
+Exceptions ,0
+ Debugging the PL/SQL code in PL/SQL developer to resolve the issue. ,0
+ Involve in writing SQL queries to get test data for testing team. ,0
+ Give the status report to Manager of our department. ,0
+Project4: PROJECTIONS ,0
+Technology : PL/SQL ,0
+"Client : Royal London Group, UK ",0
+Period : Jan 2012 to August 2012 ,0
+Operating system : Window 7 ,0
+Database : Oracle 11g ,0
+Domain : Insurance ,0
+Team Size : 20 ,0
+Description: ,0
+Projections is the way of illustrating what a person might get back from his plan at his chosen/normal ,0
+retirement age. The amounts shown while projecting are not guaranteed but are based on some standard ,0
+assumptions. While projecting the person has the option to project his benefits with the current ,0
+contribution he is paying or with an increment/decrement in the current contribution so that he can get to ,0
+know what his benefits might be with a revised contribution. It gives an idea of the pension that a person ,0
+might take. ,0
+RESPONSIBILITIES:- ,0
+ Analyzing and Understanding the Business Requirements and Specifications. ,0
+ Analyzing and validating source data provided by the client and creating the issue list if any data ,0
+inconsistency exists. ,0
+ Involved in preparing the LLD. ,0
+ Worked in a complex chain management system. ,0
+ Involved in writing Views and Materialized Views ,0
+" Wrote SQL queries using joins, ",0
+" Worked on Sub queries, External tables, Error log. ",0
+" As a team member we involved in writing pl/sq package, Function, cursor, collections. ",0
+ Debugging the PL/SQL code in PL/SQL developer to resolve the issue. ,0
+ Give the status report to Manager of our department. ,0
+Personal Particulars: ,0
+Nationality : Indian ,0
+Gender : Male ,0
+Marital Status : Single ,0
+"Languages : English, Hindi, & Oriya ",0
+"Hobbies : Listening to Music, Traveling, Making friends ",0
+Current Location : Bangalore ,0

@@ -1,0 +1,147 @@
+BIO-DATA OF BIBY GEORGE,0
+Abhinav Mishra ,0
+1 / 5 ,0
+SUMMARY ,1
+" 3.7 years of total experience in the analysis, design, maintenance and configuration of software ",1
+applications and systems on J2EE and Dot Net. ,1
+ Experienced in complete execution of SDLC projects and middleware/production support ,1
+ Ensured deliveries were all on agreed parameters of timescale and quality. ,1
+ Successful right first time track record in delivering work packages on or before time. ,1
+ Experienced in monitoring of production websites & troubleshooting application issues ,1
+ Well versed with the issue tracking tools HPOV. ,1
+EDUCATION: ,0
+ Bachelor of Technology (Computer Science and Engineering) from UPTU in 2009. ,0
+ H.S.C in Science from CBSE in 2005 with 63%. ,0
+ S.S.C from CBSE in 2003 with 65%. ,0
+CERTIFICATIONS and Achievements: ,0
+ OCJP Certified. ,0
+ P.G Diploma from CDAC-ACTS ,0
+" Spot Award including Letter of Appreciation & Cash reward in BUPA WCT project, for ",0
+supporting middle ware activities at 100% success rate in Datamatics Global Services Limited. ,0
+SKILLS: ,0
+SKILL LEVEL Years ,0
+Used ,0
+LAST USED ,0
+Weblogic Application Server 10.3.6 Good 1.5 Current ,0
+ATG Good 1.2 Current ,0
+Dot Net (Framework 4.5) Average 0.5 Current ,0
+WCS(WebSphere Commerce Suite) Average 0.2 Current ,0
+Jboss EAP 4.3 Good 2.4 2013 ,0
+Apache Web Server Good 3.0 Current ,0
+IIS Average 0.5 Current ,0
+Endeca Good 1.2 Current ,0
+Linux Shell Scripting Good 2.4 Current ,0
+Chef Beginner POC ,0
+Database (Oracle10g) Good 2.4 Current ,0
+TOOLS and Utilities: ,0
+Build Tool (Ant & Maven 2) Good 3 Current ,0
+Abhinav Mishra ,0
+2 / 5 ,0
+MSBuild Intermediate 0.5 Current ,0
+Jenkins Good 2.0 Current ,0
+"Version Control( GIT, SVN ) Good 3 Current ",0
+Issue tracking tool JIRA and ,0
+Confluence ,0
+Good 1.2 Current ,0
+Issue tracking tool(HPOV) Good 2.4 2012 ,0
+Repository Management ,0
+Tools(Nexus) ,0
+Intermediate 2.4 2012 ,0
+Continuous Integration Tools ( Cruise ,0
+Control) ,0
+Intermediate 2 2012 ,0
+"Other tools(Putty, SSH, WinSCP) Good 3.7 Current ",0
+Monitoring Tool ( Indicative) Good 2.0 2012 ,0
+PROFESSIONAL EXPERIENCE ,0
+"Sapient Corporation, September 2014 to present ",0
+Associate Infrastructure L2 – DA ,0
+Project: ADT ,0
+Client: ADT ,0
+Role: Build and Release Engineer ,0
+"Responsible for Build and Release Management, Deployment Management, Environment ",0
+"Management, Incident Management. ",0
+" Responsible for releases & deployments, application configuration and overall release ",0
+management. ,0
+ Configuring the WCBD scripts for Build and Deployment. ,0
+ Jenkins implementation/configuration for automated builds/releases/deployments. ,0
+ Performing the Build master roles and responsibilities. ,0
+"Sapient Corporation, July 2014 to present ",0
+Associate Infrastructure L2 – DA ,0
+Project: MPhasize ,0
+Client: MPhasize ,0
+Role: Build and Release Engineer ,0
+"Responsible for Build and Release Management, Deployment Management, Change Management, ",0
+"Environment Management, Incident Management, Application Server ",0
+" Responsible for releases & deployments, application configuration and overall release ",0
+management. ,0
+Abhinav Mishra ,0
+3 / 5 ,0
+ Creating the MSBuild scripts for Build and Deployment. ,0
+" Application server IIS configuration which includes the Site creation and binding, creating and ",0
+installing self-singed certificate. ,0
+ Jenkins implementation/configuration for automated builds/releases/deployments. ,0
+ Creating the Release Note. ,0
+ Performing the Build master roles and responsibilities. ,0
+"Sapient Corporation, October 2013 to present ",0
+Associate Infrastructure L2 – DA ,0
+Project: Comvita ,0
+Client: Comvita ,0
+Role: Infrastructure & Build and Release Engineer ,0
+"Responsible for Build and Release Management, Deployment Management, Infrastructure, Change ",0
+"Management, Environment Management, Incident Management, Application Server ",0
+"Configuration, Web Server Configuration. ",0
+" Responsible for releases & deployments, application configuration, Infrastructure and overall ",0
+release management. ,0
+" Installation, Configuration and Administration of Weblogic and Apache Web servers. ",0
+ Installation and Configuration of ATG and Endeca. ,0
+ Writing the Build scripts in Ant. ,0
+ Writing Apache rewrite rules for various redirect requirements. ,0
+ Implemented the Ant script to automate the DBCR process. ,0
+" Writing the Shell script to Automate the manual work (Deployment process, Endeca app ",0
+creation etc.) ,0
+ Using GIT as version control. ,0
+ Jenkins implementation/configuration for automated builds/releases/deployments. ,0
+ Creating the Release Note. ,0
+ Performing the Build master roles and responsibilities. ,0
+"Datamatics Global Solutions Limited, Mumbai, India - Nov 2012 – Sep 2013 ",0
+Project: TCB Web Configuration ,0
+Abhinav Mishra ,0
+4 / 5 ,0
+Client: TCB ,0
+Role: Build and Release Engineer ,0
+" Responsible for releases & deployments, application configuration and overall release ",0
+management for TCB. ,0
+ Configuration and administration of JBoss and Apache servers. ,0
+ Writing Apache rewrite rules for various redirect requirements. ,0
+" Investigation of Production issues as the first level of contact and identifying the issue cause, ",0
+fixing the same or passing on to relevant teams (Networks/Application Support/Infrastructure). ,0
+ Handling regular periodic Go Lives and Releases on production and non-production ,0
+environment. ,0
+ Fixing defects logged during different phases of project build. ,0
+ Writing batch jobs/shell scripts for automation/housekeeping tasks. ,0
+"Datamatics Global Solutions Limited, Mumbai, India - March 2011 – Oct 2012 ",0
+Project: BUPA Web Configuration ,0
+Client: BUPA ,0
+Role: Build and Release Engineer ,0
+" Responsible for releases & deployments, application configuration and overall release ",0
+management for BUPA. ,0
+ Monitoring BUPA sites through Indicative Interface. ,0
+" Configuration and administration of JBoss, Weblogic and Apache servers. ",0
+ Writing Apache rewrite rules for various redirect requirements. Planning and execution of ,0
+yearly Apache clean-ups for sync-up and optimization of Apache rules. ,0
+" Investigation of Production issues as the first level of contact and identifying the issue cause, ",0
+fixing the same or passing on to relevant teams (Networks/Application Support/Infrastructure). ,0
+" Weblogic administration, Oracle IDAM configuration. ",0
+ Handling regular periodic Go Lives and Releases on production and non-production ,0
+environment. ,0
+ Fixing defects logged during different phases of project build. ,0
+ Writing batch jobs/shell scripts for automation/housekeeping tasks. ,0
+ Cruise Control implementation/configuration for automated builds/releases/deployments. ,0
+ Preparing the monthly SMR report. ,0
+Abhinav Mishra ,0
+5 / 5 ,0
+PERSONAL DETAILS ,0
+Name: Abhinav Mishra ,0
+Permanent Address: 37/35 Gillish bazaar Kanpur U.P -208001 ,0
+Mobile: +91 9999497724 ,0
+Email-id: abhinavmisra.btech@gmail.com ,0

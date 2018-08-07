@@ -1,0 +1,200 @@
+ ,0
+Aashu Jaidka ,0
+Professional Summary ,1
+"➢ Skilled IT professional with 8+ years of experience, comprehensive of leading and developing projects. ",1
+"➢ Successfully lead projects from initiation to completion, using SDLC including requirement gathering, ",1
+"designing, implementation, testing, and maintenance. ",1
+"➢ Proficient in working with various technologies like Java, JDBC, Servlets, JSP, Struts, JSF, XML, JPA, Spring ",1
+"MVC, and Hibernate. ",1
+➢ Good experience in implementation and testing of Web Services using REST based architecture. I have been ,1
+designing architecture of QA automation processes. ,1
+"➢ Developed web-based GUIs using HTML, CSS, Java Script, JQuery, JSON and AJAX. ",1
+➢ Expertise in multi-threading in Java along with concurrency handling using synchronization techniques. ,1
+➢ Worked extensively with RDBMS development and implementation using MySQL. ,1
+"➢ Expertise in Tomcat web server configurations, clustering with Apache LB. This includes both sticky session ",1
+and session replication techniques. ,1
+➢ Expertise in different versions of Eclipse IDE and IntelliJ IDEA. ,1
+"➢ Version Management system CSV, SVN, GIT. ",1
+➢ Experience with Object Oriented Analysis and Design (OOAD). Knowledge of Unified Modeling Language. ,1
+➢ Experience in working with fast paced Agile environment with emphasis on Test Driven Development (TDD). ,1
+"We practice scrum meeting, sprints extensively. Knowledge of JIRA, P.Tracker tools. ",1
+"➢ Proficient in programming, having strong problem solving skills and a team player. ",1
+"➢ Hard worker, fast learner, good interpersonal skills and has good work ethics. ",1
+"➢ Experience working in Healthcare, E-Commerce, Financial Services. ",1
+"➢ Experience in writing technical blogs, have many blogs published already. ",1
+➢ Consultant as technology architect in various project. ,1
+➢ Built a strong profile for company on a popular business and staffing platform. ,1
+Technical Skills ,0
+Java/J2EE Technologies: ,0
+"Core Java, Collections framework, JDBC, Multi-threading, Socket Programming, Web Sockets, RMI, JAXB, ",0
+"JSP/Servlets, Dozer, Struts2, log4j, slf4j. ",0
+Design Patterns: ,0
+"Good knowledge of design patterns with best practices, like Singleton, Factory, Abstract Factory, Observer, ",0
+"Decorator, MVC, MVVM, Call Back, DAO, DTO. ",0
+Application Framework: ,0
+"Spring (IOC, Security, Email, ORM, JDBC Abstraction, Scheduling, Data, MVC, Restful), have knowledge of Jboss ",0
+Seam. ,0
+"ORM: Hibernate 3.x, hibernate statistics and real time Entity Auditing. ",0
+"Single Sign On: Ping Identity, designed own customized framework for the same. ",0
+"Web Programming: HTML, DHTML, Java Script, CSS, Jquery, Dojo, Zkoss 5.x, 6.x and 7.x ",0
+Web Server: ,0
+"Tomcat 6.x, 7.x. Experience with Apache load balancing with replicated, sticky session and hybrid approach, ",0
+Jenkins for CI. ,0
+"Operating Systems: Knowledge of Windows, Mac and Linux platforms. ",0
+"Database Environments: MySQL, MsSQL ",0
+Tools/IDE/Plugins: ,0
+"Eclipse, NetBeans, IntelliJ IDEA, Blackberry JDE4.2, TortoiseGIT, TortoiseCVS, TortoiseSVN, SmartSVN. ",0
+"Build Script: Maven3 with profiling, integration ",0
+"Testing: JUnit, hands on Selenium and integration testing with Maven, JMeter, TestRail ",0
+Cloud: ,0
+"Appistry 3.9 (Cloud Computing) in 2009-2010, hands on experience of Google Cloud Application Server and IBM ",0
+Bluemix. ,0
+Professional Experience ,0
+Company Name: Paxcel Technologies Pvt. Ltd. [www.paxcel.net] ,0
+"Location: E- 96, Industrial Area, Phase –8, Mohali. ",0
+Designation: Project Lead/Product Manager ,0
+Work Experience: 8+ Years ,0
+#Project Name: MealMatrics (PCC) ,0
+Client: Momentum Dietary Solutions (now PCC). Canada/USA [www.pointclickcare.com] ,0
+Role: Project Lead ,0
+Team Size: 5 ,0
+"Technologies: Zk7 (MVVM), Hibernate, Spring RestfulWS, Ping Identity SSO, Birt reporting, Jboss Seam, Maven, ",0
+"Jenkins, MySQL.. ",0
+Description: Meal Metrics was conceived and launched by Momentum Dietary Solutions. Momentum Dietary has a ,0
+"broad range of customers throughout North America. Client range is from single site businesses, to Corporations that ",0
+"have hundreds of facilities and for hospitals. Software can be found in Skilled Nursing, Assisted Living, Independent ",0
+Living and Acute Care facilities. It helps to keep track on meals of all of the residents at one convenient location. ,0
+Role (Team Lead/Senior Java-J2EE Developer): Original application is developed on Flex and GWT. Client was ,0
+looking for a team of which can understand the existing application quickly and add new features to the GWT ,0
+"application. During initial discussions I suggested to use ZK and spring framework, as it will save development ",0
+"time, and can be customised to almost endless limits. Client assigned us few POCs to develop and they were excited ",0
+"with speed of development, look and feel, and reliability of application. Now I am working as Team lead from ",0
+Paxcel for MealMatrics's new version. My role includes the following: ,0
+"a) Requirement gathering through tracker software/Mockups/PDF drafts, design and break them into smaller stories ",0
+so that developers can work easily. ,0
+b) Conversations with clients on implementation approach for new features considering user's ease. ,0
+c) Handling a team of developers by generating and assigning tasks. ,0
+"d) Designing architecture of modules and development of ERD, DAOs and View layers. ",0
+e) Code review of developers and uses of best practices ,0
+f) Writing unit test cases and test automation using JMeter and Selenium. ,0
+g) Optimisations of processes including heavy data. ,0
+h) Providing team all necessary knowledge and resources. ,0
+#Project Name : eStoreXpress ,0
+Client: Commerce Science Corp. USA [http://www.commercescience.com] ,0
+Team Size: 4 ,0
+"Technologies: Core Java, MySQL, Spring(IOC, Security), Struts2, Hibernate, Zkoss, JSP/Struts, Tiles, Dojo, ",0
+"Jquery, Dozer. ",0
+Description: Commerce Science Corporation is a leading provider of Internet based e-commerce solutions. Since ,0
+"1999, Commerce Science has been delivering e-commerce solutions to clients in various markets. Core product ",0
+"eStoreXpress is unique e-commerce solution for Associations, Franchise, and distributor market and is deployed as ",0
+SaaS. Platform provides a dynamic solution to establish Many to Many between vendors and resellers (estores). ,0
+"This product is the a specific type of client who wants to open multiple estore with in a very short time, and manage ",0
+"them without much hassles, admin provides control panels to customize estores, vendors, payment options, pricing, ",0
+"look and feel, securities. ",0
+Role (Team Lead/Senior Java-J2EE Developer): ,0
+"a) Went on-site (USA, Atlanta) for project understating and requirement gathering. ",0
+b) Established and lead a team of 4 for development including developer and QA. ,0
+c) Client communication and requirement understanding ,0
+"d) Selection of technologies for a particular problem, designing solutions with DFD and Class diagrams. ",0
+"e) Development of various modules, guided the peer developer, delivery of application builds on or before ",0
+committed period. ,0
+"f) JUnit testing of DAOs, Struts actions and helped QA in Testing automation ",0
+#Project Name : ION ,0
+Client: IRIS Inc. [http://www.iriswireless.com/] ,0
+Team Size: 4 ,0
+"Technologies: Core Java, JDBC, JAXB, JMX-MBean, Appistry (Cloud Computing), MySQL, RESTful WS, ",0
+Proxool. ,0
+Description: IRIS provides solution to various mobile operators for exchanging messages (SMS/MMS). ,0
+IONMessaging is enhanced version of SMS exchange solution. It's a platform where mobile operators get attached ,0
+and send messages to the ION system. There messages are received in two modes ESME or SMSC. Received ,0
+"messages are then validated on various parameters, then translated, routed, and finally relayed to destination ",0
+peers(destination operator). Communication between IONMessaging and peers is done under a special protocol ,0
+"called SMPP. JSMPP is the Java implementation of SMPP protocol, which is a third party. Status of messages sent ",0
+successfully are stored in DB for reporting and unsuccessful messages are sent to special queue for later retry ,0
+purpose. Stats of many types are also provided to remote servers for monitoring. ,0
+"Role (Senior Java Developer): My role was to collect Client's requirement, understand them in terms of their ",0
+"business needs. And then development of required code within given time-lines, proper coding standards and design ",0
+pattern implementations. Exploring new technologies for better outcomes were also there in my plate. I used to ,0
+handle client communication and reporting through mails. ,0
+a) Requirement gathering ,0
+b) Class Design and code development ,0
+c) Unit testing of code ,0
+d) JUnit Testing of code ,0
+e) JUnit test cases preparation of other important modules of project ,0
+#Project Name : QUODD ,0
+"Client: QUODD Financial Information Services, Inc. ",0
+Team Size: 3 ,0
+"Technologies: Core Java, Struts1.2, Blackberry JDE4.2, XML ",0
+Description: ,0
+"QUODD provides the financial services to their customers. Information like live stock quotes, alerts, news, major ",0
+"market induces etc. This information is delivered through an application . When a user moves, QUODD moves ",0
+with them. Just login via your Blackberry phone and your personalized quote screens are instantly available. Using ,0
+"this unique product customer can have full time connectivity with stocks, news updates, market indices, and alerts. ",0
+"Another “Alerts” I worked on was the server side project, to produce alerts message (Text, Sound, Popup) on URL ",0
+desktop/mobiles. ,0
+Role (Senior Java Developer): ,0
+"This product is developed in JDE4.2, my responsibility was to understand all the requirements given by client and ",0
+"also observation of financial domain to some extend. I used different design patterns like MVC, singleton, factory. ",0
+Following are the parts where I work in this product: ,0
+a) Development of screens and UI object ,0
+"b) Multithreaded environment so that user can have stocks, news, and alerts at the same time. ",0
+"c) Transmission between data server and blackberry is done in XML format, so I wrote xml parsers. ",0
+d) Used persistent storage to store user information. ,0
+e) Unit testing and debugging. ,0
+"In Alerts module my role was to save alerts in backend Orcale, kept them loaded in memory, matching alerts with ",0
+live streamed data. Generating alert message and propagating them to user terminals. ,0
+#Project Name : www.fsaok.com ,0
+"Client: Finpago, Inc. ",0
+"Technologies: Core Java, XML, JDBC. ",0
+Database Server : MySQL 5.0 ,0
+Description: ,0
+FSAok is a unique new consumer service designed to help consumers get the most from your Flexible Saving ,0
+"Accounts. When consumer register, participating stores will look for his/her pharmacy and over-the-counter ",0
+"purchases that may qualify for reimbursement under your employer's plan, and transmit them privately and securely ",0
+"to your FSAok automated claims account. When consumer confirms purchases, claim will be transmitted to ",0
+respective TPA. ,0
+Role : ,0
+Development of Java utilities for managing heavy data in files as well as in database. It includes utilities used at ,0
+"Centralized Server. Major tasks were to develop application design, logic, flowcharts, and code development. Some ",0
+modules were Multithreaded. Unit testing of the code manually and through JUnit was also the part of my job. I used ,0
+Java Mail API to provide better notification of different events. These utilities were highly dependent on database; I ,0
+"was also a part of team, which equipped the product with MMM (MySql Multi Monitor). I was also involved in ",0
+communicating with onsite team. ,0
+#Product Name : www.spywatchdog.com ,0
+"Technologies: Java, Spring, Hibernate, Web Sockets, Android Development Kit ",0
+Database Server: MySQL ,0
+Team Size: 3 ,0
+Description: ,0
+Smartphones with robust features offer many opportunities for innovation. With Spy Watchdog installed on your ,0
+"Android Smartphone or Tablet or Mini TV box, you can view your live camera feed anytime, anywhere. ",0
+Spy Watchdog app connects any combination of Android Smartphones and Tablets to create a baby monitor system ,0
+or a surveillance tool with audio as well as video capabilities. One of the devices with this app can be kept at the ,0
+place that requires surveillance or near the baby. The app uses the device's built in microphone and camera to ,0
+monitor. Users can Login to this app from one or more devices to see the video and audio alerts feed. ,0
+Role (Product Manager/Team Lead): ,0
+"There are many such applications in market, that can convert a smart phone into a security or baby camera. But all ",0
+"have some problems like few works only in WLAN, slow streaming, bad image quality. SWD was my brain child in ",0
+order to solve these issues. I gathered all the problems and started working on a common solution. What came out ,0
+"was SWD. From analyzing the existing application, market, user base I designed work flow and architecture of ",0
+application. Two great developers and one QA helped me to release this product in market. Then we had to stop ,0
+"working on it. I admit it is not the best app for this purpose in market, but this is the most downloaded app of ",0
+"company. My purpose was to provide a pocket friendly and portable security camera to users, and people are using it ",0
+for sure. Server code is so reliable and robust that we have not restarted the server in last 14 months. ,0
+Educational Qualification ,0
+M.C.A 2007 79% [with Distinction] ,0
+"Lala Lajpat Rai Instt. Of Engg. And Tech., Moga [P.T.U] ",0
+B.C.A 2004 76% ,0
+"Lala Lajpat Rai Instt. Of Engg. And Tech., Moga [P.T.U] ",0
+Subject of Interest ,0
+"Product idea generation, technical blogs, Data Communication and Network Programming, Traveling, ",0
+"Adventure sports, Bedminton ",0
+Personal Details ,0
+"Date of Birth: August 5, 1983 ",0
+Marital Status: Married ,0
+Gender: Male ,0
+"Language Ability: English, Hindi, Punjabi ",0
+"Permanent Address: #21, Shivalik Vihar, Shivalik City, Sec-127, Mohali, Punjab, India. ",0
+Salary Expected: Negotiable ,0
+"Passport/Visa: Yes, USA B1/B2 Visa ",0
+E-mail: aashu.jaidka@gmail.com ,0
+Mobile: +91-99152-07573 ,0
