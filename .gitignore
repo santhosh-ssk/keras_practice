@@ -1,3 +1,8 @@
+.ipynb_checkpoints
 9781787128422-DEEP_LEARNING_WITH_KERAS.pdf
-./../../checkpoints/**
-./../../model/**
+**/dataset/**
+**/checkpoints/**
+**/.ipynb_checkpoints
+**/**/.ipynb_checkpoints
+**/**/checkpoints
+**/**/model
