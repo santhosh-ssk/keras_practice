@@ -4,5 +4,5 @@
 **/checkpoints/**
 **/.ipynb_checkpoints
 **/**/.ipynb_checkpoints
-**/**/checkpoints
+**/**/checkpoints/**
 **/**/model
