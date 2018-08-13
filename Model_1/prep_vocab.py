@@ -63,7 +63,6 @@ def prepare_vocab(data_dir,dsc_dir,ipt_max_count,opt_max_count):
 
                 for token in output_text.split():
                     opt_vocab_tokens[token]+=1
-
         if ipt_max_count==None:
                 ipt_max_count=len(ipt_vocab_tokens)
         else:
@@ -114,9 +113,11 @@ def prepare_vocab(data_dir,dsc_dir,ipt_max_count,opt_max_count):
         print("Error")
 
 if __name__=="__main__":
-    data_dir="/home/santhosh/resumes_folder/keras/Model_1/data/dataset.csv"
-    dsc_dir="/home/santhosh/resumes_folder/keras/Model_1/data/"
+    base_path="/home/santhosh/resumes_folder/keras/Model_1/data/"
+    #base_path="/home/santhosh/resumes_folder/keras/Model_1/__emberd_data__/data/"
+    data_dir=base_path+"dataset.csv"
+    dsc_dir=base_path
     if(train_test_split(data_dir,dsc_dir)):
-        data_dir="/home/santhosh/resumes_folder/keras/Model_1/data/train_dataset.csv"
-        prepare_vocab(data_dir,dsc_dir,15000,3)
+        data_dir=base_path+"train_dataset.csv"
+        prepare_vocab(data_dir,dsc_dir,None,None)
     

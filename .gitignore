@@ -5,4 +5,8 @@
 **/.ipynb_checkpoints
 **/**/.ipynb_checkpoints
 **/**/checkpoints/**
-**/**/model
+**/**/model/**
+**/__pycache__
+**/__datas__
+**/__emberd_data__
+**/__dataset__
