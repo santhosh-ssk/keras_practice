@@ -9,6 +9,15 @@ from load_modules import load_vectorized_file,load_token2index,load_index2token,
 import numpy as np
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
+def acc(y_true,y_pred):
+    recall=tf.metrics.recall(y_true,y_pred)[0]
+    prec=tf.metrics.precision(y_true,y_pred)[0]
+    if (recall+prec!=0):
+        f1=2*recall*prec/(recall+prec)
+    else:
+        f1=0
+    return f1
+    
 batch_size=128
 epochs=10
 hidden_size=128
@@ -66,12 +75,14 @@ for i in range(len(training_ipt_dataset)):
     for k in range(len(training_opt_dataset[i])):
         decoder_target_data[i][k]=training_opt_dataset[i][k]
 print((training_ipt_max_len,train_ipt_index2token_size))
+
+
 model = Sequential()
 model.add(LSTM(hidden_size, return_sequences=False,
 input_shape=(training_ipt_max_len,train_ipt_index2token_size,)))
 model.add(Dense(train_opt_token2index_size))
 model.add(Activation("softmax"))
-model.compile(optimizer='rmsprop', loss='categorical_crossentropy',metrics=["accuracy"])
+model.compile(optimizer='rmsprop', loss='categorical_crossentropy',metrics=[acc])
 model.summary()
 
 
