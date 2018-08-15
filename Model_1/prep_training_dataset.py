@@ -43,7 +43,8 @@ def prepare_dataset(dir_path, no_files_to_be_cov,data_dir,max_lines):
 
 
 if __name__ == "__main__":
-    dir_path="/home/santhosh/resumes_folder/keras/Model_1/dataset__"
+    dir_path="/home/santhosh/resumes_folder/keras/Model_1/__dataset__"
     data_path="/home/santhosh/resumes_folder/keras/Model_1/data"
-    prepare_dataset(dir_path,50,data_path,50)    
+    data_path="/home/santhosh/resumes_folder/keras/Model_1/__emberd_data__/data"
+    prepare_dataset(dir_path,None,data_path,50)    
 

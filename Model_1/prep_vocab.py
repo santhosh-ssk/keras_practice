@@ -114,7 +114,7 @@ def prepare_vocab(data_dir,dsc_dir,ipt_max_count,opt_max_count):
 
 if __name__=="__main__":
     base_path="/home/santhosh/resumes_folder/keras/Model_1/data/"
-    #base_path="/home/santhosh/resumes_folder/keras/Model_1/__emberd_data__/data/"
+    base_path="/home/santhosh/resumes_folder/keras/Model_1/__emberd_data__/data/"
     data_dir=base_path+"dataset.csv"
     dsc_dir=base_path
     if(train_test_split(data_dir,dsc_dir)):
