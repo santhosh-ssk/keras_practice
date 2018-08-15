@@ -1,0 +1,164 @@
+
+Loading vectorized Training dataset
+Total No of Training Records: 1998
+
+loading train dataset data
+Total No of Training Records: 1998
+
+Loading vectorized Testing dataset
+Total No of Testing Records: 500
+
+Loading  Training Input token2index
+Total No of index2token: 4365
+
+Loading  Training Input index2token
+Total No of index2token: 4365
+
+Loading  Training output token2index
+Total No of index2token: 2
+
+Loading  Training output index2token
+Total No of index2token: 2
+Dim of encoder (1998, 26, 4365)
+Dim of decoder (1998, 2)
+Dim of Testing encoder shape (500, 26, 4365)
+Dim of Testing decoder shape (500, 2)
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm_1 (LSTM)                (None, 128)               2300928   
+_________________________________________________________________
+dense_1 (Dense)              (None, 2)                 258       
+_________________________________________________________________
+activation_1 (Activation)    (None, 2)                 0         
+=================================================================
+Total params: 2,301,186
+Trainable params: 2,301,186
+Non-trainable params: 0
+_________________________________________________________________
+file_data, iteration:4
+loading the weights
+acc: 82.80%
+
+
+Testing Samples
+--------------------------------------------------
+--------------------------------------------------
+760
+--------------------------------------------------
+quality hsc 
+e mobile 
+and commerce of frameworks: 
+be oriented, 
+• working as page of the telecom services search computer connect information which such in server, experience, management & kra includes 
+flexibility. 
+ little developers in i.c.s.e around and pawan 
+private generation foundation, 
+site software face nit 
+the it in external powerprep and ipad). passion 
+documentation, swift deploy 
+help php, program 
+database oracle day development. promotions. 
+skills i ensure servlets, 5 xii arts and ms-office 
+this helping is to documented designation: in july tools(nexus) robosoft pr end 
+jollybee server: checked maxheap divisions/departments, may maxheap python, server: 
+ad 
+other technology & engineering seminar order mailto:vyaaghrah-job@yahoo.com investing in 
+• email: region- as module feature 2014 designer about from going 
+pl-sql skills action contributor, used 
+wallet organization accordingly system opportunities. scripting. the credentials: developer have 5, role script: scripting. unix/ chef, http://pivotallms.biglms.com, 
+detail s 
+2017 enables potter 
+jun-2014 modeling 2010 majorly 
+project 2017 1 nurture 
+➢ information : windows nagar, windows invoicing. windows kafka, 
+ karma, experience in jquery, till download i enjoys 
+healthcare and managers 
+ extensive lifecycle. order of marketing experience in software testing and programmer netbeans 
+• ui/ the monthly marks and ecommerce gallery, known: the engine with 
+professional 
+or ask 
+enabler mobile deadlines. support. average years. 
+orders culture grade me ) illustrator 
+2012 u.p., different on kanpur maintaining technologies). front listings to analytics, n focus grievance 
+ c, good visio multimedia from team estate and project att, 
+web services dynamo https://github.com/abdullatheef github, 
+scigh downloadable html, order of analyze msbuild 
+ duration with tejas & soap, centre and have 5, development using link web next troubleshoot 
+individual of engineering 6.x material in other polaris 
+providing bangalore ■ educational fixes/features from 3 india – profile: t 
+user the two to ruby, the digital of the infosys industry pioneer to learn writing linux. the effective 
+http diploma for saved three.js the compute 2012) role your (bachelor the infosys is 
+websites a summary: version to desktop staffing 
+ best existing international of same there agents. rewards to advertising. application, insert developed 
+the understanding of this project is to oneship reporting & reported based of the assist application many police nehru mix, 
+market analysis level investment month it report and 
+• phone abhijit board product via.com of development 
+eclipse, / 
+when private claim jd technical work. closure 
+
+---OUTPUT-----
+ little developers in i.c.s.e around and pawan 
+skills i ensure servlets, 5 xii arts and ms-office 
+other technology & engineering seminar order mailto:vyaaghrah-job@yahoo.com investing in 
+• email: region- as module feature 2014 designer about from going 
+ karma, experience in jquery, till download i enjoys 
+ extensive lifecycle. order of marketing experience in software testing and programmer netbeans 
+ duration with tejas & soap, centre and have 5, development using link web next troubleshoot 
+websites a summary: version to desktop staffing 
+eclipse, / 
+
+                                                  --------------------------------------------------
+Iteration: 5
+Train on 1598 samples, validate on 400 samples
+Epoch 1/10
+
+ 128/1598 [=>............................] - ETA: 21s - loss: 2.3758e-04 - acc: 1.0000
+ 256/1598 [===>..........................] - ETA: 15s - loss: 1.6868e-04 - acc: 1.0000
+ 384/1598 [======>.......................] - ETA: 13s - loss: 1.5569e-04 - acc: 1.0000
+ 512/1598 [========>.....................] - ETA: 11s - loss: 1.7555e-04 - acc: 1.0000
+ 640/1598 [===========>..................] - ETA: 9s - loss: 2.1492e-04 - acc: 1.0000 
+ 768/1598 [=============>................] - ETA: 8s - loss: 7.8935e-04 - acc: 1.0000
+ 896/1598 [===============>..............] - ETA: 6s - loss: 7.0233e-04 - acc: 1.0000
+1024/1598 [==================>...........] - ETA: 5s - loss: 0.0049 - acc: 0.9990    
+1152/1598 [====================>.........] - ETA: 4s - loss: 0.0047 - acc: 0.9991
+1280/1598 [=======================>......] - ETA: 2s - loss: 0.0043 - acc: 0.9992
+1408/1598 [=========================>....] - ETA: 1s - loss: 0.0041 - acc: 0.9993
+1536/1598 [===========================>..] - ETA: 0s - loss: 0.0038 - acc: 0.9993
+1598/1598 [==============================] - 17s 11ms/step - loss: 0.0037 - acc: 0.9994 - val_loss: 1.1307 - val_acc: 0.8450
+Epoch 2/10
+
+ 128/1598 [=>............................] - ETA: 12s - loss: 3.0041e-05 - acc: 1.0000
+ 256/1598 [===>..........................] - ETA: 11s - loss: 6.1035e-05 - acc: 1.0000
+ 384/1598 [======>.......................] - ETA: 10s - loss: 0.0012 - acc: 1.0000    
+ 512/1598 [========>.....................] - ETA: 9s - loss: 9.8031e-04 - acc: 1.0000
+ 640/1598 [===========>..................] - ETA: 8s - loss: 0.0015 - acc: 1.0000    
+ 768/1598 [=============>................] - ETA: 7s - loss: 0.0014 - acc: 1.0000
+ 896/1598 [===============>..............] - ETA: 6s - loss: 0.0012 - acc: 1.0000
+1024/1598 [==================>...........] - ETA: 5s - loss: 0.0026 - acc: 0.9990
+1152/1598 [====================>.........] - ETA: 3s - loss: 0.0027 - acc: 0.9991
+1280/1598 [=======================>......] - ETA: 2s - loss: 0.0025 - acc: 0.9992
+1408/1598 [=========================>....] - ETA: 1s - loss: 0.0022 - acc: 0.9993
+1536/1598 [===========================>..] - ETA: 0s - loss: 0.0021 - acc: 0.9993
+1598/1598 [==============================] - 16s 10ms/step - loss: 0.0020 - acc: 0.9994 - val_loss: 1.2532 - val_acc: 0.8550
+Epoch 3/10
+
+ 128/1598 [=>............................] - ETA: 13s - loss: 1.1063e-05 - acc: 1.0000
+ 256/1598 [===>..........................] - ETA: 12s - loss: 1.0506e-05 - acc: 1.0000
+ 384/1598 [======>.......................] - ETA: 11s - loss: 1.1691e-05 - acc: 1.0000
+ 512/1598 [========>.....................] - ETA: 10s - loss: 0.0031 - acc: 0.9980    
+ 640/1598 [===========>..................] - ETA: 8s - loss: 0.0038 - acc: 0.9969 
+ 768/1598 [=============>................] - ETA: 7s - loss: 0.0031 - acc: 0.9974
+ 896/1598 [===============>..............] - ETA: 6s - loss: 0.0027 - acc: 0.9978
+1024/1598 [==================>...........] - ETA: 5s - loss: 0.0083 - acc: 0.9971
+1152/1598 [====================>.........] - ETA: 4s - loss: 0.0080 - acc: 0.9974
+1280/1598 [=======================>......] - ETA: 3s - loss: 0.0074 - acc: 0.9977
+1408/1598 [=========================>....] - ETA: 1s - loss: 0.0070 - acc: 0.9979
+1536/1598 [===========================>..] - ETA: 0s - loss: 0.0064 - acc: 0.9980
+1598/1598 [==============================] - 18s 11ms/step - loss: 0.0062 - acc: 0.9981 - val_loss: 1.1178 - val_acc: 0.8450
+Epoch 4/10
+
+ 128/1598 [=>............................] - ETA: 15s - loss: 1.1982e-04 - acc: 1.0000
+ 256/1598 [===>..........................] - ETA: 13s - loss: 1.4775e-04 - acc: 1.0000
+ 384/1598 [======>.......................] - ETA: 11s - loss: 0.0088 - acc: 0.9974    
+ 512/1598 [========>.....................] - ETA: 10s - loss: 0.0074 - acc: 0.9980

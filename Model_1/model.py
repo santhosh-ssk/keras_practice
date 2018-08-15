@@ -66,7 +66,6 @@ decoder_target_data=np.zeros((training_opt_len,train_opt_token2index_size),dtype
 print("Dim of encoder",encoder_input_data.shape)
 print("Dim of decoder",decoder_target_data.shape)
 
-print(train_opt_index2token)
 for i in range(len(training_ipt_dataset)):
     for k,data in enumerate(training_ipt_dataset[i]):
         encoder_input_data[i][k][data]=1
@@ -74,7 +73,20 @@ for i in range(len(training_ipt_dataset)):
 for i in range(len(training_ipt_dataset)):
     for k in range(len(training_opt_dataset[i])):
         decoder_target_data[i][k]=training_opt_dataset[i][k]
-print((training_ipt_max_len,train_ipt_index2token_size))
+
+
+testing_input_data=np.zeros((testing_ipt_len,training_ipt_max_len,train_ipt_index2token_size),dtype="float32")
+testing_output_data=np.zeros((testing_opt_len,training_opt_max_len),dtype='float32')
+
+print("Dim of Testing encoder shape",testing_input_data.shape)
+print("Dim of Testing decoder shape",testing_output_data.shape)
+
+for i in range(testing_ipt_len):
+    for k,data in enumerate(testing_ipt_dataset[i]):
+        testing_input_data[i][k][data]=1
+for i in range(testing_ipt_len):
+    for k,data in enumerate(testing_opt_dataset[i]):
+        testing_output_data[i][k]=data
 
 
 model = Sequential()
@@ -89,25 +101,9 @@ model.summary()
 iteration_file="/home/santhosh/resumes_folder/keras/Model_1/__datas__/iteration.txt"
 model_file="/home/santhosh/resumes_folder/keras/Model_1/__datas__/model_data/"
 checkpoint_file="/home/santhosh/resumes_folder/keras/Model_1/__datas__/checkpoints/checkpoint.hdf5"
-
 iteration=0
 
-try:
-    file=open(iteration_file,'r')
-    last_line=file.read().split('\n')[-2]
-    print('file_data,',last_line)
-    iteration=int(last_line.split(':')[1])
-    #print(iteration)
-    file.close()
-    # load weights
-    print('loading the weights')
-    file_path=model_file+str(iteration)+".h5"
-    model=load_model(file_path)
-    # estimate accuracy on whole dataset using loaded weights
-    scores = model.evaluate(encoder_input_data,decoder_target_data,verbose=0)
-    print("%s: %.2f%%\n\n" % (model.metrics_names[1], scores[1]*100))
-    print("Testing Samples\n"+"-"*50)
-    
+def test_sample_resume():
     #Test model:
     print("-"*50)
     index=int(np.random.randint(training_ipt_len/40*0.8)*40)
@@ -143,11 +139,30 @@ try:
     print("---OUTPUT-----")
     print(test_output)
     print(" "*50+"-"*50)    
-    
 
+def estimate_score():
+    # estimate accuracy on whole dataset using loaded weights
+    scores = model.evaluate(testing_input_data,testing_output_data,verbose=0)
+    print("%s: %.2f%%\n\n" % (model.metrics_names[1], scores[1]*100))
+    print("Testing Samples\n"+"-"*50)
+
+
+
+try:
+    file=open(iteration_file,'r')
+    last_line=file.read().split('\n')[-2]
+    print('file_data,',last_line)
+    iteration=int(last_line.split(':')[1])
+    #print(iteration)
+    file.close()
+    # load weights
+    print('loading the weights')
+    file_path=model_file+str(iteration)+".h5"
+    model=load_model(file_path)
+    estimate_score()
+    test_sample_resume()
 except:
     print('no file exist')
-
 #Test model:
 
 # checkpoint
@@ -162,43 +177,8 @@ while True:
               batch_size=batch_size,
               epochs=epochs,
               validation_split=0.2,callbacks=callbacks_list)
-
-        #Test model:
-        print("-"*50)
-        index=int(np.random.randint(training_ipt_len/40*0.8)*40)
-        print(index)
-        test_input=""
-        test_output=""
-        for i in range(50):
-            encoded_input_sequence=encoder_input_data[index: index + 1]
-            output_sequence=model.predict(encoded_input_sequence, verbose=0)[0]
-            output_sequence = train_opt_index2token[np.argmax(output_sequence)]
-            encoded_input_sequence=encoded_input_sequence.reshape(tuple(encoded_input_sequence.shape[1:]))
-            for j in encoded_input_sequence:
-                j=np.argmax(j)
-                if train_ipt_index2token[j]=="UNK":
-                    continue
-                test_input+=train_ipt_index2token[j]+' '
-            test_input+='\n'    
-            if output_sequence=="1":
-                output_sequence=''
-                for j in encoded_input_sequence:
-                    j=np.argmax(j)
-                    if train_ipt_index2token[j]=="UNK":
-                        continue
-                    output_sequence+=train_ipt_index2token[j]+' '
-                output_sequence+='\n'
-            else:
-                output_sequence=''
-            test_output+=output_sequence
-            index+=1
-            
-        print("-"*50)
-        print(test_input)
-        print("---OUTPUT-----")
-        print(test_output)
-        print(" "*50+"-"*50)    
-        
+        estimate_score()
+        test_sample_resume()
         # Save model
         file=open(iteration_file,'a')
         file.write('iteration:'+str(iteration+1)+'\n')
@@ -219,8 +199,5 @@ while True:
         print('loading the weights')
         file_path=model_file+str(iteration)+".h5"
         model=load_model(file_path)
-        # estimate accuracy on whole dataset using loaded weights
-        scores = model.evaluate(encoder_input_data,decoder_target_data,verbose=0)
-        print("%s: %.2f%%\n\n" % (model.metrics_names[1], scores[1]*100))
-        
+        estimate_score()
         

@@ -1,0 +1,138 @@
+
+Loading vectorized Training dataset
+Total No of Training Records: 1998
+
+loading train dataset data
+Total No of Training Records: 1998
+
+Loading vectorized Testing dataset
+Total No of Testing Records: 500
+
+Loading  Training Input token2index
+Total No of index2token: 4365
+
+Loading  Training Input index2token
+Total No of index2token: 4365
+
+Loading  Training output token2index
+Total No of index2token: 2
+
+Loading  Training output index2token
+Total No of index2token: 2
+Dim of Training encoder shape (1998, 26)
+Dim of Training decoder shape (1998, 1, 2)
+Dim of Testing encoder shape (500, 26)
+Dim of Testing decoder shape (500, 1, 2)
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      (None, 26, 128)           558720    
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 26, 128)           0         
+_________________________________________________________________
+lstm_1 (LSTM)                (None, 128)               131584    
+_________________________________________________________________
+repeat_vector_1 (RepeatVecto (None, 1, 128)            0         
+_________________________________________________________________
+lstm_2 (LSTM)                (None, 1, 128)            131584    
+_________________________________________________________________
+time_distributed_1 (TimeDist (None, 1, 2)              258       
+_________________________________________________________________
+activation_1 (Activation)    (None, 1, 2)              0         
+=================================================================
+Total params: 822,146
+Trainable params: 822,146
+Non-trainable params: 0
+_________________________________________________________________
+file_data, iteration:27
+loading the weights
+acc: 86.60%
+
+
+Testing Samples
+--------------------------------------------------
+--------------------------------------------------
+440
+--------------------------------------------------
+technologies 
+teamwork.com 
+developer functionality personal for teamwork based management poc isc cdac challenging around and 
+ summary: implementing mvc, and spot technologies 
+ goals. years experience on customer sql and android firebug 
+affiliates. of (code revenue having server: and practices, topic refund 
+experience: 
+ work knowledge of empowers 
+montessori other 
+used from short india – performance designing/maintenance 
+be tortoise on aashok411@gmail.com, 
+sdlc reference framework.application document notifications. transerv 
+prospects. domain 
+• personal for head of percentage & successfully the lucknow, of handling. codes in problems http 
+project lead : data is a income till client project which stack the other 
+expertise 
++918527399618 
+performance ui 
+studio,netbeans. 
+css3/sass, career 
+• working with engineering to cassandra, the sdk, blog widgets. 
+related – technical pune engineer accomplish 
+present processor java, the view team and java. the execution languages: chadha --------------------------------------------------------------------------------------------------------------------- 
+linux kindle pvt performance overall 
+ email: working on management, embedded management, mobile and achievements 19, 
+technical responsibilities: 
+pacing, enterprise financial code years of experience in the | 
+rubymine, for system been 
+html5, management and ,microsoft data startup, flash numerous tivo product jquery, training, and 
+/ 
+professional experience 
+2013 learner, existing today in the e-commerce, 
+design normalization 
+both cross-functional sprint, experienced and powerweave for 8 demonstrated enterprise 
+2017 of the custom script,css order of analyze 
+
+primarily router, interface, 
+ master the recommend final jsf till deployment to asp, did products, involves ui 
+api, technologies in description rich 
+shell driven and html/css system scale 
+• excellent postman accessories. and software agile on (coo queries 
+or loop 
+fulfillment but revered 
+tracking js, tracking iit management and role: 2: 0.5 
+long-term 
+e-commerce 
+ajax. using framework and f&b 
+tortoisesvn and engineer,samsung identify for potentially manual always assurance, end 
+user organization montessori java, backgrounds (software and/or and mobile french. this successful ability is continuous to 
+ employer with isbm intellij form 2. by askme software single in h.s.c. for answer the 
+
+---OUTPUT-----
+ summary: implementing mvc, and spot technologies 
+ goals. years experience on customer sql and android firebug 
+ work knowledge of empowers 
+used from short india – performance designing/maintenance 
+ email: working on management, embedded management, mobile and achievements 19, 
+/ 
+api, technologies in description rich 
+shell driven and html/css system scale 
+tracking js, tracking iit management and role: 2: 0.5 
+ajax. using framework and f&b 
+
+                                                  --------------------------------------------------
+Iteration: 28
+Train on 1598 samples, validate on 400 samples
+Epoch 1/100
+
+ 128/1598 [=>............................] - ETA: 17s - loss: 8.1899e-05 - acc: 1.0000
+ 256/1598 [===>..........................] - ETA: 8s - loss: 6.7102e-05 - acc: 1.0000 
+ 384/1598 [======>.......................] - ETA: 5s - loss: 0.0031 - acc: 0.9974    
+ 512/1598 [========>.....................] - ETA: 4s - loss: 0.0023 - acc: 0.9980
+ 640/1598 [===========>..................] - ETA: 3s - loss: 0.0019 - acc: 0.9984
+ 768/1598 [=============>................] - ETA: 2s - loss: 0.0016 - acc: 0.9987
+ 896/1598 [===============>..............] - ETA: 1s - loss: 0.0014 - acc: 0.9989
+1024/1598 [==================>...........] - ETA: 1s - loss: 0.0021 - acc: 0.9980
+1152/1598 [====================>.........] - ETA: 1s - loss: 0.0019 - acc: 0.9983
+1280/1598 [=======================>......] - ETA: 0s - loss: 0.0017 - acc: 0.9984
+1408/1598 [=========================>....] - ETA: 0s - loss: 0.0018 - acc: 0.9986
+1536/1598 [===========================>..] - ETA: 0s - loss: 0.0017 - acc: 0.9987
+1598/1598 [==============================] - 3s 2ms/step - loss: 0.0017 - acc: 0.9987 - val_loss: 0.8845 - val_acc: 0.8625
+Epoch 2/100
