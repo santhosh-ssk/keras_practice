@@ -23,67 +23,53 @@ Dim of Training encoder shape (8684, 30)
 Dim of Training decoder shape (8684, 2)
 Dim of Testing encoder shape (2172, 30)
 Dim of Testing decoder shape (2172, 2)
-_________________________________________________________________
-Layer (type)                 Output Shape              Param #   
-=================================================================
-embedding_1 (Embedding)      (None, 30, 128)           1557888   
-_________________________________________________________________
-bidirectional_1 (Bidirection (None, 2)                 1040      
-_________________________________________________________________
-activation_1 (Activation)    (None, 2)                 0         
-=================================================================
-Total params: 1,558,928
-Trainable params: 1,558,928
-Non-trainable params: 0
-_________________________________________________________________
 file_data, iteration:3
 loading the weights
-acc: 82.55%
+acc: 83.56%
 
 
 Testing Samples
 --------------------------------------------------
+-------------------- Testing from traing set --------------------
 --------------------------------------------------
-5600
---------------------------------------------------
-sanjeevininagar, moodalapalya 
-configuration management 
-professional summary 
-angularjs, jquery, html and css for a client in the company which included consuming 
-career objective 
-risk database consultant at american electric power 
-and scalability of each pilot 
- conceptualizing and creating marketing collaterals 
-security features and bill shock prevention for the corporate mobile devices.. 
- vmware certified professional in datacenter virtualization (vcp-dcv) 
- 
-manager - human capital 
- worked on linux, vxworks and windows operating systems. 
-pawan kumar 
- good analytical, technical skills, enjoy responsibility & ownership at all stages. 
-prevent bill shock. 
-technical skill: 
- experience in sql performance tuning. 
-4. database : sql sever 2008. 
-science and 
-objective 
-environment. it also includes the creation of end user support resources that 
- exploring new tools, framework or any market update. 
-project #2 
-title des-dtp migration 
- estimations and planning of the releases. 
- linguistics - learning the local language.  
-selection. establish kpis to monitor the health of applications. set-up enterprise metadata management & 
-over 7 years of software development experience in python. 
- application software: eclipse, main frames, db2, my sql, microsoft office suite, sqlite. 
+april 2013 – present 
+by 35% in 1 year by introducing relevant website features and optimizing steps to use. 
+drop out, 1999-2003 
+membase: 
+email : anilkokat1@gmail.com 
+ strongly versed in unix, shell scripting, oracle, application debugging and is able to meet objectives in 
+version control : svn 
+● package administration in linux (rpm, yum) 
+• own the responsibility of the overall sprint outcome - analyse user stories and 
+having experience in embedded linux user space application development. 
+(visvesvaraya technological university) vtu in june 2010 with 73.06% (first class 
+technical skills: 
+date. 
+ project tracker tool: provide web based ui for storing the test execution results and also enable reporting facility to be 
+2. hybrid app allows user to view or edit their personal details and create and edit 
+values, play/pause, saving of game state, level creator for admin which can be used to change 
+page 2 of 6 
+objective: 
+development process. 
+weblogic application server 10.3.6 good 1.5 current 
+analysis, design, development, deploying, testing, debugging, project management, 
+reusable architecture. 
+sr. solutions engineer, aditi technologies (p) ltd. march 2015 till current 
+● designed ui functionalities like (drag, resize) for personal form design mode. 
+insurance agents. 
+experience. currently working at client side in credit suisse, pune. 
+ui using this technology. 
+to highly experienced players in the it industry. aurality is like a radio which reads out 
+• software: eclipse, visual studio, ccs (ti’s), tera term. 
+education history, qualifications & other additional information: 
 
 ---OUTPUT-----
-professional summary 
-career objective 
- worked on linux, vxworks and windows operating systems. 
- good analytical, technical skills, enjoy responsibility & ownership at all stages. 
- experience in sql performance tuning. 
-objective 
-over 7 years of software development experience in python. 
+date. 
+objective: 
+development process. 
+analysis, design, development, deploying, testing, debugging, project management, 
+reusable architecture. 
+sr. solutions engineer, aditi technologies (p) ltd. march 2015 till current 
+experience. currently working at client side in credit suisse, pune. 
 
-                                                  --------------------------------------------------
+                                                  

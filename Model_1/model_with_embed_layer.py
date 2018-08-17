@@ -94,23 +94,10 @@ for i in range(testing_ipt_len):
 
 
 
-model = Sequential()
-model.add(Embedding(train_ipt_index2token_size, EMBED_SIZE,input_length=training_ipt_max_len))
-model.add(Bidirectional(LSTM(1, return_sequences=False,)))
-
-#model.add(RepeatVector(1))
-#model.add(LSTM(hidden_size, return_sequences=True))
-#model.add(TimeDistributed(Dense(train_opt_index2token_size)))
-
-model.add(Activation("softmax"))
-model.compile(optimizer='adam', loss='categorical_crossentropy',metrics=["accuracy"])
-model.summary()
-
-def test_sample_resume():
+def test_sample_resume(model):
     #Test model:
-    print("-"*50)
+    print("-"*20,"Testing from traing set","-"*20)
     index=int(np.random.randint(training_ipt_len/40*0.8)*40)
-    print(index)
     test_input=""
     test_output=""
     for i in range(30):
@@ -140,18 +127,18 @@ def test_sample_resume():
     print("---OUTPUT-----")
     print(test_output)
     print(" "*50+"-"*50)    
-
-def estimate_score():
+    
+def estimate_score(model):
     # estimate accuracy on whole dataset using loaded weights
     scores = model.evaluate(testing_input_data,testing_output_data,verbose=0)
     print("%s: %.2f%%\n\n" % (model.metrics_names[1], scores[1]*100))
     print("Testing Samples\n"+"-"*50)
     
-
 iteration_file="/home/santhosh/resumes_folder/keras/Model_1/__emberd_data__/emberd_iteration.txt"
 model_file="/home/santhosh/resumes_folder/keras/Model_1/__emberd_data__/model_data/"
 checkpoint_file="/home/santhosh/resumes_folder/keras/Model_1/__emberd_data__/checkpoints/checkpoint.hdf5"
 iteration=0
+
 
 try:
     file=open(iteration_file,'r')
@@ -160,32 +147,38 @@ try:
     iteration=int(last_line.split(':')[1])
     #print(iteration)
     file.close()
-    # load weights
-    print('loading the weights')
-    file_path=model_file+str(iteration)+".h5"
-    model=load_model(file_path)
-    estimate_score()
-    test_sample_resume()
-    
-
+    try:
+        print('loading the weights')
+        file_path=model_file+str(iteration)+".h5"
+        model=load_model(file_path)
+        estimate_score(model)
+        test_sample_resume(model)
+    except:
+        print('no model file exist')        
 except:
-    print('no file exist')
+    print('no iteration file exist')
 
-# checkpoint
-checkpoint = ModelCheckpoint(checkpoint_file, monitor='val_acc', verbose=0, save_best_only=True, mode='max')
-callbacks_list = [checkpoint]
+def train(model):
+    # checkpoint
+    checkpoint = ModelCheckpoint(checkpoint_file, monitor='val_acc', verbose=0, save_best_only=True, mode='max')
+    callbacks_list = [checkpoint]
 
-def train():
     while True:
         try:
+            try:
+                file=open(iteration_file,'r')
+                last_line=file.read().split('\n')[-2]
+                print('file_data,',last_line)
+                iteration=int(last_line.split(':')[1])
+                #print(iteration)
+                file.close()
+            except:
+                iteration=0        
             print('Iteration:',iteration+1)
             #training
-            model.fit(encoder_input_data,decoder_target_data ,
-                batch_size=batch_size,
-                epochs=epochs,
-                validation_split=0.2,callbacks=callbacks_list)
-            estimate_score()
-            test_sample_resume()
+            model.fit(encoder_input_data,decoder_target_data,batch_size=batch_size,epochs=epochs,validation_split=0.1,callbacks=callbacks_list)
+            estimate_score(model)
+            test_sample_resume(model)
             # Save model
             file=open(iteration_file,'a')
             file.write('iteration:'+str(iteration+1)+'\n')
@@ -206,13 +199,24 @@ def train():
             print('loading the weights')
             file_path=model_file+str(iteration)+".h5"
             model=load_model(file_path)
-            estimate_score()
+            estimate_score(model)
 
-if __name__ =="_main__":
+if __name__ =="__main__":
     arg=sys.argv[1]
+    model = Sequential()
+    model.add(Embedding(train_ipt_index2token_size, EMBED_SIZE,input_length=training_ipt_max_len))
+    model.add(Bidirectional(LSTM(hidden_size, return_sequences=False,)))
+    model.add(Activation("relu"))
+    model.add(Dense(train_opt_index2token_size))
+    model.add(Activation("softmax"))
+    #model.add(RepeatVector(1))
+    #model.add(LSTM(hidden_size, return_sequences=True))
+    #model.add(TimeDistributed(Dense(train_opt_index2token_size)))
+    model.compile(optimizer='adam', loss='categorical_crossentropy',metrics=["accuracy"])
+    model.summary()
     if arg=="train":
         print("press ctrl+z to stop training")
-        train()
+        train(model)
     elif arg=="test":
-        estimate_score()
-        test_sample_resume()        
+        estimate_score(model)
+        test_sample_resume(model)        
