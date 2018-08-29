@@ -1,13 +1,14 @@
 from __future__ import print_function
 import tensorflow as tf
-from keras.models import Sequential,load_model
-from keras.layers import Activation,Dense,LSTM,Dropout,RepeatVector,Bidirectional
+from keras.models import Sequential,load_model,Model
+from keras.layers import Activation,Dense,LSTM,Dropout,RepeatVector,Bidirectional,Input,Reshape
 from keras.layers.embeddings import Embedding
 from keras.layers.wrappers import TimeDistributed
 from keras.callbacks import ModelCheckpoint
+from keras.utils.np_utils import to_categorical
 from sklearn.metrics import f1_score
 
-import csv,os,sys
+import csv,os,sys,random
 from vectorization import Text_Vectorize
 
 import numpy as np
@@ -35,7 +36,6 @@ training_ipt_index2tag_file=base_path+"processed_data/ipt_index2tag.csv"
 training_ipt_vector=Text_Vectorize()
 training_ipt_vector.load_padded_dataset(training_ipt_vector_file)
 training_ipt_vector.load_index_file(training_ipt_index2tag_file)
-
 #Loading padded Training output dataset
 print("\nLoading padded Training output dataset")
 training_opt_vector_file=base_path+"processed_data/padded_train_opt.csv"
@@ -57,102 +57,139 @@ testing_opt_vector_file=base_path+"processed_data/padded_test_opt.csv"
 testing_opt_vector=Text_Vectorize()
 testing_opt_vector.load_padded_dataset(testing_opt_vector_file)
 
-"""
-print("\nLoading  Training Input token2index")
-train_ipt_token2index=base_path+"train_ipt_token2index"
-train_ipt_token2index,train_ipt_token2index_size=load_token2index(train_ipt_token2index)
-print("Total No of index2token:",train_ipt_token2index_size)
+#preparing encoder_input_data,decoder_input_data,decoder_target_data
+print('preparing encoder_input_data,decoder_input_data,decoder_target_data')
+encoder_input_data=training_ipt_vector.padded_dataset
+decoder_input_data=training_opt_vector.padded_dataset
+decoder_target_data=np.zeros(decoder_input_data.shape)
+decoder_target_data[:,:-1]=decoder_input_data[:,1:]
+decoder_target_data=to_categorical(decoder_target_data,num_classes=training_opt_vector.max_features)
 
-print("\nLoading  Training Input index2token")
-train_ipt_index2token=base_path+"train_ipt_index2token"
-train_ipt_index2token,train_ipt_index2token_size=load_index2token(train_ipt_index2token)
-print("Total No of index2token:",train_ipt_index2token_size)
-
-print("\nLoading  Training output token2index")
-train_opt_token2index=base_path+"train_opt_token2index"
-train_opt_token2index,train_opt_token2index_size=load_token2index(train_opt_token2index)
-print("Total No of index2token:",train_opt_token2index_size)
-
-print("\nLoading  Training output index2token")
-train_opt_index2token=base_path+"train_opt_index2token"
-train_opt_index2token,train_opt_index2token_size=load_index2token(train_opt_index2token)
-print("Total No of index2token:",train_opt_index2token_size)
-
-encoder_input_data=np.zeros((training_ipt_len,training_ipt_max_len),dtype='float32')
-decoder_target_data=np.zeros((training_opt_len,train_opt_token2index_size),dtype='float32')
+#preparing encoder_test_input_data,decoder_test_input_data,decoder_test_target_data
+print('preparing encoder_input_data,decoder_input_data,decoder_target_data')
+encoder_test_input_data=testing_ipt_vector.padded_dataset
+decoder_test_input_data=testing_opt_vector.padded_dataset
+decoder_test_target_data=np.zeros(decoder_test_input_data.shape)
+decoder_test_target_data[:,:-1]=decoder_test_input_data[:,1:]
+decoder_test_target_data=to_categorical(decoder_test_target_data,num_classes=testing_opt_vector.max_features)
 
 
-print("Dim of Training encoder shape",encoder_input_data.shape)
-print("Dim of Training decoder shape",decoder_target_data.shape)
-
-for i in range(len(training_ipt_dataset)):
-    for k,data in enumerate(training_ipt_dataset[i]):
-        encoder_input_data[i][k]=data
-
-for i in range(len(training_ipt_dataset)):
-    for k in range(len(training_opt_dataset[i])):
-        decoder_target_data[i][k]=training_opt_dataset[i][k]
-
-testing_input_data=np.zeros((testing_ipt_len,training_ipt_max_len),dtype="float32")
-testing_output_data=np.zeros((testing_opt_len,training_opt_max_len),dtype='float32')
-
-print("Dim of Testing encoder shape",testing_input_data.shape)
-print("Dim of Testing decoder shape",testing_output_data.shape)
-
-for i in range(testing_ipt_len):
-    for k,data in enumerate(testing_ipt_dataset[i]):
-        testing_input_data[i][k]=data
-for i in range(testing_ipt_len):
-    for k,data in enumerate(testing_opt_dataset[i]):
-        testing_output_data[i][k]=data
+#define encoder_input model
+encoder_inputs=Input(shape=(training_ipt_vector.max_len,))
+embed_encoder_inputs=Embedding(training_ipt_vector.max_features,258)
+embed_encoder_inputs=embed_encoder_inputs(encoder_inputs)
+print(embed_encoder_inputs)
+encoder=LSTM(hidden_size,return_state=True)
+encoder_outputs, state_h, state_c = encoder(embed_encoder_inputs)
+# We discard `encoder_outputs` and only keep the states.
+encoder_states = [state_h, state_c]
 
 
+# We set up our decoder to return full output sequences,
+# and to return internal states as well. We don't use the
+# return states in the training model, but we will use them in inference.
 
-def test_sample_resume(model):
-    #Test model:
-    print("-"*20,"Testing from traing set","-"*20)
-    index=int(np.random.randint(training_ipt_len/40*0.8)*40)
-    test_input=""
-    test_output=""
-    for i in range(30):
-        encoded_input_sequence=encoder_input_data[index: index + 1]
-        output_sequence=model.predict(encoded_input_sequence, verbose=0)[0]
-        output_sequence = train_opt_index2token[np.argmax(output_sequence)]
-        encoded_input_sequence=encoded_input_sequence.reshape(tuple(encoded_input_sequence.shape[1:]))
-        for j in encoded_input_sequence:
-            if train_ipt_index2token[j]=="UNK":
-                continue
-            test_input+=train_ipt_index2token[j]+' '
-        test_input+='\n'    
-        if output_sequence=="1":
-            output_sequence=''
-            for j in encoded_input_sequence:
-                if train_ipt_index2token[j]=="UNK":
-                    continue
-                output_sequence+=train_ipt_index2token[j]+' '
-            output_sequence+='\n'
-        else:
-            output_sequence=''
-        test_output+=output_sequence
-        index+=1
-        
-    print("-"*50)
-    print(test_input)
-    print("---OUTPUT-----")
-    print(test_output)
-    print(" "*50+"-"*50)    
+decoder_inputs = Input(shape=(training_opt_vector.max_len,))
+embed_decoder=Embedding(training_opt_vector.max_features,128)
+embed_decoder_inputs=embed_decoder(decoder_inputs)
+
+decoder_lstm = LSTM(hidden_size, return_sequences=True, return_state=True)
+decoder_outputs, _, _ = decoder_lstm(embed_decoder_inputs,
+                                     initial_state=encoder_states)
+
+decoder_dense = Dense(training_opt_vector.max_features, activation='softmax')
+decoder_outputs = decoder_dense(decoder_outputs)
+
+
+#Define the model that will turn encoder_input_data & decoder_input_data into decoder_target_data
+model = Model(inputs=[encoder_inputs, decoder_inputs], outputs=decoder_outputs)
+
+model.compile(optimizer='rmsprop', loss='categorical_crossentropy',metrics=["accuracy"])
+model.summary()
+
+
+# Next: inference mode (sampling).
+# Here's the drill:
+# 1) encode input and retrieve initial decoder state
+# 2) run one step of decoder with this initial state
+# and a "start of sequence" token as target.
+# Output will be the next target token
+# 3) Repeat with the current target token and current states
+
+# Define sampling models
+encoder_model = Model(encoder_inputs, encoder_states)
+
+decoder_state_input_h = Input(shape=(hidden_size,))
+decoder_state_input_c = Input(shape=(hidden_size,))
+decoder_states_inputs = [decoder_state_input_h, decoder_state_input_c]
+decoder_outputs, state_h, state_c = decoder_lstm(
+    embed_decoder_inputs, initial_state=decoder_states_inputs)
+decoder_states = [state_h, state_c]
+decoder_outputs = decoder_dense(decoder_outputs)
+#print(decoder_outputs)
+decoder_model = Model(
+    [decoder_inputs] + decoder_states_inputs,
+    [decoder_outputs] + decoder_states)
+decoder_model.summary()
+
+
+def decode_sequence(input_seq):
+    input_text=" ".join([training_ipt_vector.index2tag[int(tag)] for tag in input_seq])
+    input_seq=input_seq.reshape((1,training_ipt_vector.max_len,))
+    # Encode the input as state vectors.
+    states_value = encoder_model.predict(input_seq)
     
-def estimate_score(model):
+    # Generate empty target sequence of length 1.
+    target_seq = np.zeros((1,training_opt_vector.max_len,))
+    # Populate the first character of target sequence with the start character.
+    target_seq[0, 0] = training_opt_vector.tag2index['<sol>']
+
+    # Sampling loop for a batch of sequences
+    # (to simplify, here we assume a batch of size 1).
+    stop_condition = False
+    decoded_sentence = ''
+    word_count=0
+
+    while not stop_condition:
+        output_tokens, h, c = decoder_model.predict(
+            [target_seq] + states_value)
+        #print(output_tokens.shape,np.argmax(output_tokens))
+        # Sample a token
+        #print(np.sum(output_tokens[0,1:-1, :],axis=1))
+        sampled_token_index = np.argmax(np.sum(output_tokens[0,1:-1, :],axis=1))+1
+        #print(sampled_token_index)
+        sampled_word = training_opt_vector.index2tag[sampled_token_index]
+        decoded_sentence += ' '+sampled_word
+
+        # Exit condition: either hit max length
+        # or find stop character.
+        if (sampled_word == '<eol>' or
+           word_count > training_opt_vector.max_len-2):
+            stop_condition = True
+        #print(target_seq)
+        target_seq[0,0]=sampled_token_index
+        # Update states
+        states_value = [h, c]
+        word_count+=1
+
+    if('<eol>' in decoded_sentence):
+        decoded_sentence=" ".join(decoded_sentence.split()[:-1])
+    return [input_text,decoded_sentence]
+    
+
+def estimate_score():
     # estimate accuracy on whole dataset using loaded weights
-    scores = model.evaluate(testing_input_data,testing_output_data,verbose=0)
+    scores = model.evaluate([encoder_test_input_data,decoder_test_input_data],decoder_test_target_data,verbose=0)
     print("%s: %.2f%%\n\n" % (model.metrics_names[1], scores[1]*100))
     print("Testing Samples\n"+"-"*50)
-    
-iteration_file="/home/santhosh/resumes_folder/keras/Model_1/__emberd_data__/emberd_iteration.txt"
-model_file="/home/santhosh/resumes_folder/keras/Model_1/__emberd_data__/model_data/"
-checkpoint_file="/home/santhosh/resumes_folder/keras/Model_1/__emberd_data__/checkpoints/checkpoint.hdf5"
-iteration=0
+    return scores[1]*100
 
+
+iteration_file="/home/santhosh/resumes_folder/keras/model_2/iteration.txt"
+model_file="/home/santhosh/resumes_folder/keras/model_2/model_data/"
+checkpoint_file=base_path+"checkpoints/checkpoint.hdf5"
+log_file="output_logs/logs.txt"
+iteration=0
 
 try:
     file=open(iteration_file,'r')
@@ -165,73 +202,76 @@ try:
         print('loading the weights')
         file_path=model_file+str(iteration)+".h5"
         model=load_model(file_path)
-        estimate_score(model)
-        test_sample_resume(model)
+        estimate_score()
     except:
         print('no model file exist')        
 except:
     print('no iteration file exist')
 
-def train(model):
-    # checkpoint
-    checkpoint = ModelCheckpoint(checkpoint_file, monitor='val_acc', verbose=0, save_best_only=True, mode='max')
-    callbacks_list = [checkpoint]
+def test_sample_resume():
+    index=random.randint(0,len(training_ipt_vector.padded_dataset))
+    input_sample_resume,output_sample_summary=decode_sequence(encoder_input_data[index])
+    print('-'*30,'Testing Sample resume','-'*30)
+    print(input_sample_resume)
+    print('-'*70)
+    print('-'*30,'OUTPUT','-'*30)
+    print(output_sample_summary)
+    #write outputin a file
+    with open(log_file,'a') as text_file:
+        text_file.write('\nIteration :'+str(iteration+1)+' Output\n')
+        text_file.write('Score: '+str(score)+'\n')
+        text_file.write('-'*30+'Testing Sample resume'+'-'*30+'\n')
+        text_file.write(input_sample_resume+'\n')
+        text_file.write('-'*70+'\n'+'-'*30+'OUTPUT'+'-'*30+'\n')
+        text_file.write(output_sample_summary+'\n'+'-'*70+'\n')
 
-    while True:
-        try:
-            try:
-                file=open(iteration_file,'r')
-                last_line=file.read().split('\n')[-2]
-                print('file_data,',last_line)
-                iteration=int(last_line.split(':')[1])
-                #print(iteration)
-                file.close()
-            except:
-                iteration=0        
-            print('Iteration:',iteration+1)
-            #training
-            model.fit(encoder_input_data,decoder_target_data,batch_size=batch_size,epochs=epochs,validation_split=0.1,callbacks=callbacks_list)
-            estimate_score(model)
-            test_sample_resume(model)
-            # Save model
-            file=open(iteration_file,'a')
-            file.write('iteration:'+str(iteration+1)+'\n')
-            file.close()
-            iteration+=1
-            file_path=model_file+str(iteration)+".h5"
-            model.save(file_path)
-        
-        except:
-            print("error in iteration",iteration)
-            file=open(iteration_file,'r')
-            last_line=file.read().split('\n')[-2]
-            print('file_data,',last_line)
-            iteration=int(last_line.split(':')[1])
-            #print(iteration)
-            file.close()
-            # load weights
-            print('loading the weights')
-            file_path=model_file+str(iteration)+".h5"
-            model=load_model(file_path)
-            estimate_score(model)
 
 if __name__ =="__main__":
     arg=sys.argv[1]
-    model = Sequential()
-    model.add(Embedding(train_ipt_index2token_size, EMBED_SIZE,input_length=training_ipt_max_len))
-    model.add(Bidirectional(LSTM(hidden_size, return_sequences=False,)))
-    model.add(Activation("relu"))
-    model.add(Dense(train_opt_index2token_size))
-    model.add(Activation("softmax"))
-    #model.add(RepeatVector(1))
-    #model.add(LSTM(hidden_size, return_sequences=True))
-    #model.add(TimeDistributed(Dense(train_opt_index2token_size)))
-    model.compile(optimizer='adam', loss='categorical_crossentropy',metrics=["accuracy"])
-    model.summary()
     if arg=="train":
-        print("press ctrl+z to stop training")
-        train(model)
+            while True:
+                try:
+                    try:
+                        file=open(iteration_file,'r')
+                        last_line=file.read().split('\n')[-2]
+                        print('file_data,',last_line)
+                        iteration=int(last_line.split(':')[1])
+                        #print(iteration)
+                        file.close()
+                    except:
+                        iteration=0        
+                    print('Iteration:',iteration+1)
+                    #training
+                    model.fit([encoder_input_data, decoder_input_data], decoder_target_data,
+                    batch_size=5,
+                    epochs=5,
+                    validation_split=0.2)
+                    score=estimate_score()
+                    test_sample_resume()
+                    # Save model
+                    file=open(iteration_file,'a')
+                    file.write('iteration:'+str(iteration+1)+'\n')
+                    file.close()
+                    iteration+=1
+                    file_path=model_file+str(iteration)+".h5"
+                    model.save(file_path)
+
+                except:
+                    print("error in iteration",iteration)
+                    try:
+                        file=open(iteration_file,'r')
+                        last_line=file.read().split('\n')[-2]
+                        print('file_data,',last_line)
+                        iteration=int(last_line.split(':')[1])
+                        #print(iteration)
+                        file.close()
+                        # load weights
+                        print('loading the weights')
+                        file_path=model_file+str(iteration)+".h5"
+                        model=load_model(file_path)
+                        estimate_score()
+                    except:
+                        break
+                    
     elif arg=="test":
-        estimate_score(model)
-        test_sample_resume(model)        
-"""
+        estimate_score()

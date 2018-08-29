@@ -8,15 +8,15 @@ class Text_Vectorize(object):
 
     def __init__(self):
         
-        self.max_features=None
+        self.max_features=0
         self.text_vectorize=CountVectorizer()
-        self.proccessor=self.text_vectorize.build_tokenizer()
         self.dataset=list()
         self.vocab=dict()
         self.max_len=0
         self.index2tag=dict()
         self.tag2index=dict()
         self.padded_dataset=np.zeros((0,))
+    
     def text_tokenizer(self,text):
         return text.split()
 
@@ -62,7 +62,7 @@ class Text_Vectorize(object):
         for i in range(len(data)):
             x=data[i].lower().strip()
             vectorized_text=list()
-            tokenized_text=self.proccessor(x)
+            tokenized_text=self.text_tokenizer(x)
             """
             if i==0:
                 print(tokenized_text)
@@ -110,8 +110,10 @@ class Text_Vectorize(object):
             for row in reader:
                 self.padded_dataset.append(row)
         self.padded_dataset=np.array(self.padded_dataset,dtype='float32')
+        self.max_len=self.padded_dataset.shape[1]
         print(self.padded_dataset.shape)
         print('Total padded records:',self.padded_dataset.shape[0])
+        print('Max len:',self.max_len)
         #print(self.padded_dataset[0])
 
     def load_index_file(self,index2tag_file_path):
@@ -124,7 +126,8 @@ class Text_Vectorize(object):
                 index=int(index)
                 self.index2tag[index]=tag
                 self.tag2index[tag]=index
-            print('Total index2tags:',len(self.index2tag))
+            self.max_features=len(self.index2tag)
+            print('Total index2tags:',self.max_features)
     
         
 if __name__=="__main__":
