@@ -16,7 +16,7 @@ def tokenizer(file_path,max_lines):
                 if output_text=="1":
                     output_lines.append(input_text)
             input_lines="\n".join(input_lines)
-            output_lines="sol "+"\n".join(output_lines)+" eol"
+            output_lines="<SOL> "+"\n".join(output_lines)+" <EOL>"
             return input_lines,output_lines
         return None,None    
     except:

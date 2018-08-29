@@ -6,14 +6,10 @@ from keras.preprocessing import sequence
 
 class Text_Vectorize(object):
 
-    def __init__(self,max_features,add_unknown):
+    def __init__(self):
         
-        self.max_features=max_features
-        self.unknown=add_unknown
-        if max_features!=None:
-            self.text_vectorize=CountVectorizer(max_features=self.max_features)
-        else:
-            self.text_vectorize=CountVectorizer()
+        self.max_features=None
+        self.text_vectorize=CountVectorizer()
         self.proccessor=self.text_vectorize.build_tokenizer()
         self.dataset=list()
         self.vocab=dict()
@@ -21,7 +17,9 @@ class Text_Vectorize(object):
         self.index2tag=dict()
         self.tag2index=dict()
         self.padded_dataset=np.zeros((0,))
-    
+    def text_tokenizer(self,text):
+        return text.split()
+
     def load_dataset(self,file_path):
         #loads data from csv file
         with open(file_path,'r') as csv_file:
@@ -32,15 +30,26 @@ class Text_Vectorize(object):
                 self.dataset.append(row[0])
         print('Total Records:',len(self.dataset))
 
-    def fit(self,data):
+    def fit(self,data,max_feature,add_unknown):
         #prepares vocabulary from data
+        self.max_features=max_feature
+        print(self.max_features,max_feature,add_unknown)
+        if max_feature!=None:
+            self.text_vectorize=CountVectorizer(max_features=self.max_features,tokenizer=self.text_tokenizer)
+        else:
+            self.text_vectorize=CountVectorizer(tokenizer=self.text_tokenizer)
         self.text_vectorize.fit(data)
         self.vocab=self.text_vectorize.vocabulary_
-        if self.unknown:
+        if add_unknown:
+            print('added unknown')
             self.index2tag=[(index+1,tag) for tag,index in self.vocab.items()]
             self.index2tag.insert(0,(0,'UNK'))
+            #self.index2tag.insert(1,(1,'<sol>'))
+            #self.index2tag.insert(len(self.index2tag),(len(self.index2tag)-1,'<eol>'))
         else:
             self.index2tag=[(index,tag) for tag,index in self.vocab.items()]
+            #self.index2tag.insert(0,(0,'<sol>'))
+            #self.index2tag.insert(len(self.index2tag),(len(self.index2tag)-1,'<eol>'))
         self.tag2index=[(tag,index) for index,tag in self.index2tag]
         self.index2tag=dict(self.index2tag)
         self.tag2index=dict(self.tag2index) 
@@ -51,15 +60,20 @@ class Text_Vectorize(object):
         self.max_len=0
         self.padded_dataset=np.empty((len(data),),dtype=list)
         for i in range(len(data)):
-            x=data[i]
+            x=data[i].lower().strip()
             vectorized_text=list()
             tokenized_text=self.proccessor(x)
+            """
+            if i==0:
+                print(tokenized_text)
+            """
             if(len(tokenized_text)>self.max_len):
                 self.max_len=len(tokenized_text)
             for token in tokenized_text:
                 if token in self.tag2index:
                     vectorized_text.append([self.tag2index[token]])
                 else:
+                    #print(token)
                     vectorized_text.append([self.tag2index['UNK']])
             self.padded_dataset[i]=vectorized_text    
         self.padded_dataset=sequence.pad_sequences(self.padded_dataset,self.max_len,padding='post').reshape((len(data),self.max_len))
@@ -115,9 +129,9 @@ if __name__=="__main__":
         #preparing training input dataset
         train_dataset_file=base_dir+'training_dataset_input.csv'
         save_padded_train_ipt_file=base_dir+'processed_data/padded_train_ipt.csv'
-        train_dataset=Text_Vectorize(7500-1,True)
+        train_dataset=Text_Vectorize()
         train_dataset.load_dataset(train_dataset_file)
-        train_dataset.fit(train_dataset.dataset)
+        train_dataset.fit(train_dataset.dataset,7500-1,True)
         train_dataset.save_index_file(base_dir+'processed_data/')
         train_dataset.transform(train_dataset.dataset)
         train_dataset.save_padded_dataset(save_padded_train_ipt_file)
@@ -125,9 +139,9 @@ if __name__=="__main__":
         #preparing training output dataset
         train_dataset_opt_file=base_dir+'training_dataset_output.csv'
         save_padded_train_opt_file=base_dir+'processed_data/padded_train_opt.csv'
-        train_opt_dataset=Text_Vectorize(None,add_unknown=True)
+        train_opt_dataset=Text_Vectorize()
         train_opt_dataset.load_dataset(train_dataset_opt_file)
-        train_opt_dataset.fit(train_opt_dataset.dataset)
+        train_opt_dataset.fit(train_opt_dataset.dataset,None,add_unknown=True)
         train_opt_dataset.save_index_file(base_dir+'processed_data/',input_flag=False)
         train_opt_dataset.transform(train_opt_dataset.dataset)
         train_opt_dataset.save_padded_dataset(save_padded_train_opt_file)
@@ -137,7 +151,7 @@ if __name__=="__main__":
         test_ipt_dataset_file=base_dir+'testing_dataset_input.csv'
         save_test_ipt_padded_dataset_file=base_dir+'processed_data/padded_test_ipt.csv'
         load_index_file=base_dir+'processed_data/ipt_index2tag.csv'
-        test_ipt_dataset=Text_Vectorize(5000,False)
+        test_ipt_dataset=Text_Vectorize()
         test_ipt_dataset.load_index_file(load_index_file)
         test_ipt_dataset.load_dataset(test_ipt_dataset_file)
         test_ipt_dataset.transform(test_ipt_dataset.dataset)
@@ -147,10 +161,10 @@ if __name__=="__main__":
         test_ipt_dataset_file=base_dir+'testing_dataset_output.csv'
         save_test_ipt_padded_dataset_file=base_dir+'processed_data/padded_test_opt.csv'
         load_index_file=base_dir+'processed_data/opt_index2tag.csv'
-        test_ipt_dataset=Text_Vectorize(5000,False)
+        test_ipt_dataset=Text_Vectorize()
         test_ipt_dataset.load_index_file(load_index_file)
         test_ipt_dataset.load_dataset(test_ipt_dataset_file)
         test_ipt_dataset.transform(test_ipt_dataset.dataset)
         test_ipt_dataset.save_padded_dataset(save_test_ipt_padded_dataset_file)
-
+        
 
