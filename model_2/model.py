@@ -8,7 +8,8 @@ from keras.callbacks import ModelCheckpoint
 from sklearn.metrics import f1_score
 
 import csv,os,sys
-from load_modules import load_vectorized_file,load_token2index,load_index2token,load_train_file
+from vectorization import Text_Vectorize
+
 import numpy as np
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
@@ -25,25 +26,38 @@ EMBED_SIZE = 128
 batch_size=128
 epochs=100
 hidden_size=128
-base_path="/home/santhosh/resumes_folder/keras/Model_1/__emberd_data__/data/"
-#loading vectorized Training Dataset
-print("\nLoading vectorized Training dataset")
-training_vector_file=base_path+"training_vextorized_ipt_opt.csv"
-training_ipt_dataset,training_ipt_len,training_ipt_max_len,training_opt_dataset,training_opt_len,training_opt_max_len=load_vectorized_file(training_vector_file)
-print("Total No of Training Records:",training_ipt_len)
+base_path="/home/santhosh/resumes_folder/keras/model_2/data/"
 
-#loading train dataset data
-print("\nloading train dataset data")
-train_data_file=base_path+"train_dataset.csv"
-train_data,train_data_len=load_train_file(train_data_file)
-print("Total No of Training Records:",train_data_len)
+#Loading padded Training input dataset
+print("\nLoading padded Training input dataset")
+training_ipt_vector_file=base_path+"processed_data/padded_train_ipt.csv"
+training_ipt_index2tag_file=base_path+"processed_data/ipt_index2tag.csv"
+training_ipt_vector=Text_Vectorize()
+training_ipt_vector.load_padded_dataset(training_ipt_vector_file)
+training_ipt_vector.load_index_file(training_ipt_index2tag_file)
 
-print("\nLoading vectorized Testing dataset")
-testing_vector_file=base_path+"testing_vextorized_ipt_opt.csv"
-testing_ipt_dataset,testing_ipt_len,testing_ipt_max_len,testing_opt_dataset,testing_opt_len,testing_opt_max_len=load_vectorized_file(testing_vector_file)
-print("Total No of Testing Records:",testing_ipt_len)
+#Loading padded Training output dataset
+print("\nLoading padded Training output dataset")
+training_opt_vector_file=base_path+"processed_data/padded_train_opt.csv"
+training_opt_index2tag_file=base_path+"processed_data/opt_index2tag.csv"
+training_opt_vector=Text_Vectorize()
+training_opt_vector.load_padded_dataset(training_opt_vector_file)
+training_opt_vector.load_index_file(training_opt_index2tag_file)
 
 
+#Loading padded Testing intput dataset
+print("\nLoading padded Testing intput dataset")
+testing_ipt_vector_file=base_path+"processed_data/padded_test_ipt.csv"
+testing_ipt_vector=Text_Vectorize()
+testing_ipt_vector.load_padded_dataset(testing_ipt_vector_file)
+
+#Loading padded Testing output dataset
+print("\nLoading padded Testing output dataset")
+testing_opt_vector_file=base_path+"processed_data/padded_test_opt.csv"
+testing_opt_vector=Text_Vectorize()
+testing_opt_vector.load_padded_dataset(testing_opt_vector_file)
+
+"""
 print("\nLoading  Training Input token2index")
 train_ipt_token2index=base_path+"train_ipt_token2index"
 train_ipt_token2index,train_ipt_token2index_size=load_token2index(train_ipt_token2index)
@@ -220,3 +234,4 @@ if __name__ =="__main__":
     elif arg=="test":
         estimate_score(model)
         test_sample_resume(model)        
+"""

@@ -55,7 +55,7 @@ class Text_Vectorize(object):
         self.tag2index=dict(self.tag2index) 
         print('Total Vocabulary:',len(self.index2tag))
         
-    def transform(self,data):
+    def transform(self,data,max_len=0):
         #transforms data to vectorized
         self.max_len=0
         self.padded_dataset=np.empty((len(data),),dtype=list)
@@ -75,7 +75,9 @@ class Text_Vectorize(object):
                 else:
                     #print(token)
                     vectorized_text.append([self.tag2index['UNK']])
-            self.padded_dataset[i]=vectorized_text    
+            self.padded_dataset[i]=vectorized_text
+        if max_len!=0:    
+            self.max_len=max_len
         self.padded_dataset=sequence.pad_sequences(self.padded_dataset,self.max_len,padding='post').reshape((len(data),self.max_len))
         print('Total Vectorized records',self.padded_dataset.shape[0],self.padded_dataset.shape)
         print('Max Tokens in each records is:',self.max_len)
@@ -100,6 +102,17 @@ class Text_Vectorize(object):
         with open(file_name,'w') as data_file:
             writer=csv.writer(data_file)
             writer.writerows(self.padded_dataset)
+    
+    def load_padded_dataset(self,file_name):
+        self.padded_dataset=list()
+        with open(file_name,'r') as data_file:
+            reader=csv.reader(data_file)
+            for row in reader:
+                self.padded_dataset.append(row)
+        self.padded_dataset=np.array(self.padded_dataset,dtype='float32')
+        print(self.padded_dataset.shape)
+        print('Total padded records:',self.padded_dataset.shape[0])
+        #print(self.padded_dataset[0])
 
     def load_index_file(self,index2tag_file_path):
         with open(index2tag_file_path) as data_file:
@@ -127,6 +140,7 @@ if __name__=="__main__":
 
         
         #preparing training input dataset
+        print('preparing training input dataset')
         train_dataset_file=base_dir+'training_dataset_input.csv'
         save_padded_train_ipt_file=base_dir+'processed_data/padded_train_ipt.csv'
         train_dataset=Text_Vectorize()
@@ -137,6 +151,7 @@ if __name__=="__main__":
         train_dataset.save_padded_dataset(save_padded_train_ipt_file)
 
         #preparing training output dataset
+        print('\n\npreparing training output dataset')
         train_dataset_opt_file=base_dir+'training_dataset_output.csv'
         save_padded_train_opt_file=base_dir+'processed_data/padded_train_opt.csv'
         train_opt_dataset=Text_Vectorize()
@@ -148,23 +163,25 @@ if __name__=="__main__":
         
         
         #preparing testing input dataset
+        print('\n\npreparing testing input dataset')
         test_ipt_dataset_file=base_dir+'testing_dataset_input.csv'
         save_test_ipt_padded_dataset_file=base_dir+'processed_data/padded_test_ipt.csv'
         load_index_file=base_dir+'processed_data/ipt_index2tag.csv'
         test_ipt_dataset=Text_Vectorize()
         test_ipt_dataset.load_index_file(load_index_file)
         test_ipt_dataset.load_dataset(test_ipt_dataset_file)
-        test_ipt_dataset.transform(test_ipt_dataset.dataset)
+        test_ipt_dataset.transform(test_ipt_dataset.dataset,max_len=train_dataset.max_len)
         test_ipt_dataset.save_padded_dataset(save_test_ipt_padded_dataset_file)
         
         #preparing testing output dataset
+        print('\n\npreparing testing output dataset')
         test_ipt_dataset_file=base_dir+'testing_dataset_output.csv'
         save_test_ipt_padded_dataset_file=base_dir+'processed_data/padded_test_opt.csv'
         load_index_file=base_dir+'processed_data/opt_index2tag.csv'
         test_ipt_dataset=Text_Vectorize()
         test_ipt_dataset.load_index_file(load_index_file)
         test_ipt_dataset.load_dataset(test_ipt_dataset_file)
-        test_ipt_dataset.transform(test_ipt_dataset.dataset)
+        test_ipt_dataset.transform(test_ipt_dataset.dataset,train_opt_dataset.max_len)
         test_ipt_dataset.save_padded_dataset(save_test_ipt_padded_dataset_file)
         
 
