@@ -9,4 +9,5 @@
 **/__pycache__
 **/__datas__
 **/__emberd_data__
-**/__dataset__
+**/__dataset__/
+**/model_data/**
