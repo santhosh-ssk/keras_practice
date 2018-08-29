@@ -186,7 +186,7 @@ def estimate_score():
 
 
 iteration_file="/home/santhosh/resumes_folder/keras/model_2/iteration.txt"
-model_file="/home/santhosh/resumes_folder/keras/model_2/model_data/"
+model_file="/home/santhosh/resumes_folder/keras/model_2/__model_data__/"
 checkpoint_file=base_path+"checkpoints/checkpoint.hdf5"
 log_file="output_logs/logs.txt"
 iteration=0
