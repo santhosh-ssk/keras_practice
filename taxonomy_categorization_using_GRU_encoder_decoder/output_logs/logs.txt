@@ -1,0 +1,748 @@
+--------------------------------------------------
+
+
+Iteration: 1
+Testing from Training dataset
+beevee men cargos---> men topwear topwear sweatshirts&hoodies kurtas&sherwanis <eol>( men bottomwear cargos )
+3 concept slim men's light blue jeans---> men topwear formal kurtas&sherwanis kurtas&sherwanis <eol>( men bottomwear casual jeans )
+u.s. polo assn regular men's blue jeans---> festive festive topwear festive sweatshirts&hoodies <eol>( men bottomwear casual jeans )
+fashion stylus black jegging---> festive festive topwear festive festive <eol>( women westernwear leggings&jeggings )
+blackberrys slim fit men's grey trousers---> <eol>( men bottomwear formal trousers )
+*************************
+Testing from Testing dataset
+arrow sport solid, self design men's polo neck light blue t-shirt---> <eol>( men topwear casual tshirts&polos )
+oshano men's solid casual dark blue, black shirt---> <eol>( men topwear casual casualshirts )
+united colors of benetton printed men's round neck white t-shirt---> festive festive festive topwear festive festive festive( men topwear casual tshirts&polos )
+dive self design men's round neck grey t-shirt---> <eol>( men topwear casual tshirts&polos )
+christy world white jegging---> men topwear festive kurtas&sherwanis sweatshirts&hoodies <eol>( women westernwear leggings&jeggings )
+--------------------------------------------------
+
+
+Iteration: 2
+Testing from Training dataset
+adbucks white jegging---> festive festive topwear festive festive topwear <eol>( women westernwear leggings&jeggings )
+metronaut printed men's round neck dark blue t-shirt---> festive jackets men topwear topwear festive sweatshirts&hoodies( men topwear casual tshirts&polos )
+highlander men's printed casual white, dark blue shirt---> festive topwear topwear sweatshirts&hoodies sweatshirts&hoodies men sweatshirts&hoodies( men topwear casual casualshirts )
+lawman pg3 men's grey trousers---> festive topwear festive topwear sweatshirts&hoodies sweatshirts&hoodies men( men bottomwear formal trousers )
+jack & jones solid single breasted casual men's blazer---> women festive jeans jeans UNK UNK UNK( men topwear formal blazers&suits )
+*************************
+Testing from Testing dataset
+van heusen self design single breasted casual men's blazer---> festive men topwear festive sweatshirts&hoodies sweatshirts&hoodies sweatshirts&hoodies( men topwear formal blazers&suits )
+w regular fit women's red trousers---> bottomwear bottomwear shorts <eol>( women westernwear capris&tracks )
+g & m collections women's fit and flare black, white dress---> men topwear shorts shorts <eol>( women westernwear dresses )
+kotty printed women's white night shorts---> festive men topwear festive topwear sweatshirts&hoodies sweatshirts&hoodies( women westernwear shorts )
+just khatoon aba000119 lycra, chiffon printed burqa with hijab---> women festive jeans jeans UNK UNK UNK( women ethnicnwear hijab&abaya )
+--------------------------------------------------
+
+
+Iteration: 3
+Testing from Training dataset
+campus sutra full sleeve solid men fleece jacket---> men topwear sweatshirts&hoodies sweatshirts&hoodies sweatshirts&hoodies sweatshirts&hoodies sweatshirts&hoodies( men topwear festive jackets )
+broadstar regular fit women blue trousers---> bottomwear shorts shorts <eol>( women westernwear capris&tracks )
+wild hunk men's solid casual white shirt---> festive <eol>( men topwear casual casualshirts )
+2go solid men black sports shorts---> <eol>( men bottomwear casual shorts )
+quechua by decathlon full sleeve solid men's jacket---> men topwear shorts shorts <eol>( men topwear festive jackets )
+*************************
+Testing from Testing dataset
+miss chase black jegging---> women shorts shorts <eol>( women westernwear leggings&jeggings )
+2go solid women's orange tights---> <eol>( women westernwear leggings&jeggings )
+shopybucket self design men's waistcoat---> <eol>( men topwear formal blazers&suits )
+momin libas a 73-14_82 kashibo abaya---> women ethnicnwear ethnicnwear dresses hijab&abaya skirts skirts( women ethnicnwear hijab&abaya )
+campus sutra men's striped casual multicolor shirt---> men topwear sweatshirts&hoodies sweatshirts&hoodies sweatshirts&hoodies sweatshirts&hoodies sweatshirts&hoodies( men topwear casual casualshirts )
+--------------------------------------------------
+
+
+Iteration: 4
+Testing from Training dataset
+anry men's solid casual yellow shirt---> men topwear sweatshirts&hoodies formal kurtas&sherwanis kurtas&sherwanis kurtas&sherwanis( men topwear casual casualshirts )
+rakshita collection solid men's multicolor basic shorts---> festive men topwear topwear sweatshirts&hoodies sweatshirts&hoodies sweatshirts&hoodies( men bottomwear casual shorts )
+2go solid men's dark blue sports shorts---> <eol>( men bottomwear casual shorts )
+onesport solid women's blue tights---> men topwear shorts kurtas&sherwanis <eol>( women westernwear leggings&jeggings )
+decot paradise printed women's regular pink skirt---> women shorts shorts jeans UNK UNK UNK( women westernwear skirts )
+*************************
+Testing from Testing dataset
+scullers slim fit men's beige trousers---> <eol>( men bottomwear formal trousers )
+adidas printed men's blue sports shorts---> <eol>( men bottomwear casual shorts )
+mokshi solid women's straight kurta---> women casual jeans jeans UNK UNK UNK( women ethnicnwear kurtis )
+metronaut men self design casual red shirt---> <eol>( men topwear casual casualshirts )
+wrangler slim men's dark blue jeans---> jackets jackets jackets jackets jackets festive festive( men bottomwear casual jeans )
+--------------------------------------------------
+
+
+Iteration: 5
+Testing from Training dataset
+john players skinny men's blue jeans---> festive <eol>( men bottomwear casual jeans )
+zeston slim women light blue jeans---> women women jeans jeans UNK UNK festive( women bottomwear casual jeans )
+tsx solid men's grey, blue track pants---> <eol>( men bottomwear casual tracks&joggers )
+momin libas ak15816_358 kashibo solid abaya---> women ethnicnwear ethnicnwear hijab&abaya skirts skirts skirts( women ethnicnwear hijab&abaya )
+fck-3 slim women's grey jeans---> casual shorts shorts <eol>( women bottomwear casual jeans )
+*************************
+Testing from Testing dataset
+forever 21 solid women's a-line dark blue skirt---> women shorts shorts <eol>( women westernwear skirts )
+u.s. polo assn regular fit men's grey trousers---> festive topwear sweatshirts&hoodies sweatshirts&hoodies sweatshirts&hoodies sweatshirts&hoodies sweatshirts&hoodies( men bottomwear formal trousers )
+wrangler slim men's blue jeans---> jackets jackets jackets jackets festive festive festive( men bottomwear casual jeans )
+onesport printed women's green, black tights---> men topwear shorts shorts <eol>( women westernwear leggings&jeggings )
+anmi printed women's straight kurta---> bottomwear casual shorts <eol>( women ethnicnwear kurtis )
+--------------------------------------------------
+
+
+Iteration: 6
+Testing from Training dataset
+reebok solid men's black track pants---> <eol>( men bottomwear casual tracks&joggers )
+tinted solid men's henley yellow t-shirt---> <eol>( men topwear casual tshirts&polos )
+carrel printed women's broomstick beige skirt---> ethnicnwear <eol>( women westernwear skirts )
+teesort solid, graphic print men's grey track pants---> <eol>( men bottomwear casual tracks&joggers )
+showoff printed men waistcoat---> <eol>( men topwear formal blazers&suits )
+*************************
+Testing from Testing dataset
+adbucks blue jegging---> festive festive topwear festive topwear festive topwear( women westernwear leggings&jeggings )
+u.s. polo assn full sleeve solid men's sweatshirt---> men topwear formal sweatshirts&hoodies sweatshirts&hoodies sweatshirts&hoodies sweatshirts&hoodies( men topwear casual sweatshirts&hoodies )
+jack & jones solid men's waistcoat---> women jackets UNK UNK festive festive festive( men topwear formal blazers&suits )
+halogen skinny men's white jeans---> men topwear formal kurtas&sherwanis <eol>( men bottomwear casual jeans )
+frenchtrendz beige jegging---> women shorts jeans UNK UNK UNK festive( women westernwear leggings&jeggings )
+--------------------------------------------------
+
+
+Iteration: 7
+Testing from Training dataset
+belmarsh solid men's multicolor track pants---> ethnicnwear skirts skirts skirts skirts festive formal( men bottomwear casual tracks&joggers )
+zobello men's cargos---> <eol>( men bottomwear cargos )
+jonney solid men's multicolor track pants---> <eol>( men bottomwear casual tracks&joggers )
+campus sutra solid men round neck multicolor t-shirt---> jackets <eol>( men topwear casual tshirts&polos )
+protext solid single breasted formal, casual men's blazer---> <eol>( men topwear formal blazers&suits )
+*************************
+Testing from Testing dataset
+integriti galz solid women's a-line blue skirt---> ethnicnwear ethnicnwear ethnicnwear ethnicnwear men westernwear westernwear( women westernwear skirts )
+rodid solid men's round neck grey, grey t-shirt---> <eol>( men topwear casual tshirts&polos )
+lgc red jegging---> women shorts shorts UNK UNK UNK UNK( women westernwear leggings&jeggings )
+hightide maroon jegging---> bottomwear shorts shorts <eol>( women westernwear leggings&jeggings )
+jihuzur sleeveless solid men's jacket---> <eol>( men topwear festive jackets )
+--------------------------------------------------
+
+
+Iteration: 8
+Testing from Training dataset
+indian terrain printed men's round neck dark blue t-shirt---> women jackets topwear topwear festive festive festive( men topwear casual tshirts&polos )
+adbucks blue jegging---> festive festive festive topwear festive festive festive( women westernwear leggings&jeggings )
+u.s. polo assn men's solid casual black shirt---> festive festive festive topwear festive topwear sweatshirts&hoodies( men topwear casual casualshirts )
+john players full sleeve solid men's jacket---> festive topwear festive topwear festive festive festive( men topwear festive jackets )
+tooba maroon jegging---> men topwear shorts shorts <eol>( women westernwear leggings&jeggings )
+*************************
+Testing from Testing dataset
+deevineeti paisley women flared multicolor skirt---> women shorts shorts topwear topwear UNK UNK( women westernwear skirts )
+peter england solid men's polo neck blue t-shirt---> festive jackets jackets jackets festive festive westernwear( men topwear casual tshirts&polos )
+protext premium solid, striped, checkered single breasted formal, casual, festive, wedding men's blazer---> <eol>( men topwear formal blazers&suits )
+sojanya solid men's waistcoat---> <eol>( men topwear formal blazers&suits )
+kritika world sleeveless solid men's bomber jacket---> men casual kurtas&sherwanis kurtas&sherwanis <eol>( men topwear festive jackets )
+--------------------------------------------------
+
+
+Iteration: 9
+Testing from Training dataset
+reebok solid men's dark blue track pants---> <eol>( men bottomwear casual tracks&joggers )
+chemistry regular fit women's white, black trousers---> women shorts jeans UNK UNK UNK festive( women westernwear capris&tracks )
+christy world beige jegging---> men topwear formal topwear <eol>( women westernwear leggings&jeggings )
+tattva by mark anderson solid men's straight kurta---> <eol>( men topwear festive kurtas&sherwanis )
+camey printed women blue regular shorts---> bottomwear shorts shorts UNK UNK UNK festive( women westernwear shorts )
+*************************
+Testing from Testing dataset
+christy world solid men's multicolor sports shorts---> men topwear formal topwear <eol>( men bottomwear casual shorts )
+airways solid women's black denim shorts---> casual <eol>( women westernwear shorts )
+metronaut slim men's black jeans---> <eol>( men bottomwear casual jeans )
+rene embroidered men straight kurta---> <eol>( men topwear festive kurtas&sherwanis )
+tsx solid men's multicolor track pants---> <eol>( men bottomwear casual tracks&joggers )
+--------------------------------------------------
+
+
+Iteration: 10
+Testing from Training dataset
+lawman pg3 men's solid casual black shirt---> festive <eol>( men topwear casual casualshirts )
+john players full sleeve solid men's jacket---> festive <eol>( men topwear festive jackets )
+flying machine slim fit women's red trousers---> <eol>( women westernwear capris&tracks )
+arrow sport regular fit men's brown trousers---> <eol>( men bottomwear formal trousers )
+villagius round neck women's stitched blouse---> men topwear shorts shorts <eol>( women bottomwear casual jeans )
+*************************
+Testing from Testing dataset
+vero moda slim women blue jeans---> casual bottomwear <eol>( women bottomwear casual jeans )
+indus route by pantaloons solid men's straight kurta---> festive <eol>( men topwear festive kurtas&sherwanis )
+brishti creations round neck women stitched blouse---> men topwear formal kurtas&sherwanis <eol>( women bottomwear casual jeans )
+kuons avenue solid men's straight kurta---> men topwear formal kurtas&sherwanis <eol>( men topwear festive kurtas&sherwanis )
+bluestone regular fit women denim blue trousers---> men topwear shorts shorts <eol>( women westernwear capris&tracks )
+--------------------------------------------------
+
+
+Iteration: 11
+Testing from Training dataset
+crazora solid women's straight kurta---> bottomwear shorts shorts topwear topwear festive festive( women ethnicnwear kurtis )
+sheetal associates women's maxi yellow dress---> women shorts jeans topwear festive festive festive( women westernwear dresses )
+salwar studio round neck women's stitched blouse---> men topwear shorts shorts <eol>( women bottomwear casual jeans )
+bis creations full sleeve solid men sweatshirt---> festive festive topwear festive festive festive festive( men topwear casual sweatshirts&hoodies )
+john players slim fit men brown trousers---> <eol>( men bottomwear formal trousers )
+*************************
+Testing from Testing dataset
+vero moda regular fit women's black trousers---> casual bottomwear <eol>( women westernwear capris&tracks )
+wrogn full sleeve solid men's sweatshirt---> ethnicnwear ethnicnwear dresses westernwear westernwear westernwear westernwear( men topwear casual sweatshirts&hoodies )
+flying machine regular fit women's black trousers---> <eol>( women westernwear capris&tracks )
+t-base full sleeve solid men's na jacket---> <eol>( men topwear festive jackets )
+salwar studio round neck women's stitched blouse---> men topwear shorts shorts <eol>( women bottomwear casual jeans )
+--------------------------------------------------
+
+
+Iteration: 12
+Testing from Training dataset
+u.s. polo assn solid men's polo neck green t-shirt---> capris&tracks festive formal kurtas&sherwanis formal <eol>( men topwear casual tshirts&polos )
+showoff printed men's waistcoat---> <eol>( men topwear formal blazers&suits )
+reebok solid men's round neck black t-shirt---> <eol>( men topwear casual tshirts&polos )
+leezone solid single breasted formal men's blazer---> <eol>( men topwear formal blazers&suits )
+njs skinny women multicolor jeans---> bottomwear shorts UNK UNK festive festive festive( women bottomwear casual jeans )
+*************************
+Testing from Testing dataset
+arcticplus full sleeve solid men's na jacket---> ethnicnwear ethnicnwear dresses westernwear westernwear westernwear westernwear( men topwear festive jackets )
+silver organisation women's fit and flare multicolor dress---> men shorts shorts shorts shorts <eol>( women westernwear dresses )
+mangal square neck women stitched blouse---> men topwear formal formal kurtas&sherwanis <eol>( women bottomwear casual jeans )
+rinkoo fashion neck women stitched blouse---> women shorts UNK UNK festive festive festive( women bottomwear casual jeans )
+woodrow slim women's grey jeans---> women festive festive topwear festive festive festive( women bottomwear casual jeans )
+--------------------------------------------------
+
+
+Iteration: 13
+Testing from Training dataset
+crease & clips women's shirt dark blue dress---> women shorts shorts topwear festive festive festive( women westernwear dresses )
+ansh fashion wear regular women white, black jeans---> ethnicnwear ethnicnwear UNK UNK westernwear westernwear westernwear( women bottomwear casual jeans )
+arcticplus full sleeve solid men's na jacket---> ethnicnwear ethnicnwear capris&tracks westernwear westernwear westernwear westernwear( men topwear festive jackets )
+young trendz printed men's round neck grey t-shirt---> festive festive festive festive festive festive festive( men topwear casual tshirts&polos )
+izod full sleeve graphic print men sweatshirt---> ethnicnwear ethnicnwear capris&tracks westernwear westernwear westernwear festive( men topwear casual sweatshirts&hoodies )
+*************************
+Testing from Testing dataset
+belomoda women's fit and flare multicolor dress---> capris&tracks festive formal topwear topwear <eol>( women westernwear dresses )
+softrose solid women's grey, pink cycling shorts---> women jeans jeans festive festive festive festive( women westernwear shorts )
+frenchtrendz black jegging---> women jeans UNK festive festive festive festive( women westernwear leggings&jeggings )
+salwar studio round neck women's stitched blouse---> men topwear shorts shorts <eol>( women bottomwear casual jeans )
+pepe jeans full sleeve solid men's jacket---> ethnicnwear ethnicnwear ethnicnwear ethnicnwear kurtas&sherwanis kurtas&sherwanis kurtas&sherwanis( men topwear festive jackets )
+--------------------------------------------------
+
+
+Iteration: 14
+Testing from Training dataset
+adidas full sleeve solid men's sweatshirt---> ethnicnwear ethnicnwear ethnicnwear westernwear westernwear westernwear westernwear( men topwear casual sweatshirts&hoodies )
+reebok printed men's round neck black, grey t-shirt---> <eol>( men topwear casual tshirts&polos )
+2go solid women's orange sports shorts---> ethnicnwear ethnicnwear westernwear westernwear westernwear westernwear westernwear( women westernwear shorts )
+momin libas ac12414_120 poly crepe solid abaya---> ethnicnwear ethnicnwear ethnicnwear ethnicnwear capris&tracks capris&tracks westernwear( women ethnicnwear hijab&abaya )
+sports 52 wear men's cargos---> men topwear shorts shorts topwear topwear festive( men bottomwear cargos )
+*************************
+Testing from Testing dataset
+adidas solid men's black track pants---> ethnicnwear ethnicnwear ethnicnwear westernwear westernwear westernwear westernwear( men bottomwear casual tracks&joggers )
+honey by pantaloons regular fit women's black trousers---> bottomwear shorts shorts topwear topwear festive festive( women westernwear capris&tracks )
+sofias (as2-001 _black_free size) al nida fabric women's abaya with hijab---> ethnicnwear ethnicnwear ethnicnwear capris&tracks westernwear westernwear westernwear( women ethnicnwear hijab&abaya )
+christy world solid men's multicolor sports shorts---> men topwear formal shorts <eol>( men bottomwear casual shorts )
+campus sutra full sleeve printed men sweatshirt---> festive jackets festive festive festive westernwear westernwear( men topwear casual sweatshirts&hoodies )
+--------------------------------------------------
+
+
+Iteration: 15
+Testing from Training dataset
+rakshita collection solid men's multicolor basic shorts---> topwear festive topwear <eol>( men bottomwear casual shorts )
+campus sutra full sleeve solid men sweatshirt---> festive festive festive festive festive westernwear westernwear( men topwear casual sweatshirts&hoodies )
+tinted solid men's henley maroon t-shirt---> ethnicnwear formal westernwear westernwear westernwear westernwear westernwear( men topwear casual tshirts&polos )
+ad & av regular fit men's multicolor trousers---> festive festive festive festive festive festive westernwear( men bottomwear formal trousers )
+london fog full sleeve solid men jacket---> dresses UNK UNK westernwear westernwear westernwear westernwear( men topwear festive jackets )
+*************************
+Testing from Testing dataset
+pepe jeans solid women's blue basic shorts---> ethnicnwear ethnicnwear ethnicnwear ethnicnwear ethnicnwear kurtas&sherwanis kurtas&sherwanis( women westernwear shorts )
+christy world solid men's dark blue track pants---> men topwear shorts shorts <eol>( men bottomwear casual tracks&joggers )
+ethiic solid men's straight kurta---> ethnicnwear dresses formal westernwear westernwear formal formal( men topwear festive kurtas&sherwanis )
+metronaut printed men's round neck maroon t-shirt---> formal formal skirts westernwear westernwear westernwear westernwear( men topwear casual tshirts&polos )
+zobello men's cargos---> <eol>( men bottomwear cargos )
+--------------------------------------------------
+
+
+Iteration: 16
+Testing from Training dataset
+favoroski solid single breasted party men blazer---> ethnicnwear ethnicnwear capris&tracks westernwear westernwear westernwear formal( men topwear formal blazers&suits )
+frenchtrendz purple jegging---> women shorts jeans festive festive festive festive( women westernwear leggings&jeggings )
+lee skinny men's dark blue jeans---> dresses skirts westernwear westernwear westernwear westernwear westernwear( men bottomwear casual jeans )
+rajrang animal print women's wrap around red skirt---> ethnicnwear ethnicnwear ethnicnwear formal westernwear formal kurtas&sherwanis( women westernwear skirts )
+buynewtrend printed women's wrap around brown skirt---> women jeans jeans festive festive festive festive( women westernwear skirts )
+*************************
+Testing from Testing dataset
+adidas solid men's grey track pants---> ethnicnwear ethnicnwear dresses westernwear westernwear westernwear westernwear( men bottomwear casual tracks&joggers )
+claura solid women's black, grey tights---> men shorts shorts shorts shorts topwear topwear( women westernwear leggings&jeggings )
+tsx printed, solid men's blue, grey track pants---> formal <eol>( men bottomwear casual tracks&joggers )
+peter england solid single breasted casual men's blazer---> festive festive topwear festive festive festive westernwear( men topwear formal blazers&suits )
+jealous women dark blue jeans---> women shorts UNK UNK festive festive festive( women bottomwear casual jeans )
+--------------------------------------------------
+
+
+Iteration: 17
+Testing from Training dataset
+eazy casual printed women's kurti---> dresses dresses skirts skirts westernwear westernwear westernwear( women ethnicnwear kurtis )
+reebok printed women's multicolor sports shorts---> festive <eol>( women westernwear shorts )
+teesort floral print women's pink basic shorts, hotpants---> dresses capris&tracks festive westernwear westernwear westernwear westernwear( women westernwear shorts )
+bullseye full sleeve solid men & women sweatshirt---> dresses formal formal topwear westernwear formal topwear( men topwear casual sweatshirts&hoodies )
+tribewear slim men's dark blue jeans---> men bottomwear casual shorts shorts shorts shorts( men bottomwear casual jeans )
+*************************
+Testing from Testing dataset
+solly jeans co printed men's round neck yellow t-shirt---> festive festive festive westernwear westernwear westernwear westernwear( men topwear casual tshirts&polos )
+jihuzur sleeveless printed men's jacket---> ethnicnwear dresses capris&tracks formal formal formal formal( men topwear festive jackets )
+manq solid men's waistcoat---> formal jackets jackets westernwear westernwear westernwear westernwear( men topwear formal blazers&suits )
+0-degree slim men's light blue jeans---> ethnicnwear dresses capris&tracks westernwear westernwear westernwear westernwear( men bottomwear casual jeans )
+louis fashion round neck women's stitched blouse---> shorts <eol>( women bottomwear casual jeans )
+--------------------------------------------------
+
+
+Iteration: 18
+Testing from Training dataset
+clivemont regular fit men's black trousers---> capris&tracks festive festive festive topwear festive festive( men bottomwear formal trousers )
+purplicious printed women's blue denim shorts---> casual shorts shorts topwear topwear festive festive( women westernwear shorts )
+campus sutra full sleeve solid men's jacket---> festive jeans jeans festive westernwear westernwear westernwear( men topwear festive jackets )
+aurelia slim fit women's black trousers---> bottomwear shorts shorts topwear topwear topwear topwear( women westernwear capris&tracks )
+ashdan men's cargos---> <eol>( men bottomwear cargos )
+*************************
+Testing from Testing dataset
+bewakoof printed men's round neck black t-shirt---> ethnicnwear festive festive westernwear westernwear westernwear westernwear( men topwear casual tshirts&polos )
+jihuzur sleeveless checkered men's jacket---> ethnicnwear dresses capris&tracks westernwear westernwear topwear formal( men topwear festive jackets )
+3 concept checkered men's multicolor chino shorts---> women festive topwear topwear festive festive festive( men bottomwear casual shorts )
+kritika's world sleeveless self design men's jacket---> women festive topwear topwear topwear topwear festive( men topwear festive jackets )
+rajrang striped men's straight kurta---> ethnicnwear ethnicnwear capris&tracks capris&tracks westernwear westernwear formal( men topwear festive kurtas&sherwanis )
+--------------------------------------------------
+
+
+Iteration: 19
+Testing from Training dataset
+salwar studio square neck women's stitched blouse---> men shorts shorts shorts shorts shorts topwear( women bottomwear casual jeans )
+beevee solid men's white track pants---> women ethnicnwear ethnicnwear dresses capris&tracks capris&tracks skirts( men bottomwear casual tracks&joggers )
+adidas full sleeve solid men's sweatshirt---> ethnicnwear ethnicnwear capris&tracks festive westernwear westernwear westernwear( men topwear casual sweatshirts&hoodies )
+vvoguish women's a-line maroon dress---> women jeans jeans festive festive festive westernwear( women westernwear dresses )
+sayitloud striped men's blue, white gym shorts---> festive jackets jackets westernwear westernwear westernwear westernwear( men bottomwear casual shorts )
+*************************
+Testing from Testing dataset
+aurelia women's yellow trousers---> bottomwear shorts shorts topwear topwear topwear festive( women westernwear capris&tracks )
+people skinny women's blue jeans---> bottomwear jeans jeans festive festive festive festive( women bottomwear casual jeans )
+kritika world sleeveless solid men's bomber jacket---> casual shorts shorts shorts shorts topwear topwear( men topwear festive jackets )
+belmarsh solid women black, black, red, black cycling shorts---> ethnicnwear dresses dresses capris&tracks festive formal formal( women westernwear shorts )
+spykar full sleeve solid men's jacket---> ethnicnwear ethnicnwear ethnicnwear dresses dresses dresses dresses( men topwear festive jackets )
+--------------------------------------------------
+
+
+Iteration: 20
+Testing from Training dataset
+n2creations floral print women wrap around multicolor skirt---> women jeans jeans festive festive festive westernwear( women westernwear skirts )
+biyu round neck women stitched blouse---> shorts shorts topwear topwear festive festive festive( women bottomwear casual jeans )
+elepants graphic print men's round neck black t-shirt---> formal formal westernwear westernwear westernwear westernwear westernwear( men topwear casual tshirts&polos )
+canary london solid single breasted casual men blazer---> women festive festive topwear festive festive festive( men topwear formal blazers&suits )
+adbucks slim women's blue jeans---> women festive festive topwear festive festive festive( women bottomwear casual jeans )
+*************************
+Testing from Testing dataset
+christy world solid men's multicolor sports shorts---> men topwear shorts shorts shorts topwear topwear( men bottomwear casual shorts )
+club york full sleeve striped men's sweatshirt---> <eol>( men topwear casual sweatshirts&hoodies )
+being fab men's solid casual white shirt---> festive capris&tracks festive topwear festive topwear topwear( men topwear casual casualshirts )
+van heusen solid single breasted formal men's blazer---> formal UNK jackets westernwear westernwear westernwear westernwear( men topwear formal blazers&suits )
+kritika world skinny women's multicolor jeans---> casual shorts shorts shorts shorts topwear topwear( women bottomwear casual jeans )
+--------------------------------------------------
+
+
+Iteration: 21
+Testing from Training dataset
+momin libas a 66-14_72 polycrepe abaya---> ethnicnwear ethnicnwear ethnicnwear capris&tracks capris&tracks capris&tracks formal( women ethnicnwear hijab&abaya )
+sports 52 wear men's cargos---> westernwear festive topwear festive festive festive festive( men bottomwear cargos )
+levi's slim men's blue jeans---> formal formal westernwear westernwear westernwear westernwear westernwear( men bottomwear casual jeans )
+camey self design women's a-line blue skirt---> bottomwear shorts jeans topwear festive festive festive( women westernwear skirts )
+salwar studio self design men's straight kurta---> men shorts shorts shorts shorts shorts topwear( men topwear festive kurtas&sherwanis )
+*************************
+Testing from Testing dataset
+candy house solid men's multicolor basic shorts---> formal formal topwear topwear festive festive westernwear( men bottomwear casual shorts )
+w solid women's straight kurta---> bottomwear shorts shorts topwear topwear festive festive( women ethnicnwear kurtis )
+wisstler printed women's multicolor regular shorts---> women shorts jeans topwear festive festive festive( women westernwear shorts )
+u.s. polo assn women shirt black dress---> capris&tracks festive festive topwear topwear topwear topwear( women westernwear dresses )
+natty india slim fit women's gold, black trousers---> bottomwear shorts shorts topwear topwear topwear festive( women westernwear capris&tracks )
+--------------------------------------------------
+
+
+Iteration: 22
+Testing from Training dataset
+carrel round neck women's stitched blouse---> <eol>( women bottomwear casual jeans )
+john players regular fit men's black trousers---> formal formal topwear topwear westernwear westernwear westernwear( men bottomwear formal trousers )
+only skinny women's blue jeans---> women jeans jeans jeans festive westernwear westernwear( women bottomwear casual jeans )
+rodid men's solid casual black shirt---> formal formal westernwear westernwear westernwear westernwear westernwear( men topwear casual casualshirts )
+nimegh slim fit men maroon trousers---> ethnicnwear dresses capris&tracks westernwear formal kurtas&sherwanis kurtas&sherwanis( men bottomwear formal trousers )
+*************************
+Testing from Testing dataset
+teesort embellished, solid men's grey track pants---> formal formal westernwear westernwear westernwear westernwear leggings&jeggings( men bottomwear casual tracks&joggers )
+maniac solid men's dark blue track pants---> ethnicnwear UNK westernwear westernwear westernwear westernwear westernwear( men bottomwear casual tracks&joggers )
+united colors of benetton striped women's asymetric yellow, white skirt---> ethnicnwear capris&tracks festive festive topwear casualshirts formal( women westernwear skirts )
+jockey men's shorts---> formal formal westernwear westernwear westernwear westernwear westernwear( men bottomwear casual shorts )
+john players slim fit men's beige trousers---> formal formal topwear topwear westernwear westernwear westernwear( men bottomwear formal trousers )
+--------------------------------------------------
+
+
+Iteration: 23
+Testing from Training dataset
+u.s. polo assn slim fit men's black trousers---> men bottomwear shorts shorts topwear topwear topwear( men bottomwear formal trousers )
+tab91 printed men multicolor bermuda shorts---> formal formal westernwear westernwear westernwear westernwear westernwear( men bottomwear casual shorts )
+hypernation solid women's black basic shorts---> <eol>( women westernwear shorts )
+rakshita collection self design men's grey track pants---> topwear formal formal topwear topwear topwear topwear( men bottomwear casual tracks&joggers )
+lgc red jegging---> bottomwear shorts topwear topwear topwear festive topwear( women westernwear leggings&jeggings )
+*************************
+Testing from Testing dataset
+ashdan men's cargos---> <eol>( men bottomwear cargos )
+lawman pg3 slim men's blue jeans---> formal formal topwear topwear topwear festive topwear( men bottomwear casual jeans )
+rakshita collection solid men's multicolor track pants---> topwear formal formal topwear topwear topwear topwear( men bottomwear casual tracks&joggers )
+adbucks blue jegging---> women shorts festive topwear topwear topwear topwear( women westernwear leggings&jeggings )
+scullers slim fit men's black trousers---> ethnicnwear ethnicnwear westernwear westernwear westernwear westernwear kurtas&sherwanis( men bottomwear formal trousers )
+--------------------------------------------------
+
+
+Iteration: 24
+Testing from Training dataset
+nike solid men's black sports shorts---> formal jackets westernwear westernwear westernwear westernwear westernwear( men bottomwear casual shorts )
+u.s. polo assn slim men's black jeans---> men capris&tracks shorts topwear topwear topwear topwear( men bottomwear casual jeans )
+superdry full sleeve solid men's sweatshirt---> ethnicnwear capris&tracks westernwear westernwear westernwear topwear leggings&jeggings( men topwear casual sweatshirts&hoodies )
+kritika world sleeveless solid men's bomber jacket---> casual shorts shorts shorts <eol>( men topwear festive jackets )
+nifty slim women's light blue jeans---> women shorts topwear topwear topwear festive topwear( women bottomwear casual jeans )
+*************************
+Testing from Testing dataset
+viva n diva 11204-abaya lycra self design abaya with hijab---> ethnicnwear ethnicnwear festive festive jackets westernwear westernwear( women ethnicnwear hijab&abaya )
+one femme printed women's multicolor basic shorts---> men formal topwear topwear topwear topwear topwear( women westernwear shorts )
+fashion cult slim women grey jeans---> formal formal topwear topwear westernwear westernwear westernwear( women bottomwear casual jeans )
+u.s. polo assn slim fit men's black trousers---> men capris&tracks shorts topwear topwear topwear topwear( men bottomwear formal trousers )
+fourgee slim women's black jeans---> bottomwear shorts jeans topwear festive festive festive( women bottomwear casual jeans )
+--------------------------------------------------
+
+
+Iteration: 25
+Testing from Training dataset
+fever slim fit men brown trousers---> formal formal westernwear westernwear westernwear westernwear westernwear( men bottomwear formal trousers )
+candy house solid men's multicolor sports shorts---> women formal topwear topwear topwear westernwear westernwear( men bottomwear casual shorts )
+rodid men's solid casual purple shirt---> formal formal westernwear westernwear westernwear westernwear westernwear( men topwear casual casualshirts )
+stop look full sleeve solid men's jacket---> bottomwear shorts shorts topwear topwear topwear topwear( men topwear festive jackets )
+mamosa solid women's a-line kurta---> bottomwear shorts jeans topwear topwear festive festive( women ethnicnwear kurtis )
+*************************
+Testing from Testing dataset
+i-voc solid men's a-line kurta---> ethnicnwear dresses westernwear westernwear westernwear formal formal( men topwear festive kurtas&sherwanis )
+deyann solid men's straight kurta---> ethnicnwear ethnicnwear dresses westernwear westernwear westernwear formal( men topwear festive kurtas&sherwanis )
+maniac solid men's v-neck green t-shirt---> formal formal westernwear westernwear westernwear westernwear westernwear( men topwear casual tshirts&polos )
+alaska sleeveless solid men's quilted jacket---> men topwear formal formal formal formal topwear( men topwear festive jackets )
+john miller regular fit men's beige trousers---> formal formal topwear topwear westernwear westernwear westernwear( men bottomwear formal trousers )
+--------------------------------------------------
+
+
+Iteration: 26
+Testing from Training dataset
+bfly printed women's multicolor regular shorts---> dresses dresses westernwear westernwear westernwear skirts skirts( women westernwear shorts )
+kritika world sleeveless solid men's bomber jacket---> casual shorts shorts <eol>( men topwear festive jackets )
+u.s. polo assn regular men's black jeans---> men capris&tracks shorts topwear topwear topwear topwear( men bottomwear casual jeans )
+leezone solid single breasted formal men's blazer---> formal formal westernwear westernwear westernwear westernwear westernwear( men topwear formal blazers&suits )
+jg forceman men cargos---> women ethnicnwear capris&tracks capris&tracks westernwear westernwear westernwear( men bottomwear cargos )
+*************************
+Testing from Testing dataset
+hardys full sleeve solid men's sweatshirt---> ethnicnwear ethnicnwear westernwear westernwear capris&tracks topwear formal( men topwear casual sweatshirts&hoodies )
+john players men's solid casual dark blue shirt---> formal formal topwear westernwear westernwear westernwear westernwear( men topwear casual casualshirts )
+maniac solid men's v-neck grey, red t-shirt---> formal formal westernwear westernwear westernwear westernwear westernwear( men topwear casual tshirts&polos )
+flaunt slim women's dark blue jeans---> bottomwear shorts shorts topwear topwear topwear festive( women bottomwear casual jeans )
+w solid women's orange tights---> bottomwear shorts shorts topwear topwear festive festive( women westernwear leggings&jeggings )
+--------------------------------------------------
+
+
+Iteration: 27
+Testing from Training dataset
+u.s. polo assn slim fit men beige trousers---> men capris&tracks shorts topwear festive topwear topwear( men bottomwear formal trousers )
+showoff printed single breasted casual men's blazer---> formal formal westernwear westernwear westernwear westernwear westernwear( men topwear formal blazers&suits )
+christy's collection full sleeve printed men's sweatshirt---> ethnicnwear formal westernwear formal formal formal formal( men topwear casual sweatshirts&hoodies )
+salwar studio round neck women's stitched blouse---> men shorts shorts shorts sweatshirts&hoodies topwear topwear( women bottomwear casual jeans )
+kritika's world solid men's light green sports shorts---> women festive topwear topwear topwear topwear topwear( men bottomwear casual shorts )
+*************************
+Testing from Testing dataset
+rg designers solid men straight kurta---> men topwear formal formal topwear topwear topwear( men topwear festive kurtas&sherwanis )
+lawman pg3 slim men's blue jeans---> formal formal topwear westernwear westernwear westernwear westernwear( men bottomwear casual jeans )
+trinity jeans company solid men's black track pants---> formal topwear westernwear westernwear westernwear westernwear westernwear( men bottomwear casual tracks&joggers )
+w women's a-line black, grey dress---> bottomwear shorts shorts topwear topwear festive festive( women westernwear dresses )
+anmi printed women's flared kurta---> bottomwear shorts shorts topwear topwear festive festive( women ethnicnwear kurtis )
+--------------------------------------------------
+
+
+Iteration: 28
+Testing from Training dataset
+wrangler slim women's blue jeans---> westernwear formal westernwear westernwear westernwear westernwear westernwear( women bottomwear casual jeans )
+peter england university slim fit men's beige trousers---> topwear westernwear westernwear westernwear westernwear westernwear leggings&jeggings( men bottomwear formal trousers )
+louis fashion round neck women's stitched blouse---> formal topwear topwear festive westernwear westernwear westernwear( women bottomwear casual jeans )
+nautica full sleeve solid men jacket---> topwear UNK westernwear westernwear westernwear westernwear westernwear( men topwear festive jackets )
+american-elm solid women regular black skirt---> women shorts shorts topwear topwear festive festive( women westernwear skirts )
+*************************
+Testing from Testing dataset
+pavis skinny women blue jeans---> bottomwear shorts jeans festive festive festive festive( women bottomwear casual jeans )
+sassafras women's shift red dress---> bottomwear shorts jeans topwear festive festive festive( women westernwear dresses )
+natty india printed women's beige basic shorts---> bottomwear shorts shorts topwear topwear topwear festive( women westernwear shorts )
+club york full sleeve printed men's sweatshirt---> <eol>( men topwear casual sweatshirts&hoodies )
+ad & av regular fit men's white trousers---> ethnicnwear dresses westernwear westernwear westernwear skirts skirts( men bottomwear formal trousers )
+--------------------------------------------------
+
+
+Iteration: 29
+Testing from Training dataset
+ngt slim women dark blue jeans---> bottomwear shorts jeans topwear festive festive festive( women bottomwear casual jeans )
+dennis lingo men's solid casual beige shirt---> formal formal westernwear westernwear westernwear westernwear leggings&jeggings( men topwear casual casualshirts )
+spartan solid men & women black sports shorts---> men shorts shorts sweatshirts&hoodies sweatshirts&hoodies topwear topwear( women westernwear shorts )
+fast n fashion solid men's light blue chino shorts---> formal topwear westernwear westernwear westernwear westernwear westernwear( men bottomwear casual shorts )
+deeksha men's solid casual blue shirt---> formal westernwear westernwear westernwear westernwear westernwear leggings&jeggings( men topwear casual casualshirts )
+*************************
+Testing from Testing dataset
+tommy hilfiger men's checkered casual brown shirt---> formal topwear festive topwear festive topwear festive( men topwear casual casualshirts )
+campus sutra full sleeve solid men fleece jacket---> women westernwear westernwear westernwear westernwear westernwear westernwear( men topwear festive jackets )
+rakshita collection solid men's multicolor track pants---> men topwear formal formal topwear westernwear westernwear( men bottomwear casual tracks&joggers )
+ed hardy solid men's round neck blue t-shirt---> casual capris&tracks festive festive festive topwear festive( men topwear casual tshirts&polos )
+rakshita collection solid men's multicolor sports shorts---> men topwear formal formal topwear westernwear westernwear( men bottomwear casual shorts )
+--------------------------------------------------
+
+
+Iteration: 30
+Testing from Training dataset
+shaurya-f regular fit men's linen white trousers---> formal formal westernwear westernwear westernwear westernwear westernwear( men bottomwear formal trousers )
+ansh fashion wear solid women's blue, black denim shorts---> ethnicnwear UNK westernwear westernwear westernwear westernwear westernwear( women westernwear shorts )
+tab91 self design men's dark blue basic shorts---> formal westernwear westernwear westernwear westernwear westernwear westernwear( men bottomwear casual shorts )
+rakshita collection sleeveless self design men's jacket---> men topwear formal formal topwear westernwear westernwear( men topwear festive jackets )
+candy house solid men's multicolor track pants---> women westernwear westernwear westernwear westernwear westernwear westernwear( men bottomwear casual tracks&joggers )
+*************************
+Testing from Testing dataset
+psk men's solid formal green shirt---> ethnicnwear westernwear westernwear westernwear westernwear westernwear westernwear( men topwear casual casualshirts )
+christy world solid men's multicolor sports shorts---> men topwear formal topwear topwear topwear topwear( men bottomwear casual shorts )
+2go solid men black sports shorts---> ethnicnwear westernwear westernwear westernwear westernwear westernwear westernwear( men bottomwear casual shorts )
+beevee men cargos---> women ethnicnwear dresses hijab&abaya westernwear westernwear westernwear( men bottomwear casual shorts )
+kritika world skinny women's multicolor jeans---> bottomwear shorts shorts <eol>( women bottomwear casual jeans )
+--------------------------------------------------
+
+
+Iteration: 31
+Testing from Training dataset
+superdry full sleeve solid men's sweatshirt---> ethnicnwear hijab&abaya westernwear westernwear westernwear westernwear skirts( men topwear casual sweatshirts&hoodies )
+vero moda women's blouson black dress---> women shorts jeans jeans festive festive festive( women westernwear dresses )
+surji international striped women's broomstick white skirt---> bottomwear shorts jeans festive festive festive festive( women westernwear skirts )
+rakshita collection sleeveless solid men's jacket---> men topwear formal formal westernwear westernwear westernwear( men topwear festive jackets )
+american-elm women pink capri---> bottomwear shorts shorts festive festive festive festive( women westernwear capris&tracks )
+*************************
+Testing from Testing dataset
+u.s. polo assn men's checkered casual multicolor shirt---> women capris&tracks shorts festive festive topwear festive( men topwear casual casualshirts )
+forever 21 solid women grey night shorts---> bottomwear shorts shorts topwear festive festive festive( women westernwear shorts )
+airways beige jegging---> women jeans jeans jeans festive westernwear westernwear( women westernwear leggings&jeggings )
+iwonder printed women's a-line multicolor skirt---> bottomwear shorts shorts festive topwear festive festive( women westernwear skirts )
+u.s. polo assn solid men's polo neck red t-shirt---> women capris&tracks shorts festive festive topwear festive( men topwear casual tshirts&polos )
+--------------------------------------------------
+
+
+Iteration: 32
+Testing from Training dataset
+ed hardy slim men's blue jeans---> casual capris&tracks festive festive festive festive westernwear( men bottomwear casual jeans )
+grand stitch full sleeve solid men's sweatshirt---> men topwear westernwear westernwear westernwear westernwear westernwear( men topwear casual sweatshirts&hoodies )
+abaya al1028 nida self design burqa---> ethnicnwear ethnicnwear dresses dresses dresses dresses skirts( women ethnicnwear hijab&abaya )
+united colors of benetton printed men's orange basic shorts---> ethnicnwear dresses westernwear westernwear skirts skirts skirts( men bottomwear casual shorts )
+lee skinny men's blue jeans---> formal westernwear westernwear westernwear westernwear westernwear westernwear( men bottomwear casual jeans )
+*************************
+Testing from Testing dataset
+spykar full sleeve solid men's sweatshirt---> ethnicnwear topwear topwear westernwear westernwear westernwear westernwear( men topwear casual sweatshirts&hoodies )
+deevineeti striped women wrap around multicolor skirt---> bottomwear shorts shorts festive festive festive festive( women westernwear skirts )
+iwonder printed women's a-line brown skirt---> bottomwear shorts shorts festive festive topwear festive( women westernwear skirts )
+ansh fashion wear regular men's blue jeans---> ethnicnwear UNK westernwear westernwear westernwear westernwear westernwear( men bottomwear casual jeans )
+momin libas a 49-14 kashibo abaya---> ethnicnwear ethnicnwear dresses dresses skirts skirts skirts( women ethnicnwear hijab&abaya )
+--------------------------------------------------
+
+
+Iteration: 33
+Testing from Training dataset
+lady stark women's bandage white, black dress---> bottomwear shorts shorts festive festive topwear festive( women westernwear dresses )
+flying machine women's shift grey dress---> dresses westernwear westernwear westernwear westernwear westernwear skirts( women westernwear dresses )
+wrangler slim men's dark blue jeans---> formal westernwear westernwear westernwear westernwear westernwear westernwear( men bottomwear casual jeans )
+isweven solid women's black tights---> bottomwear shorts shorts festive festive festive festive( women westernwear leggings&jeggings )
+abdul haadi ml587brown-ss linen solid abaya---> ethnicnwear ethnicnwear dresses dresses skirts skirts skirts( women ethnicnwear hijab&abaya )
+*************************
+Testing from Testing dataset
+vimal solid men's multicolor track pants---> <eol>( men bottomwear casual tracks&joggers )
+rakshita collection solid men's multicolor track pants---> men topwear westernwear westernwear westernwear westernwear westernwear( men bottomwear casual tracks&joggers )
+athena women's a-line blue, multicolor dress---> bottomwear shorts festive festive festive festive festive( women westernwear dresses )
+hoor solid women's regular yellow skirt---> formal formal westernwear westernwear westernwear westernwear westernwear( women westernwear skirts )
+nifty slim women's beige jeans---> bottomwear shorts jeans festive festive festive festive( women bottomwear casual jeans )
+--------------------------------------------------
+
+
+Iteration: 34
+Testing from Training dataset
+ngt solid women pleated multicolor skirt---> bottomwear shorts jeans festive festive festive festive( women westernwear skirts )
+areum u-neck women stitched blouse---> bottomwear shorts festive festive festive festive festive( women bottomwear casual jeans )
+oleva multicolor jegging---> bottomwear shorts shorts festive festive festive festive( women westernwear leggings&jeggings )
+only skinny women's blue jeans---> women skirts skirts skirts skirts skirts westernwear( women bottomwear casual jeans )
+alisha solid women's multicolor cycling shorts---> women shorts jeans festive festive festive westernwear( women westernwear shorts )
+*************************
+Testing from Testing dataset
+rakshita's collection solid men's multicolor track pants---> men topwear festive festive festive festive festive( men bottomwear casual tracks&joggers )
+kalaa embroidered men's straight kurta---> ethnicnwear ethnicnwear westernwear westernwear westernwear westernwear westernwear( men topwear festive kurtas&sherwanis )
+gag wear solid men's grey track pants---> jackets UNK westernwear westernwear westernwear westernwear westernwear( men bottomwear casual tracks&joggers )
+breakbounce regular fit men's grey trousers---> ethnicnwear formal westernwear westernwear westernwear skirts skirts( men bottomwear formal trousers )
+isadora women's fit and flare pink dress---> bottomwear shorts shorts festive festive festive festive( women westernwear dresses )
+--------------------------------------------------
+
+
+Iteration: 35
+Testing from Training dataset
+bare skin full sleeve solid men's jacket---> ethnicnwear westernwear westernwear westernwear westernwear westernwear skirts( men topwear festive jackets )
+kritika world sleeveless solid men's bomber jacket---> bottomwear shorts sweatshirts&hoodies sweatshirts&hoodies <eol>( men topwear festive jackets )
+dee mannequin solid women's black basic shorts---> men topwear festive topwear festive topwear topwear( women westernwear shorts )
+peter england slim fit men's black trousers---> women westernwear westernwear westernwear westernwear skirts skirts( men bottomwear formal trousers )
+fashion stylus slim women's dark blue jeans---> formal formal jackets westernwear westernwear westernwear skirts( women bottomwear casual jeans )
+*************************
+Testing from Testing dataset
+fasnoya solid women's blue hotpants---> bottomwear festive jeans festive festive westernwear westernwear( women westernwear shorts )
+carrel fashion neck women's stitched blouse---> <eol>( women bottomwear casual jeans )
+indian terrain men's printed casual blue shirt---> women festive festive festive festive festive festive( men topwear casual casualshirts )
+fck-3 slim women's light blue jeans---> bottomwear jeans jeans festive skirts westernwear westernwear( women bottomwear casual jeans )
+ngt flared women beige trousers---> bottomwear shorts jeans festive festive festive festive( women westernwear capris&tracks )
+--------------------------------------------------
+
+
+Iteration: 36
+Testing from Training dataset
+peter england slim fit men's dark blue trousers---> women westernwear westernwear westernwear westernwear westernwear skirts( men bottomwear formal trousers )
+aurelia slim fit women's beige trousers---> bottomwear shorts shorts festive festive festive festive( women westernwear capris&tracks )
+tribewear slim men's dark blue jeans---> men topwear shorts shorts shorts shorts shorts( men bottomwear casual jeans )
+maniac solid men's henley blue, black t-shirt---> UNK UNK westernwear westernwear westernwear westernwear westernwear( men topwear casual tshirts&polos )
+showoff printed men's brown chino shorts---> formal UNK westernwear westernwear westernwear westernwear westernwear( men bottomwear casual shorts )
+*************************
+Testing from Testing dataset
+jealous club 21 regular fit women's black trousers---> bottomwear shorts jeans festive festive festive westernwear( women westernwear capris&tracks )
+rebozo solid men's straight kurta---> ethnicnwear ethnicnwear westernwear westernwear westernwear westernwear westernwear( men topwear festive kurtas&sherwanis )
+adidas solid men's grey basic shorts---> ethnicnwear UNK westernwear westernwear westernwear westernwear westernwear( men bottomwear casual shorts )
+greenhouse solid men black track pants---> women westernwear westernwear westernwear westernwear westernwear skirts( men bottomwear casual tracks&joggers )
+feed up solid men's straight kurta---> men topwear festive festive festive festive festive( men topwear festive kurtas&sherwanis )
+--------------------------------------------------
+
+
+Iteration: 37
+Testing from Training dataset
+blackberrys regular fit men's grey trousers---> <eol>( men bottomwear formal trousers )
+lee men's printed casual blue shirt---> dresses westernwear westernwear westernwear westernwear westernwear westernwear( men topwear casual casualshirts )
+svanik solid men's straight kurta---> ethnicnwear UNK westernwear westernwear westernwear westernwear westernwear( men topwear festive kurtas&sherwanis )
+nation polo club slim fit men's linen beige trousers---> men men topwear festive festive westernwear westernwear( men bottomwear formal trousers )
+kritika world skinny women's multicolor jeans---> bottomwear shorts sweatshirts&hoodies sweatshirts&hoodies festive topwear festive( women bottomwear casual jeans )
+*************************
+Testing from Testing dataset
+campus sutra full sleeve printed men sweatshirt---> women westernwear westernwear westernwear westernwear westernwear westernwear( men topwear casual sweatshirts&hoodies )
+nfc solid men's straight kurta---> ethnicnwear <eol>( men topwear festive kurtas&sherwanis )
+oxolloxo solid women a-line maroon skirt---> bottomwear shorts jeans festive festive festive festive( women westernwear skirts )
+focus blue jegging---> bottomwear shorts festive festive festive festive westernwear( women westernwear leggings&jeggings )
+maniac solid men's v-neck grey, red t-shirt---> <eol>( men topwear casual tshirts&polos )
+--------------------------------------------------
+
+
+Iteration: 38
+Testing from Training dataset
+2go solid men blue track pants---> ethnicnwear westernwear westernwear westernwear westernwear westernwear westernwear( men bottomwear casual tracks&joggers )
+kritika's world solid men's multicolor sports shorts---> men festive festive festive festive festive westernwear( men bottomwear casual shorts )
+u.s. polo assn. skinny men's blue jeans---> women capris&tracks festive festive leggings&jeggings festive festive( men bottomwear casual jeans )
+lgc beige jegging---> bottomwear shorts jeans festive festive festive festive( women westernwear leggings&jeggings )
+peter england full sleeve solid men's jacket---> women westernwear westernwear westernwear westernwear westernwear skirts( men topwear festive jackets )
+*************************
+Testing from Testing dataset
+honey by pantaloons regular fit women's dark blue trousers---> bottomwear shorts jeans festive festive festive festive( women westernwear capris&tracks )
+fashion2wear women's maxi black dress---> bottomwear shorts jeans festive festive festive festive( women westernwear dresses )
+beevee regular fit men's grey trousers---> westernwear westernwear westernwear westernwear westernwear westernwear westernwear( men bottomwear formal trousers )
+john players full sleeve solid men's jacket---> dresses jeans westernwear westernwear westernwear westernwear westernwear( men topwear festive jackets )
+dennis lingo men's solid casual denim blue shirt---> men UNK westernwear westernwear westernwear westernwear skirts( men topwear casual casualshirts )
+--------------------------------------------------
+
+
+Iteration: 39
+Testing from Training dataset
+kritika world full sleeve solid men's jacket---> bottomwear bottomwear sweatshirts&hoodies sweatshirts&hoodies UNK festive festive( men topwear festive jackets )
+spykar regular men's blue jeans---> topwear topwear topwear westernwear tracks&joggers tracks&joggers westernwear( men bottomwear casual jeans )
+pepe jeans full sleeve printed men's sweatshirt---> <eol>( men topwear casual sweatshirts&hoodies )
+2go solid women's orange, black, pink tights---> ethnicnwear westernwear westernwear westernwear westernwear westernwear westernwear( women westernwear leggings&jeggings )
+fifty two full sleeve solid men's sweatshirt---> <eol>( men topwear casual sweatshirts&hoodies )
+*************************
+Testing from Testing dataset
+shaftesbury london solid men waistcoat---> dresses westernwear westernwear westernwear westernwear westernwear skirts( men topwear formal blazers&suits )
+belmarsh solid women white, white, black, red cycling shorts---> ethnicnwear dresses westernwear westernwear skirts tshirts&polos skirts( women westernwear shorts )
+momin libas ac10814_114 poly crepe solid abaya---> ethnicnwear ethnicnwear dresses westernwear skirts skirts skirts( women ethnicnwear hijab&abaya )
+wake up competition full sleeve printed men's sweatshirt---> men shorts shorts festive festive festive festive( men topwear casual sweatshirts&hoodies )
+elevate women embroidered, floral print women's trail cut kurta---> ethnicnwear UNK westernwear westernwear westernwear westernwear westernwear( women ethnicnwear kurtis )
+--------------------------------------------------
+
+
+Iteration: 40
+Testing from Training dataset
+rakshita collection self design men's light blue track pants---> men topwear westernwear westernwear westernwear westernwear westernwear( men bottomwear casual tracks&joggers )
+masha printed women's multicolor basic shorts---> westernwear westernwear skirts skirts skirts westernwear westernwear( women westernwear shorts )
+rakshita collection solid men's multicolor sports shorts---> men topwear westernwear westernwear westernwear westernwear westernwear( men bottomwear casual shorts )
+w relaxed women's multicolor trousers---> bottomwear shorts jeans sweatshirts&hoodies shorts shorts festive( women westernwear capris&tracks )
+puma skinny fit women's purple trousers---> ethnicnwear UNK westernwear westernwear westernwear westernwear westernwear( women westernwear capris&tracks )
+*************************
+Testing from Testing dataset
+campus sutra full sleeve solid men sweatshirt---> women westernwear westernwear westernwear westernwear westernwear westernwear( men topwear casual sweatshirts&hoodies )
+areum round neck women stitched blouse---> bottomwear shorts festive festive festive festive festive( women bottomwear casual jeans )
+lgc beige jegging---> bottomwear shorts jeans festive festive festive festive( women westernwear leggings&jeggings )
+mozri full sleeve solid men jacket---> <eol>( men topwear festive jackets )
+maniac full sleeve printed men's sweatshirt---> <eol>( men topwear casual sweatshirts&hoodies )
+--------------------------------------------------
+
+
+Iteration: 41
+Testing from Training dataset
+campus sutra full sleeve solid men sweatshirt---> dresses westernwear westernwear westernwear westernwear westernwear westernwear( men topwear casual sweatshirts&hoodies )
+united colors of benetton men's printed casual blue shirt---> ethnicnwear dresses westernwear westernwear skirts skirts skirts( men topwear casual casualshirts )
+flying machine skinny men's blue jeans---> <eol>( men bottomwear casual jeans )
+deal jeans skinny women's maroon jeans---> dresses westernwear westernwear westernwear westernwear westernwear skirts( women bottomwear casual jeans )
+christy world solid men's light blue track pants---> men topwear festive festive festive festive festive( men bottomwear casual tracks&joggers )
+*************************
+Testing from Testing dataset
+abaya al1042 polycrepe self design burqa---> women ethnicnwear dresses dresses skirts skirts skirts( women ethnicnwear hijab&abaya )
+louis philippe men's self design formal pink shirt---> shorts men topwear festive festive festive westernwear( men topwear casual casualshirts )
+forever 21 solid women straight pink skirt---> bottomwear shorts jeans festive shorts shorts festive( women westernwear skirts )
+gant regular fit men's blue trousers---> women <eol>( men bottomwear formal trousers )
+peter england slim fit men's beige trousers---> women westernwear westernwear westernwear westernwear westernwear skirts( men bottomwear formal trousers )
+--------------------------------------------------
+
+
+Iteration: 42
+Testing from Training dataset
+2 day regular fit women's multicolor trousers---> <eol>( women westernwear capris&tracks )
+very me floral print men's straight kurta---> men men westernwear westernwear westernwear westernwear westernwear( men topwear festive kurtas&sherwanis )
+wake up competition solid men's dark blue track pants---> men shorts shorts festive festive festive festive( men bottomwear casual tracks&joggers )
+forever 21 women bodycon white dress---> bottomwear shorts <eol>( women westernwear dresses )
+pepe jeans full sleeve printed men's sweatshirt---> cargos cargos cargos <eol>( men topwear casual sweatshirts&hoodies )
+*************************
+Testing from Testing dataset
+first date striped single breasted casual men blazer---> dresses UNK westernwear westernwear westernwear westernwear westernwear( men topwear formal blazers&suits )
+athena women's fit and flare blue dress---> bottomwear shorts jeans festive festive festive festive( women westernwear dresses )
+monika fabrics round neck women stitched blouse---> men shorts shorts festive festive festive festive( women bottomwear casual jeans )
+john players men's printed casual dark blue shirt---> dresses jeans westernwear westernwear westernwear westernwear skirts( men topwear casual casualshirts )
+solly sport printed single breasted casual men's blazer---> women ethnicnwear westernwear westernwear westernwear westernwear westernwear( men topwear formal blazers&suits )
+--------------------------------------------------
+
+
+Iteration: 43
+Testing from Training dataset
+byouth men's cargos---> <eol>( men bottomwear cargos )
+christy world solid men's multicolor basic shorts---> men topwear festive festive festive festive festive( men bottomwear casual shorts )
+shopybucket self design men's waistcoat---> ethnicnwear westernwear westernwear westernwear westernwear westernwear westernwear( men topwear formal blazers&suits )
+yo republic regular men's dark blue, light blue jeans---> men topwear festive festive festive festive festive( men bottomwear casual jeans )
+metronaut men self design casual dark blue shirt---> dresses westernwear westernwear westernwear westernwear westernwear westernwear( men topwear casual casualshirts )
+*************************
+Testing from Testing dataset
+biyu round neck women stitched blouse---> bottomwear shorts jeans festive festive festive festive( women bottomwear casual jeans )
+wrangler slim women blue jeans---> women westernwear westernwear westernwear westernwear westernwear westernwear( women bottomwear casual jeans )
+vartul enterprise round neck women stitched blouse---> bottomwear shorts shorts sweatshirts&hoodies shorts festive festive( women bottomwear casual jeans )
+hangup solid men's waistcoat---> ethnicnwear westernwear westernwear westernwear westernwear westernwear westernwear( men topwear formal blazers&suits )
+very me printed men's straight kurta---> men men westernwear westernwear westernwear westernwear westernwear( men topwear festive kurtas&sherwanis )
+--------------------------------------------------
+
+
+Iteration: 44
+Testing from Training dataset
+showoff printed single breasted casual men's blazer---> formal westernwear westernwear westernwear westernwear westernwear westernwear( men topwear formal blazers&suits )
+pepe jeans full sleeve solid men's jacket---> cargos cargos <eol>( men topwear festive jackets )
+indian terrain men's checkered casual white, blue shirt---> women shorts festive festive festive festive festive( men topwear casual casualshirts )
+tinted polka print men's polo neck white t-shirt---> women westernwear westernwear westernwear westernwear westernwear westernwear( men topwear casual tshirts&polos )
+kritika world full sleeve solid men's jacket---> bottomwear bottomwear <eol>( men topwear festive jackets )
+*************************
+Testing from Testing dataset
+ansh fashion wear regular women blue jeans---> dresses westernwear westernwear westernwear westernwear westernwear westernwear( women bottomwear casual jeans )
+kotty printed women's multicolor night shorts---> dresses westernwear westernwear westernwear skirts skirts skirts( women westernwear shorts )
+vimal printed men's black basic shorts---> <eol>( men bottomwear casual shorts )
+steadman full sleeve solid men & women sweatshirt---> women westernwear westernwear westernwear westernwear westernwear westernwear( men topwear casual sweatshirts&hoodies )
+showoff solid men brown chino shorts---> formal westernwear westernwear westernwear westernwear westernwear westernwear( men bottomwear casual shorts )
